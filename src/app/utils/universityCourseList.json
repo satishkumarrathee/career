@@ -1,0 +1,274 @@
+[
+    {
+        "name": "12th",
+        "category": [
+            {
+                "name": "Science",
+                "category": [
+                    "PCM (Physics, Chemistry, Mathematics)",
+                    "PCB (Physics, Chemistry, Biology)",
+                    "PCMB (Physics, Chemistry, Mathematics, Biology)"
+                ]
+            },
+            {
+                "name": "Commerce",
+                "category": [
+                    "Commerce with Mathematics",
+                    "Commerce with Computer Science",
+                    "Commerce with Economics"
+                ]
+            },
+            {
+                "name": "Arts",
+                "category": [
+                    "Humanities",
+                    "Fine Arts",
+                    "Languages (e.g., English, Hindi, Sanskrit)"
+                ]
+            },
+            {
+                "name": "Vocational",
+                "category": [
+                    "Engineering Drawing",
+                    "Computer Applications",
+                    "Business Studies",
+                    "Fashion Designing",
+                    "Agriculture"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "graduation",
+        "category": [
+            {
+                "name": "Engineering",
+                "category": [
+                    "Bachelor of Technology (B.Tech)",
+                    "Bachelor of Engineering (B.E)"
+                ]
+            },
+            {
+                "name": "Science",
+                "category": [
+                    "Bachelor of Science (B.Sc)"
+                ]
+            },
+            {
+                "name": "Commerce",
+                "category": [
+                    "Bachelor of Commerce (B.Com)"
+                ]
+            },
+            {
+                "name": "Arts",
+                "category": [
+                    "Bachelor of Arts (B.A)"
+                ]
+            },
+            {
+                "name": "Business Administration",
+                "category": [
+                    "Bachelor of Business Administration (BBA)"
+                ]
+            },
+            {
+                "name": "Computer Applications",
+                "category": [
+                    "Bachelor of Computer Applications (BCA)"
+                ]
+            },
+            {
+                "name": "Hotel Management",
+                "category": [
+                    "Bachelor of Hotel Management (BHM)"
+                ]
+            },
+            {
+                "name": "Design",
+                "category": [
+                    "Bachelor of Design (B.Des)"
+                ]
+            },
+            {
+                "name": "Mass Communication",
+                "category": [
+                    "Bachelor of Mass Communication (BMC)"
+                ]
+            },
+            {
+                "name": "Fine Arts",
+                "category": [
+                    "Bachelor of Fine Arts (BFA)"
+                ]
+            },
+            {
+                "name": "Pharmacy",
+                "category": [
+                    "Bachelor of Pharmacy (B.Pharm)"
+                ]
+            },
+            {
+                "name": "Agriculture",
+                "category": [
+                    "Bachelor of Science in Agriculture (B.Sc Ag)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "post-graduation",
+        "category": [
+            {
+                "name": "Engineering",
+                "category": [
+                    "Master of Technology (M.Tech)",
+                    "Master of Engineering (M.E)"
+                ]
+            },
+            {
+                "name": "Science",
+                "category": [
+                    "Master of Science (M.Sc)"
+                ]
+            },
+            {
+                "name": "Commerce",
+                "category": [
+                    "Master of Commerce (M.Com)"
+                ]
+            },
+            {
+                "name": "Arts",
+                "category": [
+                    "Master of Arts (M.A)"
+                ]
+            },
+            {
+                "name": "Business Administration",
+                "category": [
+                    "Master of Business Administration (MBA)"
+                ]
+            },
+            {
+                "name": "Computer Applications",
+                "category": [
+                    "Master of Computer Applications (MCA)"
+                ]
+            },
+            {
+                "name": "Hospitality Management",
+                "category": [
+                    "Master of Hotel Management (MHM)"
+                ]
+            },
+            {
+                "name": "Design",
+                "category": [
+                    "Master of Design (M.Des)"
+                ]
+            },
+            {
+                "name": "Mass Communication",
+                "category": [
+                    "Master of Mass Communication (MMC)"
+                ]
+            },
+            {
+                "name": "Fine Arts",
+                "category": [
+                    "Master of Fine Arts (MFA)"
+                ]
+            },
+            {
+                "name": "Pharmacy",
+                "category": [
+                    "Master of Pharmacy (M.Pharm)"
+                ]
+            },
+            {
+                "name": "Agriculture",
+                "category": [
+                    "Master of Science in Agriculture (M.Sc Ag)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Phd",
+        "category": [
+            {
+                "name": "Engineering",
+                "category": [
+                    "Ph.D. in Mechanical Engineering",
+                    "Ph.D. in Electrical Engineering",
+                    "Ph.D. in Computer Science and Engineering"
+                ]
+            },
+            {
+                "name": "Science",
+                "category": [
+                    "Ph.D. in Physics",
+                    "Ph.D. in Chemistry",
+                    "Ph.D. in Biology"
+                ]
+            },
+            {
+                "name": "Commerce",
+                "category": [
+                    "Ph.D. in Commerce"
+                ]
+            },
+            {
+                "name": "Arts",
+                "category": [
+                    "Ph.D. in History",
+                    "Ph.D. in Sociology",
+                    "Ph.D. in Literature"
+                ]
+            },
+            {
+                "name": "Business Administration",
+                "category": [
+                    "Ph.D. in Management"
+                ]
+            },
+            {
+                "name": "Computer Applications",
+                "category": [
+                    "Ph.D. in Computer Applications"
+                ]
+            },
+            {
+                "name": "Fine Arts",
+                "category": [
+                    "Ph.D. in Fine Arts"
+                ]
+            },
+            {
+                "name": "Pharmacy",
+                "category": [
+                    "Ph.D. in Pharmacy"
+                ]
+            },
+            {
+                "name": "Agriculture",
+                "category": [
+                    "Ph.D. in Agriculture"
+                ]
+            },
+            {
+                "name": "Education",
+                "category": [
+                    "Ph.D. in Education"
+                ]
+            },
+            {
+                "name": "Law",
+                "category": [
+                    "Ph.D. in Law"
+                ]
+            }
+        ]
+    }
+]

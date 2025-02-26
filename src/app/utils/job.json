@@ -1,0 +1,417 @@
+[
+ 
+  {
+    "id": "content-writer",
+    "name": "Content Writer",
+    "category": [{
+      "id": "blog-writer",
+      "type": "Blog Writer",
+      "description": "Writes articles or posts for blogs, covering various topics and often aimed at engaging a specific audience.",
+      "skills": ["Excellent writing skills", "SEO knowledge", "Research skills"]
+    },
+    {
+      "id": "technical-writer",
+      "type": "Technical Writer",
+      "description": "Creates documentation and instructional materials for technical products or services, often in the form of manuals, guides, or online help systems.",
+      "skills": ["Technical knowledge", "Clear communication", "Attention to detail"]
+    },
+    {
+      "id": "copywriter",
+      "type": "Copywriter",
+      "description": "Writes persuasive content for advertising and marketing purposes, including ads, slogans, and promotional materials.",
+      "skills": ["Creativity", "Marketing knowledge", "Understanding of target audience"]
+    },
+    {
+      "id": "content-strategist",
+      "type": "Content Strategist",
+      "description": "Develops overarching strategies for content creation and distribution, often working to align content with business goals and target audience needs.",
+      "skills": ["Analytical thinking", "Strategic planning", "Understanding of digital marketing channels"]
+    },
+    {
+      "id": "social-media-content-writer",
+      "type": "Social Media Content Writer",
+      "description": "Creates engaging content for social media platforms, including posts, captions, and multimedia content, to attract and retain followers.",
+      "skills": ["Social media management tools", "Creativity", "Understanding of social media algorithms"]
+    }]
+  },
+  {
+    "id": "web-developer",
+    "name": "Web Developer",
+    "category": [ {
+      "id": "front-end-developer",
+      "type": "Front End Developer",
+      "description": "Focuses on the user-facing aspects of websites and web applications, responsible for designing and implementing the visual elements and interactivity.",
+      "skills": ["HTML", "CSS", "JavaScript", "Responsive design"]
+    },
+    {
+      "id": "back-end-developer",
+      "type": "Back End Developer",
+      "description": "Deals with the server-side logic and database interactions of websites and web applications, ensuring functionality and performance.",
+      "skills": ["Programming languages (e.g., JavaScript, Python, Ruby)", "Web frameworks (e.g., Node.js, Django, Ruby on Rails)", "Database management systems (e.g., SQL, NoSQL)"]
+    },
+    {
+      "id": "full-stack-eveloper",
+      "type": "Full Stack Developer",
+      "description": "Capable of working on both the front-end and back-end aspects of web development, handling all aspects of web development from design to implementation.",
+      "skills": ["Combined skills of front-end and back-end development", "Understanding of web architecture and protocols"]
+    },
+    {
+      "id": "devops-engineer",
+      "type": "DevOps Engineer",
+      "description": "Focuses on the integration and automation of development and IT operations processes, ensuring efficient and reliable deployment of web applications.",
+      "skills": ["Continuous integration/continuous deployment (CI/CD) tools", "Containerization (e.g., Docker)", "Infrastructure as code (e.g., Terraform)"]
+    }]
+  },
+  {
+    "id": "human-resoucres",
+    "name": "Human Resoucres",
+    "category": [ {
+      "id": "recruiter",
+      "type": "Recruiter",
+      "description": "Responsible for sourcing, screening, and selecting candidates to fill job openings within the organization.",
+      "skills": ["Recruitment techniques", "Interviewing skills", "Knowledge of labor laws and regulations"]
+    },
+    {
+      "id": "hr-generalist",
+      "type": "HR Generalist",
+      "description": "Handles a wide range of HR functions, including employee relations, performance management, benefits administration, and compliance.",
+      "skills": ["Employee relations", "Performance management", "HRIS (Human Resources Information System) proficiency"]
+    },
+    {
+      "id": "training-and-development-specialist",
+      "type": "Training and Development Specialist",
+      "description": "Designs, delivers, and evaluates training programs to enhance the skills and knowledge of employees within the organization.",
+      "skills": ["Training needs analysis", "Instructional design", "Presentation skills"]
+    },
+    {
+      "id": "compensation-and-benefits-specialist",
+      "type": "Compensation and Benefits Specialist",
+      "description": "Manages employee compensation and benefits programs, including salary benchmarking, incentive schemes, and employee benefits administration.",
+      "skills": ["Compensation analysis", "Benefits administration", "Knowledge of relevant laws and regulations (e.g., Fair Labor Standards Act)"]
+    },
+    {
+      "id": "hr-manager",
+      "type": "HR Manager",
+      "description": "Oversees the HR function within the organization, providing leadership and strategic direction to ensure HR policies and practices align with organizational goals.",
+      "skills": ["Leadership", "Strategic planning", "Employee development"]
+    }]
+  },
+  {
+    "id": "admin",
+    "name": "Admin",
+    "category": [{
+      "id": "administrative-assistant",
+      "type": "Administrative Assistant",
+      "description": "Provides administrative support to an individual or team, including tasks such as scheduling appointments, managing correspondence, and organizing meetings.",
+      "skills": ["Organizational skills", "Time management", "Proficiency in office software (e.g., Microsoft Office)"]
+    },
+    {
+      "id": "Office-manager",
+      "type": "Office Manager",
+      "description": "Oversees the day-to-day operations of an office, including managing administrative staff, handling budgets, and ensuring office efficiency.",
+      "skills": ["Leadership", "Problem-solving", "Budget management"]
+    },
+    {
+      "id": "executive-assistant",
+      "type": "Executive Assistant",
+      "description": "Provides high-level administrative support to an executive or senior manager, handling tasks such as managing schedules, making travel arrangements, and preparing reports.",
+      "skills": ["Discretion and confidentiality", "Attention to detail", "Excellent communication skills"]
+    },
+    {
+      "id": "data-entry",
+      "type": "Data Entry",
+      "description": "Enters and updates data into computer systems or databases, ensuring accuracy and completeness of information.",
+      "skills": ["Typing speed and accuracy", "Attention to detail", "Familiarity with data entry software"]
+    },
+    {
+      "id": "receptionist",
+      "type": "Receptionist",
+      "description": "Greets visitors, answers phone calls, and performs basic administrative tasks such as sorting mail and scheduling appointments.",
+      "skills": ["Communication skills", "Customer service", "Multitasking"]
+    }]
+  },
+  {
+    "id": "web-designer",
+    "name": "Web Designer",
+    "category": [  {
+      "id": "ui-designer",
+      "type": "UI Designer",
+      "description": "Focuses on designing the user interface (UI) of websites and web applications, ensuring an intuitive and visually appealing user experience.",
+      "skills": ["User interface design principles", "Prototyping tools (e.g., Sketch, Adobe XD)", "Understanding of UX design"]
+    },
+    {
+      "id": "ux-designer",
+      "type": "UX Designer",
+      "description": "Specializes in creating the overall user experience (UX) of websites and web applications, including user research, wireframing, and usability testing.",
+      "skills": ["User research methods", "Wireframing and prototyping", "Usability testing techniques"]
+    },
+    {
+      "id": "visual-designer",
+      "type": "Visual Designer",
+      "description": "Creates the visual elements and graphics used in websites and web applications, ensuring consistency and alignment with brand identity.",
+      "skills": ["Graphic design principles", "Typography", "Color theory"]
+    },
+    {
+      "id": "responsive-web-designer",
+      "type": "Responsive Web Designer",
+      "description": "Designs websites that provide optimal viewing and interaction experience across a wide range of devices and screen sizes.",
+      "skills": ["Responsive design techniques", "Media queries", "Testing on various devices"]
+    },
+    {
+      "id": "front-end-web-designer",
+      "type": "Front End Web Designer",
+      "description": "Combines design skills with front-end development knowledge to create visually appealing and functional websites using HTML, CSS, and JavaScript.",
+      "skills": ["HTML", "CSS", "JavaScript", "Front-end frameworks (e.g., Bootstrap, Foundation)"]
+    }]
+  },
+  {
+    "id": "digital-marketing",
+    "name": "Digital Marketing",
+    "category": [ {
+      "id": "seo-specialist",
+      "type": "SEO Specialist",
+      "description": "Focuses on optimizing websites and content to improve search engine rankings and organic traffic.",
+      "skills": ["Keyword research", "On-page and off-page optimization", "SEO analytics"]
+    },
+    {
+      "id": "ppc-specialist",
+      "type": "PPC Specialist",
+      "description": "Manages pay-per-click advertising campaigns on platforms like Google Ads or Bing Ads to drive targeted traffic to websites.",
+      "skills": ["Campaign setup and management", "Keyword bidding strategies", "Performance tracking and optimization"]
+    },
+    {
+      "id": "social-media-marketer",
+      "type": "Social Media Marketer",
+      "description": "Creates and manages social media marketing campaigns on platforms like Facebook, Instagram, Twitter, and LinkedIn to engage audiences and drive brand awareness.",
+      "skills": ["Content creation", "Audience targeting", "Social media analytics"]
+    },
+    {
+      "id": "email-marketer",
+      "type": "Email Marketer",
+      "description": "Develops and executes email marketing campaigns to nurture leads, drive conversions, and build customer relationships.",
+      "skills": ["Email automation", "Segmentation and personalization", "Email analytics"]
+    },
+    {
+      "id": "content-marketer",
+      "type": "Content Marketer",
+      "description": "Creates and distributes valuable, relevant content to attract and engage target audiences, with the goal of driving profitable customer action.",
+      "skills": ["Content strategy", "Content creation (e.g., blogging, video, infographics)", "Content distribution and promotion"]
+    }]
+  },
+  {
+    "id": "graphic-designer",
+    "name": "Graphic Designer",
+    "category": [ {
+      "id": "print-designer",
+      "type": "Print Designer",
+      "description": "Specializes in creating designs for printed materials such as brochures, posters, flyers, and magazines.",
+      "skills": ["Typography", "Layout design", "Print production knowledge"]
+    },
+    {
+      "id": "digital-designer",
+      "type": "Digital Designer",
+      "description": "Focuses on creating graphics and visual elements for digital platforms, including websites, mobile apps, and social media.",
+      "skills": ["UI/UX design principles", "Digital illustration", "Responsive design"]
+    },
+    {
+      "id": "logo-designer",
+      "type": "Logo Designer",
+      "description": "Designs unique and memorable logos that represent a brand or company's identity and values.",
+      "skills": ["Logo design principles", "Brand identity design", "Vector graphics software proficiency"]
+    },
+    {
+      "id": "motion-graphics-designer",
+      "type": "Motion Graphics Designer",
+      "description": "Creates animated visual content, including title sequences, explainer videos, and animated logos.",
+      "skills": ["Animation principles", "Motion graphics software (e.g., Adobe After Effects)", "Video editing skills"]
+    },
+    {
+      "id": "illustrator",
+      "type": "Illustrator",
+      "description": "Creates hand-drawn or digital illustrations for various purposes, such as editorial illustrations, book covers, or character design.",
+      "skills": ["Drawing skills", "Digital illustration software proficiency", "Conceptual thinking"]
+    }]
+  },
+  {
+    "id": "information-technology",
+    "name": "Information Technology",
+    "category": [
+      {
+        "id": "system-administrator",
+        "type": "System Administrator",
+        "description": "Responsible for managing and maintaining an organization's IT infrastructure, including servers, networks, and operating systems.",
+        "skills": ["Server administration", "Network administration", "Troubleshooting skills"]
+      },
+      {
+        "id": "network-engineer",
+        "type": "Network Engineer",
+        "description": "Designs, implements, and manages computer networks, ensuring smooth and secure communication between devices and systems.",
+        "skills": ["Network design", "Routing and switching", "Network security"]
+      },
+      {
+        "id": "database-administrator",
+        "type": "Database Administrator",
+        "description": "Manages and maintains databases, ensuring data integrity, security, and performance.",
+        "skills": ["Database management systems (e.g., MySQL, PostgreSQL, Oracle)", "Database performance tuning", "Backup and recovery"]
+      },
+      {
+        "id": "it-support-specialist",
+        "type": "IT Support Specialist",
+        "description": "Provides technical support and assistance to end-users, troubleshooting hardware and software issues and providing guidance on IT-related matters.",
+        "skills": ["Technical troubleshooting", "Customer service", "Knowledge of IT helpdesk tools"]
+      },
+      {
+        "id": "cybersecurity-analyst",
+        "type": "Cybersecurity Analyst",
+        "description": "Protects an organization's computer systems and networks from cyber threats, conducting security assessments, monitoring for breaches, and implementing security measures.",
+        "skills": ["Security analysis", "Incident response", "Knowledge of cybersecurity tools and techniques"]
+      }
+    ]
+  },
+  {
+    "id": "software-developer",
+    "name": "Software Developer",
+    "category": [{
+      "id": "backend-software-engineer",
+      "type": "Backend Software Engineer",
+      "description": "Focuses on building and maintaining the server-side logic, databases, and integrations of software applications.",
+      "skills": ["Programming languages (e.g., Java, Python, C#)", "Web frameworks (e.g., Spring, Django, .NET)", "Database management systems (e.g., SQL, NoSQL)"]
+    },
+    {
+      "id": "frontend-software-engineer",
+      "type": "Frontend Software Engineer",
+      "description": "Specializes in developing the user interface and interactive components of software applications that users interact with directly.",
+      "skills": ["HTML", "CSS", "JavaScript", "Frontend frameworks (e.g., React, Angular, Vue.js)"]
+    },
+    {
+      "id": "full-stack-software-engineer",
+      "type": "Full Stack Software Engineer",
+      "description": "Capable of working on both the frontend and backend aspects of software development, handling all aspects of software development from design to implementation.",
+      "skills": ["Combined skills of frontend and backend development", "Understanding of web architecture and protocols"]
+    },
+    {
+      "id": "embedded-software-engineer",
+      "type": "Embedded Software Engineer",
+      "description": "Designs and develops software that runs on embedded systems, such as microcontrollers, firmware, and device drivers.",
+      "skills": ["C/C++ programming", "Real-time operating systems (RTOS)", "Hardware-software interfacing"]
+    },
+    {
+      "id": "devops-engineer",
+      "type": "DevOps Engineer",
+      "description": "Focuses on the integration and automation of development and IT operations processes, ensuring efficient and reliable deployment of software applications.",
+      "skills": ["Continuous integration/continuous deployment (CI/CD) tools", "Containerization (e.g., Docker)", "Infrastructure as code (e.g., Terraform)"]
+    }]
+  },
+  {
+    "id": "android-developer",
+    "name": "Android Developer",
+    "category": [  {
+      "id": "mobile-app-developer-ios",
+      "type": "Mobile App Developer (iOS)",
+      "description": "Specializes in developing applications for Apple's iOS platform, including iPhones, iPads, and other Apple devices.",
+      "skills": ["Swift or Objective-C programming", "Xcode IDE", "Understanding of Apple's Human Interface Guidelines"]
+    },
+    {
+      "type": "Mobile App Developer (Android)",
+      "id": "mobile-app-developer-android",
+      "description": "Focuses on developing applications for devices running the Android operating system, such as smartphones and tablets.",
+      "skills": ["Java or Kotlin programming", "Android Studio IDE", "Familiarity with Android SDK"]
+    },
+    {
+      "id": "flutter-developer",
+      "type": "Flutter Developer",
+      "description": "Specializes in using the Flutter framework to develop cross-platform mobile applications for iOS and Android.",
+      "skills": ["Dart programming language", "Flutter framework", "UI/UX design principles"]
+    },
+    {
+      "id": "cross-platform-app-developer",
+      "type": "Cross Platform App Developer",
+      "description": "Develops applications that can run on multiple platforms (e.g., iOS, Android) using a single codebase, often using frameworks like React Native or Flutter.",
+      "skills": ["JavaScript (React Native)", "Dart (Flutter)", "UI/UX design principles"]
+    },
+    {
+      "id": "web-app-developer",
+      "type": "Web App Developer",
+      "description": "Creates applications that are accessed through a web browser, utilizing technologies such as HTML, CSS, and JavaScript.",
+      "skills": ["HTML", "CSS", "JavaScript", "Web development frameworks (e.g., React, Angular, Vue.js)"]
+    },
+    {
+      "id": "game-developer",
+      "type": "Game Developer",
+      "description": "Specializes in developing interactive games for various platforms, including mobile devices, consoles, and computers.",
+      "skills": ["Game development engines (e.g., Unity, Unreal Engine)", "Programming languages (e.g., C#, C++, Java)", "Game design principles"]
+    }
+  ]
+  },
+  {
+    "id": "tele-caller",
+    "name": "Tele Caller",
+    "category": [   {
+      "id": "outbound-telecaller",
+      "type": "Outbound Telecaller",
+      "description": "Initiates calls to prospective customers or clients to promote products or services, generate leads, or conduct surveys.",
+      "skills": ["Excellent communication skills", "Sales or marketing experience", "Persistence"]
+    },
+    {
+      "id": "inbound-telecaller",
+      "type": "Inbound Telecaller",
+      "description": "Receives incoming calls from customers or clients, providing assistance, answering inquiries, or handling complaints.",
+      "skills": ["Active listening", "Problem-solving skills", "Product or service knowledge"]
+    },
+    {
+      "id": "customer-service-representative-telecalling",
+      "type": "Customer Service Representative Telecalling",
+      "description": "Handles customer inquiries, complaints, or requests over the phone, providing support and ensuring customer satisfaction.",
+      "skills": ["Empathy", "Conflict resolution", "Patience"]
+    },
+    {
+      "id": "telemarketing-executive",
+      "type": "Telemarketing Executive",
+      "description": "Promotes products or services over the phone, persuading potential customers to make purchases or sign up for services.",
+      "skills": ["Persuasion", "Negotiation skills", "Target-oriented mindset"]
+    },
+    {
+      "id": "market-research-telecaller",
+      "type": "Market Research Telecaller",
+      "description": "Conducts telephone surveys or interviews to gather data and insights on market trends, consumer behavior, or competitor analysis.",
+      "skills": ["Surveying techniques", "Attention to detail", "Data collection and analysis"]
+    }]
+  },
+  {
+    "id": "accountant",
+    "name": "Accountant",
+    "category": [
+      {
+        "id": "financial-accountant",
+        "type": "Financial Accountant",
+        "description": "Responsible for managing financial records, preparing financial statements, and ensuring compliance with accounting standards and regulations.",
+        "skills": ["Financial reporting", "Knowledge of accounting principles", "Attention to detail"]
+      },
+      {
+        "id": "tax-accountant",
+        "type": "Tax Accountant",
+        "description": "Specializes in preparing and filing tax returns for individuals or businesses, ensuring compliance with tax laws and regulations.",
+        "skills": ["Tax law knowledge", "Tax planning", "Analytical skills"]
+      },
+      {
+        "id": "auditor",
+        "type": "Auditor",
+        "description": "Examines financial records, assesses internal controls, and verifies compliance with laws and regulations to ensure accuracy and transparency.",
+        "skills": ["Analytical skills", "Attention to detail", "Knowledge of auditing standards"]
+      },
+      {
+        "id": "management-accountant",
+        "type": "Management Accountant",
+        "description": "Provides financial insights and analysis to aid decision-making, budgeting, and strategic planning within an organization.",
+        "skills": ["Financial analysis", "Budgeting", "Management reporting"]
+      },
+      {
+        "id": "cost-accountant",
+        "type": "Cost Accountant",
+        "description": "Analyzes costs and prepares cost estimates for products, services, or projects to help optimize financial performance and control expenses.",
+        "skills": ["Cost analysis", "Cost accounting techniques", "Process improvement"]
+      }
+    ]
+  }
+  
+]

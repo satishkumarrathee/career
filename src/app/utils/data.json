@@ -1,0 +1,5278 @@
+[
+  {
+    "id": "diploma",
+    "name": "Diploma",
+    "description": "",
+    "category": [
+      {
+        "id": "engineering",
+        "name": "Engineering",
+        "description": "",
+        "category": [
+          {
+            "id": "diploma-in-engineering",
+            "name": "Diploma in Engineering",
+            "description": "",
+            "category": [
+              {
+                "id": "civil-engineering",
+                "name": "Civil Engineering",
+                "duration": "3 Years",
+                "eligibility": "10+2",
+                "description": ""
+              },
+              {
+                "id": "computer-science-engineering",
+                "name": "Computer Science Engineering",
+                "duration": "3 Years",
+                "eligibility": "10+2",
+                "description": ""
+              },
+              {
+                "id": "electrical-engineering",
+                "name": "Electrical Engineering",
+                "duration": "3 Years",
+                "eligibility": "10+2",
+                "description": ""
+              },
+              {
+                "id": "mechanical-engineering",
+                "name": "Mechanical Engineering",
+                "duration": "3 Years",
+                "eligibility": "10+2",
+                "description": ""
+              },
+              {
+                "id": "agriculture-1-year",
+                "name": "Agriculture",
+                "duration": "1 Year",
+                "eligibility": "10+2",
+                "description": ""
+              },
+              {
+                "id": "agriculture",
+                "name": "Agriculture",
+                "duration": "2 Years",
+                "eligibility": "10+2",
+                "description": ""
+              },
+              {
+                "id": "cse",
+                "name": "CSE",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "10th",
+                "description": ""
+              },
+              {
+                "id": "me",
+                "name": "ME",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "10th",
+                "description": ""
+              },
+              {
+                "id": "ce",
+                "name": "CE",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "10th",
+                "description": ""
+              },
+              {
+                "id": "ef",
+                "name": "EF",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "10th",
+                "description": ""
+              },
+              {
+                "id": "ece",
+                "name": "ECE",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "10th",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "electronics-hardware",
+        "name": "Electronics and Hardware",
+        "description": "",
+        "category": [
+          {
+            "id": "diploma-in-electronics-hardware",
+            "name": "Diploma in Electronics and Hardware",
+            "description": "",
+            "category": [
+              {
+                "id": "advance-diploma-in-computer-hardware-networking",
+                "name": "Advance Diploma in Computer Hardware and Networking (ADCHN)",
+                "duration": "12 Months",
+                "eligibility": "12th Pass",
+                "description": ""
+              },
+              {
+                "id": "diploma-in-electrical-technician",
+                "name": "Diploma in Electrical Technician (DET)",
+                "duration": "12 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "diploma-in-refrigeration-air-conditioning",
+                "name": "Diploma in Refrigeration and Air-conditioning (DRA)",
+                "duration": "12 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "diploma-in-it-hardware-services-technical-support",
+                "name": "Diploma in IT Hardware Services and Technical Support (DIHSTS)",
+                "duration": "12 Months",
+                "eligibility": "12th Pass",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "it",
+        "name": "IT",
+        "description": "",
+        "category": [
+          {
+            "id": "diploma-in-it",
+            "name": "Diploma in IT",
+            "description": "",
+            "category": [
+              {
+                "id": "diploma-in-computer-application",
+                "name": "Diploma in Computer Application (DCA)",
+                "duration": "12 Months",
+                "eligibility": "12th Pass",
+                "description": ""
+              },
+              {
+                "id": "diploma-in-cyber-security-ethical-hacking",
+                "name": "Diploma in Cyber Security and Ethical Hacking (DCSEH)",
+                "duration": "12 Months",
+                "eligibility": "12th Pass",
+                "description": ""
+              },
+              {
+                "id": "diploma-in-big-data-hadoop",
+                "name": "Diploma in Big Data Hadoop (DBDH)",
+                "duration": "12 Months",
+                "eligibility": "12th Pass",
+                "description": ""
+              },
+              {
+                "id": "diploma-in-mobile-application-development-android-iphone",
+                "name": "Diploma in Mobile Application Development - Android & iPhone (DMADAI)",
+                "duration": "12 Months",
+                "eligibility": "12th Pass",
+                "description": ""
+              },
+              {
+                "id": "diploma-in-data-analysis",
+                "name": "Diploma in Data Analysis (DDA)",
+                "duration": "12 Months",
+                "eligibility": "Graduate in any Technical Stream",
+                "description": ""
+              },
+              {
+                "id": "post-graduate-diploma-in-computer-application",
+                "name": "Post Graduate Diploma in Computer Application (PGDCA)",
+                "duration": "12 Months",
+                "eligibility": "Graduate in any Discipline",
+                "description": ""
+              },
+              {
+                "id": "post-graduate-diploma-in-internet-of-things-ai",
+                "name": "Post Graduate Diploma in Internet of Things (IoT) and Artificial Intelligence (AI) (PGDITAI)",
+                "duration": "12 Months",
+                "eligibility": "Graduate",
+                "description": ""
+              },
+              {
+                "id": "post-graduate-diploma-in-agri-business-management",
+                "name": "Post Graduate Diploma in Agri-Business Management (PGDABM)",
+                "duration": "12 Months",
+                "eligibility": "Graduate in any Discipline",
+                "description": ""
+              }
+            ]
+          },
+          {
+            "id": "dca",
+            "name": "DCA",
+            "description": "",
+            "category": [
+              {
+                "id": "dca",
+                "name": "DCA",
+                "duration": "1 Year (2 Semesters)",
+                "eligibility": "10th",
+                "description": ""
+              }
+            ]
+          },
+          {
+            "id": "post-graduate-diploma-in-computer-application-1year",
+            "name": "Post Graduate Diploma in Computer Application",
+            "description": "",
+            "category": [
+              {
+                "id": "post-graduate-diploma-in-computer-application",
+                "name": "Post Graduate Diploma in Computer Application",
+                "duration": "1 Year (2 Semesters)",
+                "eligibility": "Graduation",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "agriculture",
+        "name": "Agriculture",
+        "description": "",
+        "category": [
+          {
+            "id": "diploma-in-agriculture",
+            "name": "Diploma in Agriculture",
+            "description": "",
+            "category": [
+              {
+                "id": "agriculture-1-year",
+                "name": "Agriculture",
+                "duration": "1 Year",
+                "eligibility": "10+2",
+                "description": ""
+              },
+              {
+                "id": "agriculture",
+                "name": "Agriculture",
+                "duration": "2 Years",
+                "eligibility": "10+2",
+                "description": ""
+              },
+              {
+                "id": "agriculture-1-year-2-semester",
+                "name": "Agriculture",
+                "duration": "1 Years (2 Semesters)",
+                "eligibility": "10th",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "medical",
+        "name": "Medical",
+        "description": "",
+        "category": [
+          {
+            "id": "diploma-in-medical",
+            "name": "Diploma in Medical",
+            "description": "",
+            "category": [
+              {
+                "id": "laboratory-technology",
+                "name": "Laboratory Technology",
+                "duration": "2 Years",
+                "eligibility": "10+2",
+                "description": ""
+              },
+              {
+                "id": "operation-theatre-technology",
+                "name": "Operation Theatre Technology",
+                "duration": "2 Years",
+                "eligibility": "10+2",
+                "description": ""
+              },
+              {
+                "id": "radiology-imaging-techniques",
+                "name": "Radiology & Imaging Techniques",
+                "duration": "2 Years",
+                "eligibility": "10+2",
+                "description": ""
+              },
+              {
+                "id": "anaesthesia-technology",
+                "name": "Anaesthesia Technology",
+                "duration": "2 Years",
+                "eligibility": "10+2",
+                "description": ""
+              },
+              {
+                "id": "hospital-administration",
+                "name": "Hospital Administration",
+                "duration": "1 Years",
+                "eligibility": "10+2",
+                "description": ""
+              },
+              {
+                "id": "emergency-trauma-care-technician",
+                "name": "Emergency & Trauma Care Technician",
+                "duration": "1 Years",
+                "eligibility": "10+2",
+                "description": ""
+              },
+              {
+                "id": "hospital-waste-management",
+                "name": "Hospital Waste Management",
+                "duration": "1 Years",
+                "eligibility": "10+2",
+                "description": ""
+              },
+              {
+                "id": "nanny-training",
+                "name": "Nanny Training",
+                "duration": "1 Years",
+                "eligibility": "10+2",
+                "description": ""
+              },
+              {
+                "id": "pharmacy",
+                "name": "Pharmacy (D.Pharma)",
+                "duration": "2 Years",
+                "eligibility": "10+2",
+                "description": ""
+              },
+              {
+                "id": "d-pharmacy",
+                "name": "D. Pharmacy",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "12th",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "media",
+        "name": "Media",
+        "description": "",
+        "category": [
+          {
+            "id": "diploma-in-media",
+            "name": "Diploma in Media",
+            "description": "",
+            "category": [
+              {
+                "id": "sound-recording-radio-production",
+                "name": "Sound Recording & Radio Production",
+                "duration": "1 Years",
+                "eligibility": "10+2",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "health-care",
+        "name": "Health Care",
+        "description": "",
+        "category": [
+          {
+            "id": "diploma-in-health-care",
+            "name": "Diploma in Health Care",
+            "description": "",
+            "category": [
+              {
+                "id": "home-care-provider",
+                "name": "Home Care Provider",
+                "duration": "1 Year",
+                "eligibility": "10+2",
+                "description": ""
+              },
+              {
+                "id": "health-sanitary-inspector",
+                "name": "Health & Sanitary Inspector",
+                "duration": "1 Year",
+                "eligibility": "10+2",
+                "description": ""
+              },
+              {
+                "id": "community-care-provider",
+                "name": "Community Care Provider",
+                "duration": "1 Year",
+                "eligibility": "10+2",
+                "description": ""
+              },
+              {
+                "id": "radiotherapy",
+                "name": "Radiotherapy",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "10th",
+                "description": ""
+              },
+              {
+                "id": "radiology-imaging-technology",
+                "name": "Radiology & Imaging Technology",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "10th",
+                "description": ""
+              },
+              {
+                "id": "ot-anaesthesia-technology",
+                "name": "OT & Anaesthesia Technology",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "10th",
+                "description": ""
+              },
+              {
+                "id": "optometry",
+                "name": "Optometry",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "10th",
+                "description": ""
+              },
+              {
+                "id": "mlt",
+                "name": "MLT",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "10th",
+                "description": ""
+              },
+              {
+                "id": "critical-care-technology",
+                "name": "Critical Care Technology",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "10th",
+                "description": ""
+              },
+              {
+                "id": "cardiovascular-technology",
+                "name": "Cardiovascular Technology",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "10th",
+                "description": ""
+              },
+              {
+                "id": "dialysis-therapy",
+                "name": "Dialysis Therapy",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "10th",
+                "description": ""
+              },
+              {
+                "id": "dental-assistant",
+                "name": "Dental Assistant",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "10th",
+                "description": ""
+              },
+              {
+                "id": "radiotherapy",
+                "name": "Radiotherapy",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "radiology-imaging-technology",
+                "name": "Radiology & Imaging Technology",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "ot-anaesthesia-technology",
+                "name": "OT & Anaesthesia Technology",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "optometry",
+                "name": "Optometry",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "mlt",
+                "name": "MLT",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "critical-care-technology",
+                "name": "Critical Care Technology",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "cardiovascular-technology",
+                "name": "Cardiovascular Technology",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "dialysis-therapy",
+                "name": "Dialysis Therapy",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "dental-assistant",
+                "name": "Dental Assistant",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "panchkarma ",
+                "name": "Panchkarma",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "pharmacy-assistant",
+                "name": "Pharmacy Assistant (DPA)",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "12th Science",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "management",
+        "name": "Management",
+        "description": "",
+        "category": [
+          {
+            "id": "diploma-in-management",
+            "name": "Diploma in Management",
+            "description": "",
+            "category": [
+              {
+                "id": "stock-market",
+                "name": "Stock Market",
+                "duration": "1 Years (2 Semesters)",
+                "eligibility": "12th",
+                "description": ""
+              },
+              {
+                "id": "tally-accounting",
+                "name": "Tally & Accounting",
+                "duration": "1 Years (2 Semesters)",
+                "eligibility": "12th",
+                "description": ""
+              },
+              {
+                "id": "diploma-entrepreneurship-development",
+                "name": "Diploma in Entrepreneurship Development (DED)",
+                "duration": "12 Months",
+                "eligibility": "12th Pass",
+                "description": ""
+              },
+              {
+                "id": "diploma-career-counselling-guidance",
+                "name": "Diploma in Career Counselling and Guidance (DCCG)",
+                "duration": "12 Months",
+                "eligibility": "Graduate in any Discipline",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "health-science",
+        "name": "Health Science",
+        "description": "",
+        "category": [
+          {
+            "id": "diploma-in-health-science",
+            "name": "Diploma in Health Science",
+            "description": "",
+            "category": [
+              {
+                "id": "liberty-information-science",
+                "name": "Liberty & Information Science",
+                "duration": "1 Year",
+                "eligibility": "10+2",
+                "description": ""
+              },
+              {
+                "id": "yoga",
+                "name": "Yoga",
+                "duration": "2 Years (4 Semester)",
+                "eligibility": "12th",
+                "description": ""
+              },
+              {
+                "id": "mphw",
+                "name": "MPHW",
+                "duration": "2 Years (4 Semester)",
+                "eligibility": "10th",
+                "description": ""
+              },
+              {
+                "id": "vlda",
+                "name": "VLDA",
+                "duration": "2 Years (4 Semester)",
+                "eligibility": "12th",
+                "description": ""
+              },
+              {
+                "id": "d-lib",
+                "name": "D.Lib",
+                "duration": "1 Year (2 Semester)",
+                "eligibility": "12th",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fashion-designing",
+        "name": "Fashion Designing",
+        "description": "",
+        "category": [
+          {
+            "id": "fashion-designing",
+            "name": "Fashion Designing",
+            "description": "",
+            "category": [
+              {
+                "id": "diploma-in-fashion-designing",
+                "name": "Diploma in Fashion Designing",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "12th",
+                "description": ""
+              },
+              {
+                "id": "diploma-in-fashion-designing-dfd",
+                "name": "Diploma in Fashion Designing (DFD)",
+                "duration": "12 Months",
+                "eligibility": "12th Pass",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "vocational-studies",
+        "name": "Vocational Studies",
+        "description": "",
+        "category": [
+          {
+            "id": "vocational-studies",
+            "name": "Vocational Studies",
+            "description": "",
+            "category": [
+              {
+                "id": "advance-diploma-in-vocational-studies",
+                "name": "Advance Diploma in Vocational Studies",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "12th",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hospitality",
+        "name": "Hospitality",
+        "description": "",
+        "category": [
+          {
+            "id": "diploma-in-hospitality",
+            "name": "Diploma in Hospitality",
+            "description": "",
+            "category": [
+              {
+                "id": "food-beverage-service",
+                "name": "Food & Beverage Service",
+                "duration": "1.5 Years",
+                "eligibility": "10+2",
+                "description": ""
+              },
+              {
+                "id": "bakery-confectionery",
+                "name": "Bakery & Confectionery",
+                "duration": "1.5 Years",
+                "eligibility": "10+2",
+                "description": ""
+              },
+              {
+                "id": "food-production",
+                "name": "Food Production",
+                "duration": "1.5 Years",
+                "eligibility": "10+2",
+                "description": ""
+              },
+              {
+                "id": "hotel-management",
+                "name": "Hotel Management",
+                "duration": "3 Years (6 Semester)",
+                "eligibility": "10th",
+                "description": ""
+              },
+              {
+                "id": "food-beverage-service-dfbs",
+                "name": "Food & Beverage Service (DFBS)",
+                "duration": "12 Months",
+                "eligibility": "12th Pass",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "beauty-and-wellness",
+        "name": "Beauty and Wellness",
+        "description": "",
+        "category": [
+          {
+            "id": "beauty-and-wellness",
+            "name": "Beauty and Wellness",
+            "description": "",
+            "category": [
+              {
+                "id": "diploma-in-beauty-personal-care-hair-styling",
+                "name": "Diploma in Beauty, Personal Care & Hair styling (DBPCHS)",
+                "duration": "12 Months",
+                "eligibility": "12th Pass",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "art",
+        "name": "Art",
+        "description": "",
+        "category": [
+          {
+            "id": "art",
+            "name": "Art",
+            "description": "",
+            "category": [
+              {
+                "id": "diploma-in-art-crafts",
+                "name": "Diploma in Art & Crafts",
+                "duration": "2 Years",
+                "eligibility": "10+2",
+                "description": ""
+              },
+              {
+                "id": "diploma-in-arts",
+                "name": "Diploma in Arts",
+                "duration": "1 Year",
+                "eligibility": "10+2",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "banking-financial-services-insurance",
+        "name": "Banking, Financial Services, and Insurance",
+        "description": "",
+        "category": [
+          {
+            "id": "banking-financial-services-insurance",
+            "name": "Banking, Financial services and Insurance",
+            "description": "",
+            "category": [
+              {
+                "id": "diploma-in-banking-operations",
+                "name": "Diploma in Banking Operations (DBO)",
+                "duration": "12 Months",
+                "eligibility": "12th Pass",
+                "description": ""
+              },
+              {
+                "id": "diploma-in-practice-of-insurance-and-re-insurance",
+                "name": "Diploma in Practice of Insurance and Re-Insurance (DPIR)",
+                "duration": "12 Months",
+                "eligibility": "12th Pass",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "automotive",
+        "name": "Automotive",
+        "description": "",
+        "category": [
+          {
+            "id": "automotive",
+            "name": "Automotive",
+            "description": "",
+            "category": [
+              {
+                "id": "diploma-in-diesel-engine-repair",
+                "name": "Diploma in Diesel Engine Repair (DDER)",
+                "duration": "12 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "teachers-training",
+        "name": "Teacher's Training",
+        "description": "",
+        "category": [
+          {
+            "id": "teachers-training",
+            "name": "Teacher's Training",
+            "description": "",
+            "category": [
+              {
+                "id": "advanced-diploma-in-nursery-teachers-training",
+                "name": "Advanced Diploma in Nursery Teacher's Training (ADNTT)",
+                "duration": "24 Months",
+                "eligibility": "12th Pass",
+                "description": ""
+              },
+              {
+                "id": "diploma-in-computer-teachers-training",
+                "name": "Diploma in Computer Teacher's Training (DCTT)",
+                "duration": "12 Months",
+                "eligibility": "12th Pass",
+                "description": ""
+              },
+              {
+                "id": "diploma-in-nursery-teachers-training",
+                "name": "Diploma in Nursery Teachers Training (DNTT)",
+                "duration": "12 Months",
+                "eligibility": "12th Pass",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "under-graduate",
+    "name": "Under Graduate",
+    "description": "",
+    "category": [
+      {
+        "id": "engineering-and-it",
+        "name": "Engineering & IT",
+        "description": "",
+        "category": [
+          {
+            "id": "b-tech",
+            "name": "B.Tech",
+            "description": "",
+            "category": [
+              {
+                "id": "ai",
+                "name": "AI",
+                "duration": "4 Years (8 Semesters)",
+                "eligibility": "12th PCM",
+                "description": ""
+              },
+              {
+                "id": "cyber-security",
+                "name": "Cyber Security",
+                "duration": "4 Years (8 Semesters)",
+                "eligibility": "12th PCM",
+                "description": ""
+              },
+              {
+                "id": "civil",
+                "name": "Civil",
+                "duration": "4 Years (8 Semesters)",
+                "eligibility": "12th PCM",
+                "description": ""
+              },
+              {
+                "id": "it",
+                "name": "IT",
+                "duration": "4 Years (8 Semesters)",
+                "eligibility": "12th PCM",
+                "description": ""
+              },
+              {
+                "id": "ee",
+                "name": "EE",
+                "duration": "4 Years (8 Semesters)",
+                "eligibility": "12th PCM",
+                "description": ""
+              },
+              {
+                "id": "me",
+                "name": "ME",
+                "duration": "4 Years (8 Semesters)",
+                "eligibility": "12th PCM",
+                "description": ""
+              },
+              {
+                "id": "ece",
+                "name": "ECE",
+                "duration": "4 Years (8 Semesters)",
+                "eligibility": "12th PCM",
+                "description": ""
+              },
+              {
+                "id": "cse",
+                "name": "Computer Science and Engineering",
+                "duration": "4 Years (8 Semesters)",
+                "eligibility": "12th PCM",
+                "description": ""
+              },
+              {
+                "id": "cse-ai-ml",
+                "name": "Computer Science and Engineering (AI & ML) with academic Support of Samatrix and IBM",
+                "duration": "4 Years (8 Semesters)",
+                "eligibility": "12th PCM",
+                "description": ""
+              },
+              {
+                "id": "cse-fsd",
+                "name": "Computer Science and Engineering (Full Stack Development) with academic Support of Xebia",
+                "duration": "4 Years (8 Semesters)",
+                "eligibility": "12th PCM",
+                "description": ""
+              },
+              {
+                "id": "cse-ux-ui",
+                "name": "Computer Science & Engineering (UX/UI) with academic Support of ImaginXP",
+                "duration": "4 Years (8 Semesters)",
+                "eligibility": "12th PCM",
+                "description": ""
+              },
+              {
+                "id": "cse-cyber-security",
+                "name": "Computer Science and Engineering (Cyber Security) with academic Support of EC-Council and IBM",
+                "duration": "4 Years (8 Semesters)",
+                "eligibility": "12th PCM",
+                "description": ""
+              },
+              {
+                "id": "cse-data-science",
+                "name": "Computer Science and Engineering (Data Science) with Academic support of IBM",
+                "duration": "4 Years (8 Semesters)",
+                "eligibility": "12th PCM",
+                "description": ""
+              },
+              {
+                "id": "civil-eng",
+                "name": "Civil Engineering",
+                "duration": "4 Years (8 Semesters)",
+                "eligibility": "12th PCM",
+                "description": ""
+              },
+              {
+                "id": "cse-duplicate",
+                "name": "Computer Science Engineering",
+                "duration": "4 Years (8 Semesters)",
+                "eligibility": "12th PCM",
+                "description": ""
+              },
+              {
+                "id": "electrical-eng",
+                "name": "Electrical Engineering",
+                "duration": "4 Years (8 Semesters)",
+                "eligibility": "12th PCM",
+                "description": ""
+              },
+              {
+                "id": "mechanical-eng",
+                "name": "Mechanical Engineering",
+                "duration": "4 Years (8 Semesters)",
+                "eligibility": "12th PCM",
+                "description": ""
+              },
+              {
+                "id": "data-science",
+                "name": "Data Science",
+                "duration": "4 Years (8 Semesters)",
+                "eligibility": "12th PCM",
+                "description": ""
+              },
+              {
+                "id": "ai",
+                "name": "Artificial Intelligence (AI)",
+                "duration": "4 Years (8 Semesters)",
+                "eligibility": "12th PCM",
+                "description": ""
+              },
+              {
+                "id": "biomedical-eng",
+                "name": "Biomedical Engineering",
+                "duration": "4 Years (8 Semesters)",
+                "eligibility": "12th PCM",
+                "description": ""
+              },
+              {
+                "id": "integrated",
+                "name": "Integrated",
+                "duration": "6 Years",
+                "eligibility": "12th PCM",
+                "description": ""
+              },
+              {
+                "id": "aircraft-maintenance",
+                "name": "Aircraft Maintenance Engineering",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th PCM",
+                "description": ""
+              },
+              {
+                "id": "bachelor-fashion-tech",
+                "name": "Bachelor of Fashion Technology",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th PCM",
+                "description": ""
+              }
+            ]
+          },
+          {
+            "id": "b-tech-leet",
+            "name": "B.Tech (LEET)",
+            "description": "",
+            "category": [
+              {
+                "id": "ai-diploma",
+                "name": "AI",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "Diploma in Engineering",
+                "description": ""
+              },
+              {
+                "id": "cyber-security-diploma",
+                "name": "Cyber Security",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "Diploma in Engineering",
+                "description": ""
+              },
+              {
+                "id": "civil-diploma",
+                "name": "Civil",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "Diploma in Engineering",
+                "description": ""
+              },
+              {
+                "id": "cse-diploma",
+                "name": "CSE",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "Diploma in Engineering",
+                "description": ""
+              },
+              {
+                "id": "it-diploma",
+                "name": "IT",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "Diploma in Engineering",
+                "description": ""
+              },
+              {
+                "id": "ee-diploma",
+                "name": "EE",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "Diploma in Engineering",
+                "description": ""
+              },
+              {
+                "id": "me-diploma",
+                "name": "ME",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "Diploma in Engineering",
+                "description": ""
+              },
+              {
+                "id": "ece-diploma",
+                "name": "ECE",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "Diploma in Engineering",
+                "description": ""
+              }
+            ]
+          },
+          {
+            "id": "b-tech-mba-integrated",
+            "name": "B.Tech (MBA Integrated)",
+            "description": "",
+            "category": [
+              {
+                "id": "ai-mba-integrated",
+                "name": "AI",
+                "duration": "5 Years (10 Semesters)",
+                "eligibility": "12th PCM",
+                "description": ""
+              },
+              {
+                "id": "ce-mba-integrated",
+                "name": "CE",
+                "duration": "5 Years (10 Semesters)",
+                "eligibility": "12th PCM",
+                "description": ""
+              },
+              {
+                "id": "cse-mba-integrated",
+                "name": "CSE",
+                "duration": "5 Years (10 Semesters)",
+                "eligibility": "12th PCM",
+                "description": ""
+              },
+              {
+                "id": "me-mba-integrated",
+                "name": "ME",
+                "duration": "5 Years (10 Semesters)",
+                "eligibility": "12th PCM",
+                "description": ""
+              },
+              {
+                "id": "ece-mba-integrated",
+                "name": "ECE",
+                "duration": "5 Years (10 Semesters)",
+                "eligibility": "12th PCM",
+                "description": ""
+              },
+              {
+                "id": "it-mba-integrated",
+                "name": "IT",
+                "duration": "5 Years (10 Semesters)",
+                "eligibility": "12th PCM",
+                "description": ""
+              }
+            ]
+          },
+          {
+            "id": "bca",
+            "name": "BCA",
+            "description": "",
+            "category": [
+              {
+                "id": "ai-data-science",
+                "name": "(AI & Data Science) with Academic Support of Samatrix and IBM",
+                "duration": "3 years (6 Semester)",
+                "eligibility": "",
+                "description": ""
+              },
+              {
+                "id": "ai-data-science-hons",
+                "name": "(Hons. With Research) AI & Data Science with academic Support of Samatrix and IBM",
+                "duration": "4 years (8 Semester)",
+                "eligibility": "",
+                "description": ""
+              }
+            ]
+          },
+          {
+            "id": "b-sc-hons",
+            "name": "B.Sc. (Hons.)",
+            "description": "",
+            "category": [
+              {
+                "id": "computer-science-hons",
+                "name": "(Hons.) Computer Science with academic Support of IBM",
+                "duration": "3 Years (6 Semester)",
+                "eligibility": "",
+                "description": ""
+              },
+              {
+                "id": "cyber-security-hons",
+                "name": "(Hons.) Cyber Security",
+                "duration": "3 Years (6 Semester)",
+                "eligibility": "",
+                "description": ""
+              },
+              {
+                "id": "data-science-hons",
+                "name": "(Hons.) Data Science",
+                "duration": "3 Years (6 Semester)",
+                "eligibility": "",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "commerce-and-management",
+        "name": "Commerce & Management",
+        "description": "",
+        "category": [
+          {
+            "id": "bba",
+            "name": "BBA",
+            "description": "",
+            "category": [
+              {
+                "id": "bba",
+                "name": "BBA",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th",
+                "description": ""
+              },
+              {
+                "id": "hr",
+                "name": "HR",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th",
+                "description": ""
+              },
+              {
+                "id": "mkting",
+                "name": "Marketing",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th",
+                "description": ""
+              },
+              {
+                "id": "fin",
+                "name": "Finance",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th",
+                "description": ""
+              },
+              {
+                "id": "ib",
+                "name": "International Business",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th",
+                "description": ""
+              },
+              {
+                "id": "travel-tourism",
+                "name": "Travel & Tourism",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th",
+                "description": ""
+              },
+              {
+                "id": "bba-bi-analytics",
+                "name": "BBA (Business Intelligence & Analytics) with academic support of Samatrix and IBM",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th",
+                "description": ""
+              },
+              {
+                "id": "bba-entrepreneurship",
+                "name": "BBA (Entrepreneurship) with academic support of GCEC Global Foundation",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th",
+                "description": ""
+              },
+              {
+                "id": "bba-intl-acc-fin",
+                "name": "BBA (International Accounting and Finance) (ACCA-UK) with academic support of Grant Thornton",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th",
+                "description": ""
+              },
+              {
+                "id": "bba-logistics-supply-chain",
+                "name": "BBA (Logistics and Supply Chain Management) with academic support of Safexpress",
+                "duration": "3 Years",
+                "eligibility": "12th",
+                "description": ""
+              }
+            ]
+          },
+          {
+            "id": "bba-hons-research)",
+            "name": "BBA (Hons.with Research)",
+            "description": "",
+            "category": [
+              {
+                "id": "hr",
+                "name": "HR",
+                "duration": "4 Years",
+                "eligibility": "12th",
+                "description": ""
+              },
+              {
+                "id": "markting",
+                "name": "Marketing",
+                "duration": "4 Years",
+                "eligibility": "12th",
+                "description": ""
+              },
+              {
+                "id": "finance",
+                "name": "Finance",
+                "duration": "4 Years",
+                "eligibility": "12th",
+                "description": ""
+              },
+              {
+                "id": "international-business",
+                "name": "International Business",
+                "duration": "4 Years",
+                "eligibility": "12th",
+                "description": ""
+              },
+              {
+                "id": "travel-tourism",
+                "name": "Travel & Tourism",
+                "duration": "4 Years",
+                "eligibility": "12th",
+                "description": ""
+              },
+              {
+                "id": "bba-hons-bi-analytics",
+                "name": "BBA (Hons. with Research) (Business Intelligence & Analytics) with academic support of Samatrix and IBM",
+                "duration": "4 Years",
+                "eligibility": "12th",
+                "description": ""
+              },
+              {
+                "id": "bba-hons-entrepreneurship",
+                "name": "BBA (Hons. with Research) (Entrepreneurship) with academic support of GCEC Global Foundation",
+                "duration": "4 Years",
+                "eligibility": "12th",
+                "description": ""
+              },
+              {
+                "id": "bba-hons-intl-acc-finance",
+                "name": "BBA (Hons. with Research) (International Accounting and Finance) (ACCA-UK) with academic support of Grant Thornton",
+                "duration": "4 Years",
+                "eligibility": "12th",
+                "description": ""
+              },
+              {
+                "id": "bba-hons-logistics-supply-chain",
+                "name": "BBA (Hons. with Research) (Logistics and Supply Chain Management) with academic support of Safexpress",
+                "duration": "4 Years",
+                "eligibility": "12th",
+                "description": ""
+              }
+            ]
+          },
+          {
+            "id": "b-com",
+            "name": "B.Com",
+            "description": "",
+            "category": [
+              {
+                "id": "bachelor-of-commerce",
+                "name": "Bachelor of Commerce",
+                "duration": "3 Years",
+                "eligibility": "12th",
+                "description": ""
+              },
+              {
+                "id": "bachelor-of-business",
+                "name": "Bachelor of Business",
+                "duration": "3 Years",
+                "eligibility": "12th",
+                "description": ""
+              }
+            ]
+          },
+          {
+            "id": "b-com-hons",
+            "name": "B.Com (Hons.)",
+            "description": "",
+            "category": [
+              {
+                "id": "bcom-hons-nse",
+                "name": "B.Com. (Hons.) with academic Support of NSE",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th",
+                "description": ""
+              },
+              {
+                "id": "bcom-hons-research-nse",
+                "name": "B.Com. (Hons. with Research) with academic support of NSE",
+                "duration": "4 Years",
+                "eligibility": "12th",
+                "description": ""
+              },
+              {
+                "id": "bcom-hons-intl-acc-finance",
+                "name": "B.Com. (Hons.) (International Accounting and Finance) (ACCA-UK) with academic support of Grant Thornton",
+                "duration": "3 Years",
+                "eligibility": "12th",
+                "description": ""
+              },
+              {
+                "id": "bcom-hons-research-intl-acc-finance",
+                "name": "B.Com. (Hons. with Research) (International Accounting and Finance) (ACCA-UK) with academic support of Grant Thornton",
+                "duration": "4 Years",
+                "eligibility": "12th",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "health-science",
+        "name": "Health Science",
+        "description": "",
+        "category": [
+          {
+            "id": "b-sc",
+            "name": "B.Sc",
+            "description": "",
+            "category": [
+              {
+                "id": "radiotherapy",
+                "name": "Radiotherapy",
+                "duration": "3+1 Years (8 Semesters)",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "radiology-imaging-tech",
+                "name": "Radiology & Imaging Technology",
+                "duration": "3+1 Years (8 Semesters)",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "ot-anesthesia-tech",
+                "name": "OT & Anesthesia Technology",
+                "duration": "3+1 Years (8 Semesters)",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "optometry",
+                "name": "Optometry",
+                "duration": "3+1 Years (8 Semesters)",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "medical-lab-tech",
+                "name": "Medical Lab Technology",
+                "duration": "3+1 Years (8 Semesters)",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "emergency-critical-care",
+                "name": "Emergency and Critical Care",
+                "duration": "3+1 Years (8 Semesters)",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "cardiovascular-tech",
+                "name": "Cardiovascular Technology",
+                "duration": "3+1 Years (8 Semesters)",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "dialysis-therapy",
+                "name": "Dialysis Therapy",
+                "duration": "3+1 Years (8 Semesters)",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "dental-assistant",
+                "name": "Dental Assistant",
+                "duration": "3+1 Years (8 Semesters)",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "respiratory-therapy-tech",
+                "name": "Respiratory Therapy Technology",
+                "duration": "3+1 Years (8 Semesters)",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "cssd",
+                "name": "CSSD (Central Sterilization Supplying Department)",
+                "duration": "3+1 Years (8 Semesters)",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "physician-assistant",
+                "name": "Physician Assistant",
+                "duration": "3+1 Years (8 Semesters)",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "bsc-anaesthesia-tech",
+                "name": "B.Sc. (Anaesthesia Technology)",
+                "duration": "3 Years",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "bsc-med-lab-tech",
+                "name": "B.Sc. (Medical Laboratory Technology)",
+                "duration": "3 Years",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "bsc-ot-tech",
+                "name": "B.Sc. (Operation Theatre Technology)",
+                "duration": "3 Years",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "bsc-radiology-imaging-tech",
+                "name": "B.Sc. (Radiology & Imaging Techniques)",
+                "duration": "3 Years",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "bachelor-physiotherapy",
+                "name": "Bachelor of Physiotherapy",
+                "duration": "4 Years + 6 months internship",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "bachelor-ophthalmic-med-sci",
+                "name": "Bachelor of Ophthalmic Medical Science",
+                "duration": "4 Years + 6 months internship",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "bachelor-naturo-yogic-sci",
+                "name": "Bachelor of Naturopathy and Yogic Sciences",
+                "duration": "5 Years 6 Months",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "bsc-public-health-nutrition-dietetics",
+                "name": "B.Sc. - Public Health (BPH), Nutrition & Dietetics",
+                "duration": "3+1 Years (8 Semesters)",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "bachelor-physiotherapy-bpt",
+                "name": "Bachelor of Physiotherapy (BPT)",
+                "duration": "4 Years",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "boptom",
+                "name": "B.Optom. (Bachelor of Optometry)",
+                "duration": "4 Years",
+                "eligibility": "12th Science",
+                "description": ""
+              }
+            ]
+          },
+          {
+            "id": "b-sc-leet",
+            "name": "B.Sc (LEET)",
+            "description": "",
+            "category": [
+              {
+                "id": "radiotherapy-diploma",
+                "name": "Radiotherapy",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Diploma in Relevant Stream",
+                "description": ""
+              },
+              {
+                "id": "radiology-imaging-tech-diploma",
+                "name": "Radiology & Imaging Technology",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Diploma in Relevant Stream",
+                "description": ""
+              },
+              {
+                "id": "ot-anesthesia-tech-diploma",
+                "name": "OT & Anesthesia Technology",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Diploma in Relevant Stream",
+                "description": ""
+              },
+              {
+                "id": "optometry-diploma",
+                "name": "Optometry",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Diploma in Relevant Stream",
+                "description": ""
+              },
+              {
+                "id": "medical-lab-tech-diploma",
+                "name": "Medical Lab Technology",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Diploma in Relevant Stream",
+                "description": ""
+              },
+              {
+                "id": "emergency-critical-care-diploma",
+                "name": "Emergency and Critical Care",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Diploma in Relevant Stream",
+                "description": ""
+              },
+              {
+                "id": "cardiovascular-tech-diploma",
+                "name": "Cardiovascular Technology",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Diploma in Relevant Stream",
+                "description": ""
+              },
+              {
+                "id": "dialysis-therapy-diploma",
+                "name": "Dialysis Therapy",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Diploma in Relevant Stream",
+                "description": ""
+              },
+              {
+                "id": "dental-assistant-diploma",
+                "name": "Dental Assistant",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Diploma in Relevant Stream",
+                "description": ""
+              },
+              {
+                "id": "respiratory-therapy-tech-diploma",
+                "name": "Respiratory Therapy Technology",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Diploma in Relevant Stream",
+                "description": ""
+              },
+              {
+                "id": "cssd-diploma",
+                "name": "CSSD (Central Sterilization Supplying Department)",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Diploma in Relevant Stream",
+                "description": ""
+              },
+              {
+                "id": "physician-assistant-diploma",
+                "name": "Physician Assistant",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Diploma in Relevant Stream",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "integrated-program",
+        "name": "Integrated Program",
+        "description": "",
+        "category": [
+          {
+            "id": "integrated-program",
+            "name": "Integrated Program",
+            "description": "",
+            "category": [
+              {
+                "id": "bsc-msc-integrated",
+                "name": "Integrated/Dual Degree B.Sc.-M.Sc.  (Forensic Science)",
+                "duration": "5 Years",
+                "eligibility": "",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pharmacy",
+        "name": "Pharmacy",
+        "description": "",
+        "category": [
+          {
+            "id": "pharmacy",
+            "name": "Pharmacy",
+            "description": "",
+            "category": [
+              {
+                "id": "b-pharmacy",
+                "name": "B. Pharmacy",
+                "duration": "4 Years (8 Semesters)",
+                "eligibility": "12th",
+                "description": ""
+              }
+            ]
+          },
+          {
+            "id": "pharmacy-leet",
+            "name": "Pharmacy (LEET)",
+            "description": "",
+            "category": [
+              {
+                "id": "pharmacy-leet",
+                "name": "Pharmacy (LEET)",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "D.Pharmacy",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "agriculture",
+        "name": "Agriculture",
+        "description": "",
+        "category": [
+          {
+            "id": "bsc",
+            "name": "B.Sc",
+            "description": "",
+            "category": [
+              {
+                "id": "bsc-daily-tech-forestry-fisheries-horticulture",
+                "name": "B.Sc. - Dairy Tech, Forestry, Fisheries, Horticulture",
+                "duration": "4 Years (8 Semesters)",
+                "eligibility": "12th Science",
+                "description": ""
+              }
+            ]
+          },
+          {
+            "id": "bsc-hons",
+            "name": "B.Sc. (Hons.)",
+            "description": "",
+            "category": [
+              {
+                "id": "bsc-hons-agriculture",
+                "name": "B.Sc. (Hons.) - Agriculture",
+                "duration": "4 Years (8 Semesters)",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "bsc-agriculture-hons-integrated",
+                "name": "B.Sc. Agriculture (Hons) Integrated",
+                "duration": "4 Years (8 Semesters)",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "bsc-agriculture-hons",
+                "name": "B.Sc. Agriculture (Hons)",
+                "duration": "4 Years (8 Semesters)",
+                "eligibility": "12th Science",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "applied-science",
+        "name": "Applied Science",
+        "description": "",
+        "category": [
+          {
+            "id": "bsc",
+            "name": "B.Sc.",
+            "description": "",
+            "category": [
+              {
+                "id": "bsc-medical",
+                "name": "Medical",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "bsc-non-medical",
+                "name": "Non-Medical",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "bsc-home-science",
+                "name": "Home Science",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "bsc-geology",
+                "name": "Geology",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "bsc-statistics",
+                "name": "Statistics",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "bsc-food-tech",
+                "name": "B.Sc. Food Technology",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "bsc-forensic-science",
+                "name": "B.Sc. Forensic Science",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "bachelor-library-info-sciences",
+                "name": "Bachelor of Library and Information Sciences (B.Lib. Sc.)",
+                "duration": "1 Year",
+                "eligibility": "",
+                "description": ""
+              }
+            ]
+          },
+          {
+            "id": "bsc-hons",
+            "name": "B.Sc. (Hons.)",
+            "description": "",
+            "category": [
+              {
+                "id": "bsc-hons-microbiology",
+                "name": "B.Sc. (Hons.) - Microbiology",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "bsc-hons-physics-banking",
+                "name": "B.Sc. (Hons) Physics with Preparation for Competitive Exam (Banking) for Central and State Govt. Jobs",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "bsc-hons-physics-insurance",
+                "name": "B.Sc. (Hons) Physics with Preparation for Competitive Exam (Insurance) for Central and State Govt. Jobs",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "bsc-hons-physics-railways",
+                "name": "B.Sc. (Hons) Physics with Preparation for Competitive Exam (Railways) for Central and State Govt. Jobs",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "bsc-hons-physics-ssc",
+                "name": "B.Sc. (Hons) Physics with Preparation for Competitive Exam (SSC) for Central and State Govt. Jobs",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "bsc-hons-microbiology-2",
+                "name": "B.Sc. (Hons.), - Microbiology",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "bsc-hons-chemistry-banking",
+                "name": "B.Sc. (Hons.) Chemistry with Preparation for Competitive Exam (Banking) for Central and State Govt. Jobs",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "bsc-hons-chemistry-insurance",
+                "name": "B.Sc. (Hons.) Chemistry with Preparation for Competitive Exam (Insurance) for Central and State Govt. Jobs",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "bsc-hons-chemistry-railways",
+                "name": "B.Sc. (Hons.) Chemistry with Preparation for Competitive Exam (Railways) for Central and State Govt. Jobs",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "bsc-hons-chemistry-ssc",
+                "name": "B.Sc. (Hons.) Chemistry with Preparation for Competitive Exam (SSC) for Central and State Govt. Jobs",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "bsc-hons-maths-banking",
+                "name": "B.Sc. (Hons.) Maths with Preparation for Competitive Exam (Banking) for Central and State Govt. Jobs",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "bsc-hons-maths-insurance",
+                "name": "B.Sc. (Hons.) Maths with Preparation for Competitive Exam (Insurance) for Central and State Govt. Jobs",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "bsc-hons-maths-railways",
+                "name": "B.Sc. (Hons.) Maths with Preparation for Competitive Exam (Railways) for Central and State Govt. Jobs",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "bsc-hons-maths-ssc",
+                "name": "B.Sc. (Hons.) Maths with Preparation for Competitive Exam (SSC) for Central and State Govt. Jobs",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "bsc-hons-forensic-science",
+                "name": "B.Sc. (Hons.) Forensic Science",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th Science",
+                "description": ""
+              }
+            ]
+          },
+          {
+            "id": "bsc-hons-research",
+            "name": "B.Sc. (Hons. With Research)",
+            "description": "",
+            "category": [
+              {
+                "id": "bsc-hons-research-physics-banking",
+                "name": "B.Sc. (Hons. With Research) Physics with Preparation for Competitive Exam (Banking) for Central and State Govt. Jobs",
+                "duration": "4 Years",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "bsc-hons-research-physics-insurance",
+                "name": "B.Sc. (Hons. With Research) Physics with Preparation for Competitive Exam (Insurance) for Central and State Govt. Jobs",
+                "duration": "4 Years",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "bsc-hons-research-chemistry-railways",
+                "name": "B.Sc. (Hons.with Research) Chemistry with Preparation for Competitive Exam (Railways) for Central and State Govt. Jobs",
+                "duration": "4 Years",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "bsc-hons-research-maths-ssc",
+                "name": "B.Sc. (Hons. With Research) Maths with Preparation for Competitive Exam (SSC) for Central and State Govt. Jobs",
+                "duration": "4 Years",
+                "eligibility": "12th Science",
+                "description": ""
+              },
+              {
+                "id": "bsc-hons-research-forensic-science",
+                "name": "B.Sc. (Hons. With Research) Forensic Science",
+                "duration": "4 Years",
+                "eligibility": "12th Science",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "social-science-humanities",
+        "name": "Social Science and Humanities",
+        "description": "",
+        "category": [
+          {
+            "id": "ba",
+            "name": "B.A.",
+            "description": "",
+            "category": [
+              {
+                "id": "ba-english",
+                "name": "English",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th",
+                "description": ""
+              },
+              {
+                "id": "ba-hindi",
+                "name": "Hindi",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th",
+                "description": ""
+              },
+              {
+                "id": "ba-punjabi",
+                "name": "Punjabi",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th",
+                "description": ""
+              },
+              {
+                "id": "ba-sanskrit",
+                "name": "Sanskrit",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th",
+                "description": ""
+              },
+              {
+                "id": "ba-political-science",
+                "name": "Political Science",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th",
+                "description": ""
+              },
+              {
+                "id": "ba-history",
+                "name": "History",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th",
+                "description": ""
+              },
+              {
+                "id": "ba-economics",
+                "name": "Economics",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th",
+                "description": ""
+              },
+              {
+                "id": "ba-psychology",
+                "name": "Psychology",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th",
+                "description": ""
+              },
+              {
+                "id": "ba-geography",
+                "name": "Geography",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th",
+                "description": ""
+              },
+              {
+                "id": "ba-urdu",
+                "name": "Urdu",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th",
+                "description": ""
+              },
+              {
+                "id": "ba-yoga",
+                "name": "Yoga",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th",
+                "description": ""
+              },
+              {
+                "id": "ba-music",
+                "name": "Music",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th",
+                "description": ""
+              },
+              {
+                "id": "ba-programme-competitive-exam",
+                "name": "B.A. Programme with Preparation for Competitive Exam (Banking/Insurance/Railways/SSC) for Central and State Govt. jobs",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "",
+                "description": ""
+              }
+            ]
+          },
+          {
+            "id": "ba-hons",
+            "name": "B.A. (Hons.)",
+            "description": "",
+            "category": [
+              {
+                "id": "ba-hons-english-banking",
+                "name": "B.A. (Hons.) English with Preparation for Competitive Exam (Banking) for Central and State Govt. Jobs",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "",
+                "description": ""
+              },
+              {
+                "id": "ba-hons-english-insurance",
+                "name": "B.A. (Hons.) English with Preparation for Competitive Exam (Insurance) for Central and State Govt. Jobs",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "",
+                "description": ""
+              },
+              {
+                "id": "ba-hons-english-railways",
+                "name": "B.A. (Hons.) English with Preparation for Competitive Exam (Railways) for Central and State Govt. Jobs",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "",
+                "description": ""
+              },
+              {
+                "id": "ba-hons-english-ssc",
+                "name": "B.A. (Hons.) English with Preparation for Competitive Exam (SSC) for Central and State Govt. Jobs",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "",
+                "description": ""
+              },
+              {
+                "id": "ba-hons-economics-banking",
+                "name": "B.A. (Hons.) Economics with Preparation for Competitive Exam (Banking) for Central and State Govt. Jobs",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "",
+                "description": ""
+              },
+              {
+                "id": "ba-hons-economics-insurance",
+                "name": "B.A. (Hons.) Economics with Preparation for Competitive Exam (Insurance) for Central and State Govt. Jobs",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "",
+                "description": ""
+              },
+              {
+                "id": "ba-hons-economics-railways",
+                "name": "B.A. (Hons.) Economics with Preparation for Competitive Exam (Railways) for Central and State Govt. Jobs",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "",
+                "description": ""
+              },
+              {
+                "id": "ba-hons-economics-ssc",
+                "name": "B.A. (Hons.) Economics with Preparation for Competitive Exam (SSC) for Central and State Govt. Jobs",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "",
+                "description": ""
+              },
+              {
+                "id": "ba-hons-political-science-banking",
+                "name": "B.A. (Hons.) Political Science with Preparation for Competitive Exam (Banking) for Central and State Govt. Jobs",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "",
+                "description": ""
+              },
+              {
+                "id": "ba-hons-political-science-insurance",
+                "name": "B.A. (Hons.) Political Science with Preparation for Competitive Exam (Insurance) for Central and State Govt. Jobs",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "",
+                "description": ""
+              },
+              {
+                "id": "ba-hons-political-science-railways",
+                "name": "B.A. (Hons.) Political Science with Preparation for Competitive Exam (Railways) for Central and State Govt. Jobs",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "",
+                "description": ""
+              },
+              {
+                "id": "ba-hons-political-science-ssc",
+                "name": "B.A. (Hons.) Political Science with Preparation for Competitive Exam (SSC) for Central and State Govt. Jobs",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "",
+                "description": ""
+              },
+              {
+                "id": "ba-hons-psychology-competitive-exam",
+                "name": "B.A. (Hons.) Psychology with Preparation for Competitive Exam (Banking/Insurance/Railways/SSC) for Central and State Govt. Jobs",
+                "duration": "4 Years",
+                "eligibility": "",
+                "description": ""
+              }
+            ]
+          },
+          {
+            "id": "ba-hons-research",
+            "name": "B.A. (Hons. With Research)",
+            "description": "",
+            "category": [
+              {
+                "id": "ba-hons-research-english-banking",
+                "name": "B.A. (Hons. With Research) English with Preparation for Competitive Exam (Banking) for Central and State Govt. Jobs",
+                "duration": "4 Years",
+                "eligibility": "",
+                "description": ""
+              },
+              {
+                "id": "ba-hons-research-english-insurance",
+                "name": "B.A. (Hons. With Research) English with Preparation for Competitive Exam (Insurance) for Central and State Govt. Jobs",
+                "duration": "4 Years",
+                "eligibility": "",
+                "description": ""
+              },
+              {
+                "id": "ba-hons-research-english-railways",
+                "name": "B.A. (Hons. With Research) English with Preparation for Competitive Exam (Railways) for Central and State Govt. Jobs",
+                "duration": "4 Years",
+                "eligibility": "",
+                "description": ""
+              },
+              {
+                "id": "ba-hons-research-english-ssc",
+                "name": "B.A. (Hons. With Research) English with Preparation for Competitive Exam (SSC) for Central and State Govt. Jobs",
+                "duration": "4 Years",
+                "eligibility": "",
+                "description": ""
+              },
+              {
+                "id": "ba-hons-research-economics-banking",
+                "name": "B.A. (Hons. With Research) Economics with Preparation for Competitive Exam (Banking) for Central and State Govt. Jobs",
+                "duration": "4 Years",
+                "eligibility": "",
+                "description": ""
+              },
+              {
+                "id": "ba-hons-research-economics-insurance",
+                "name": "B.A. (Hons. With Research) Economics with Preparation for Competitive Exam (Insurance) for Central and State Govt. Jobs",
+                "duration": "4 Years",
+                "eligibility": "",
+                "description": ""
+              },
+              {
+                "id": "ba-hons-research-economics-railways",
+                "name": "B.A. (Hons. With Research) Economics with Preparation for Competitive Exam (Railways) for Central and State Govt. Jobs",
+                "duration": "4 Years",
+                "eligibility": "",
+                "description": ""
+              },
+              {
+                "id": "ba-hons-research-economics-ssc",
+                "name": "B.A. (Hons. With Research) Economics with Preparation for Competitive Exam (SSC) for Central and State Govt. Jobs",
+                "duration": "4 Years",
+                "eligibility": "",
+                "description": ""
+              },
+              {
+                "id": "ba-hons-research-political-science-banking",
+                "name": "B.A. (Hons. With Research) Political Science with Preparation for Competitive Exam (Banking) for Central and State Govt. Jobs",
+                "duration": "4 Years",
+                "eligibility": "",
+                "description": ""
+              },
+              {
+                "id": "ba-hons-research-political-science-insurance",
+                "name": "B.A. (Hons. With Research) Political Science with Preparation for Competitive Exam (Insurance) for Central and State Govt. Jobs",
+                "duration": "4 Years",
+                "eligibility": "",
+                "description": ""
+              },
+              {
+                "id": "ba-hons-research-political-science-railways",
+                "name": "B.A. (Hons. With Research) Political Science with Preparation for Competitive Exam (Railways) for Central and State Govt. Jobs",
+                "duration": "4 Years",
+                "eligibility": "",
+                "description": ""
+              },
+              {
+                "id": "ba-hons-research-political-science-ssc",
+                "name": "B.A. (Hons. With Research) Political Science with Preparation for Competitive Exam (SSC) for Central and State Govt. Jobs",
+                "duration": "4 Years",
+                "eligibility": "",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fine-arts",
+        "name": "Fine Arts",
+        "description": "",
+        "category": [
+          {
+            "id": "fine-arts",
+            "name": "Fine Arts",
+            "description": "",
+            "category": [
+              {
+                "id": "bachelor-of-fine-arts-bfa",
+                "name": "Bachelor of Fine Arts (BFA)",
+                "duration": "4 Years (8 Semesters)",
+                "eligibility": "12th",
+                "description": ""
+              },
+              {
+                "id": "bachelor-of-fine-arts-painting",
+                "name": "Bachelor of Fine Arts (Painting)",
+                "duration": "4 Years (8 Semesters)",
+                "eligibility": "12th",
+                "description": ""
+              },
+              {
+                "id": "bachelor-of-fine-arts-sculpture",
+                "name": "Bachelor of Fine Arts (Sculpture)",
+                "duration": "4 Years (8 Semesters)",
+                "eligibility": "12th",
+                "description": ""
+              },
+              {
+                "id": "bachelor-of-architecture-b-arch",
+                "name": "Bachelor of Architecture (B.Arch)",
+                "duration": "5 Years",
+                "eligibility": "12th",
+                "description": ""
+              },
+              {
+                "id": "bachelor-of-arts-ba",
+                "name": "Bachelor of Arts (BA)",
+                "duration": "3 Years",
+                "eligibility": "12th",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "legal-studies",
+        "name": "Legal Studies",
+        "description": "",
+        "category": [
+          {
+            "id": "legal",
+            "name": "Legal",
+            "description": "",
+            "category": [
+              {
+                "id": "llb",
+                "name": "LL.B",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "Graduation",
+                "description": ""
+              },
+              {
+                "id": "ba-llb",
+                "name": "B.A. LL.B",
+                "duration": "5 Years (10 Semesters)",
+                "eligibility": "12th",
+                "description": ""
+              }
+            ]
+          },
+          {
+            "id": "legal-hons",
+            "name": "Legal (Hons.)",
+            "description": "",
+            "category": [
+              {
+                "id": "bcom-llb-hons",
+                "name": "B.Com. LL.B. (Hons.)",
+                "duration": "5 Years",
+                "eligibility": "",
+                "description": ""
+              },
+              {
+                "id": "llb-hons",
+                "name": "LL.B. (Hons.)",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "",
+                "description": ""
+              },
+              {
+                "id": "bba-llb-hons",
+                "name": "BBA LL.B. (Hons.)",
+                "duration": "5 Years",
+                "eligibility": "",
+                "description": ""
+              },
+              {
+                "id": "ba-llb-hons",
+                "name": "B.A. LL.B. (Hons.)",
+                "duration": "5 Years",
+                "eligibility": "",
+                "description": ""
+              },
+              {
+                "id": "ballb-hons",
+                "name": "BALLB (Hons)",
+                "duration": "5 Years",
+                "eligibility": "",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hospitality-management",
+        "name": "Hospitality Management",
+        "description": "",
+        "category": [
+          {
+            "id": "bsc",
+            "name": "B.Sc.",
+            "description": "",
+            "category": [
+              {
+                "id": "bsc-hotel-management-tourism",
+                "name": "B.Sc. Hotel Management & Tourism",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th",
+                "description": ""
+              },
+              {
+                "id": "bhmct",
+                "name": "Bachelor of Hotel Management and Catering Technology (B.HMCT.)",
+                "duration": "4 Years",
+                "eligibility": "",
+                "description": ""
+              },
+              {
+                "id": "bsc-athm",
+                "name": "BSc. ATHM",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "",
+                "description": ""
+              }
+            ]
+          },
+          {
+            "id": "ba-hons",
+            "name": "B.A. (Hons.)",
+            "description": "",
+            "category": [
+              {
+                "id": "ba-hons-culinary-arts",
+                "name": "B.A. (Hons.) Culinary Arts",
+                "duration": "4 Years",
+                "eligibility": "",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "journalism-mass-communication",
+        "name": "Journalism and Mass Communication",
+        "description": "",
+        "category": [
+          {
+            "id": "ba",
+            "name": "BA",
+            "description": "",
+            "category": [
+              {
+                "id": "ba-journalism-mass-communication",
+                "name": "Journalism & Mass Communication",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th",
+                "description": ""
+              }
+            ]
+          },
+          {
+            "id": "ba-hons-research",
+            "name": "B.A. (Hons. With Research)",
+            "description": "",
+            "category": [
+              {
+                "id": "ba-hons-research-journalism-mass-communication",
+                "name": "B.A. (Hons. With Research) (Journalism and Mass Communication)",
+                "duration": "4 Years",
+                "eligibility": "",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "teaching-education",
+        "name": "Teaching Education",
+        "description": "",
+        "category": [
+          {
+            "id": "bed",
+            "name": "B.Ed.",
+            "description": "",
+            "category": [
+              {
+                "id": "bachelor-of-education-bed",
+                "name": "Bachelor of Education (B.Ed.)",
+                "duration": "2 Years",
+                "eligibility": "",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fashion-designing",
+        "name": "Fashion Designing",
+        "description": "",
+        "category": [
+          {
+            "id": "bsc",
+            "name": "B.Sc.",
+            "description": "",
+            "category": [
+              {
+                "id": "fashion-designing",
+                "name": "Fashion Designing",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "design",
+        "name": "Design",
+        "description": "",
+        "category": [
+          {
+            "id": "bdes",
+            "name": "B.Des. (Bachelor of Design)",
+            "description": "",
+            "category": [
+              {
+                "id": "fashion-design",
+                "name": "Fashion Design",
+                "duration": "4 Years",
+                "eligibility": "",
+                "description": ""
+              },
+              {
+                "id": "textile-design-entrepreneurship",
+                "name": "Textile Design and Entrepreneurship",
+                "duration": "4 Years",
+                "eligibility": "",
+                "description": ""
+              },
+              {
+                "id": "interior-design",
+                "name": "Interior Design",
+                "duration": "4 Years",
+                "eligibility": "",
+                "description": ""
+              },
+              {
+                "id": "game-design-animation",
+                "name": "Game Design & Animation",
+                "duration": "4 Years",
+                "eligibility": "",
+                "description": ""
+              },
+              {
+                "id": "ux-ui-interaction-design",
+                "name": "UX/UI & Interaction Design",
+                "duration": "4 Years",
+                "eligibility": "",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "computer-science",
+        "name": "Computer Science",
+        "description": "",
+        "category": [
+          {
+            "id": "bca",
+            "name": "BCA",
+            "description": "",
+            "category": [
+              {
+                "id": "bca",
+                "name": "BCA",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th",
+                "description": ""
+              }
+            ]
+          },
+          {
+            "id": "bsc",
+            "name": "B.Sc.",
+            "description": "",
+            "category": [
+              {
+                "id": "computer-science",
+                "name": "Computer Science",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th",
+                "description": ""
+              },
+              {
+                "id": "it",
+                "name": "IT",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th",
+                "description": ""
+              },
+              {
+                "id": "textile-design",
+                "name": "Textile Design",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "12th",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "post-graduate",
+    "name": "Post Graduate (PG)",
+    "description": "",
+    "category": [
+      {
+        "id": "engineering-and-IT",
+        "name": "Engineering & IT",
+        "description": "",
+        "category": [
+          {
+            "id": "m-tech",
+            "name": "M.Tech",
+            "description": "",
+            "category": [
+              {
+                "id": "ai",
+                "name": "AI",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "B.Tech",
+                "description": ""
+              },
+              {
+                "id": "cloud-computing",
+                "name": "Cloud Computing",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "B.Tech",
+                "description": ""
+              },
+              {
+                "id": "iot",
+                "name": "IOT",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "B.Tech",
+                "description": ""
+              },
+              {
+                "id": "cyber-security",
+                "name": "Cyber Security",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "B.Tech",
+                "description": ""
+              },
+              {
+                "id": "me",
+                "name": "ME",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "B.Tech",
+                "description": ""
+              },
+              {
+                "id": "ce",
+                "name": "CE",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "B.Tech",
+                "description": ""
+              },
+              {
+                "id": "ee",
+                "name": "EE",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "B.Tech",
+                "description": ""
+              },
+              {
+                "id": "ece",
+                "name": "ECE",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "B.Tech",
+                "description": ""
+              },
+              {
+                "id": "automobile-engineering",
+                "name": "Automobile Engineering",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "B.Tech",
+                "description": ""
+              },
+              {
+                "id": "it",
+                "name": "IT",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "B.Tech",
+                "description": ""
+              },
+              {
+                "id": "highway-engineering",
+                "name": "Highway Engineering",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "B.Tech",
+                "description": ""
+              },
+              {
+                "id": "structural-engineering",
+                "name": "Structural Engineering",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "B.Tech",
+                "description": ""
+              },
+              {
+                "id": "transport-engineering",
+                "name": "Transport Engineering",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "B.Tech",
+                "description": ""
+              },
+              {
+                "id": "water-resource-engineering",
+                "name": "Water Resource Engineering",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "B.Tech",
+                "description": ""
+              },
+              {
+                "id": "food-technology",
+                "name": "Food Technology",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "B.Tech",
+                "description": ""
+              },
+              {
+                "id": "business-intelligence-development",
+                "name": "Business Intelligence Development (CSE)",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "B.Tech",
+                "description": ""
+              },
+              {
+                "id": "data-architect",
+                "name": "Data Architect",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "B.Tech",
+                "description": ""
+              },
+              {
+                "id": "application-architect",
+                "name": "Application Architect",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "B.Tech",
+                "description": ""
+              },
+              {
+                "id": "infrastructure",
+                "name": "Infrastructure",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "B.Tech",
+                "description": ""
+              },
+              {
+                "id": "enterprise",
+                "name": "Enterprise",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "B.Tech",
+                "description": ""
+              },
+              {
+                "id": "data-scientist",
+                "name": "Data Scientist",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "B.Tech",
+                "description": ""
+              },
+              {
+                "id": "data-analyst",
+                "name": "Data Analyst",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "B.Tech",
+                "description": ""
+              },
+              {
+                "id": "data-engineering",
+                "name": "Data Engineering",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "B.Tech",
+                "description": ""
+              },
+              {
+                "id": "construction-technology-and-anagement",
+                "name": "Construction Technology & Management",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "B.Tech",
+                "description": ""
+              },
+              {
+                "id": "electrical-engineering",
+                "name": "Electrical Engineering",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "B.Tech",
+                "description": ""
+              },
+              {
+                "id": "structure-engineering",
+                "name": "Structure Engineering",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "B.Tech",
+                "description": ""
+              },
+              {
+                "id": "transport-engineering",
+                "name": "Transport Engineering",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "B.Tech",
+                "description": ""
+              },
+              {
+                "id": "mechanical-engineering",
+                "name": "Mechanical Engineering",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "B.Tech",
+                "description": ""
+              },
+              {
+                "id": "machine-design",
+                "name": "Machine Design",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "B.Tech",
+                "description": ""
+              },
+              {
+                "id": "core-michael",
+                "name": "Core Michael",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "B.Tech",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "commerce-and-management",
+        "name": "Commerce & Management",
+        "description": "",
+        "category": [
+          {
+            "id": "m-com",
+            "name": "M.Com",
+            "description": "",
+            "category": [
+              {
+                "id": "m-com",
+                "name": "M.Com",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation in Relevant Subject",
+                "description": ""
+              }
+            ]
+          },
+          {
+            "id": "mba",
+            "name": "MBA",
+            "description": "",
+            "category": [
+              {
+                "id": "marketing",
+                "name": "Marketing",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation",
+                "description": ""
+              },
+              {
+                "id": "finance",
+                "name": "Finance",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation",
+                "description": ""
+              },
+              {
+                "id": "hr",
+                "name": "HR",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation",
+                "description": ""
+              },
+              {
+                "id": "ib",
+                "name": "IB",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation",
+                "description": ""
+              },
+              {
+                "id": "insurance",
+                "name": "Insurance",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation",
+                "description": ""
+              },
+              {
+                "id": "mba-academic-support",
+                "name": "MBA with academic support of IBM",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation",
+                "description": ""
+              },
+              {
+                "id": "mba-digital-marketing",
+                "name": "MBA (Digital Marketing) with academic support of Imarticus Learning)",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation",
+                "description": ""
+              },
+              {
+                "id": "master-of-commerce",
+                "name": "Master of Commerce",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation",
+                "description": ""
+              },
+              {
+                "id": "master-of-business-administration ",
+                "name": "Master of Business Administration ",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation",
+                "description": ""
+              },
+              {
+                "id": "emba",
+                "name": "EMBA",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation",
+                "description": ""
+              }
+            ]
+          },
+          {
+            "id": "mba-part-time)",
+            "name": "MBA (Part Time)",
+            "description": "",
+            "category": [
+              {
+                "id": "marketing",
+                "name": "Marketing",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "Graduation+ 2 Years Experience",
+                "description": ""
+              },
+              {
+                "id": "finance",
+                "name": "Finance",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "Graduation+ 2 Years Experience",
+                "description": ""
+              },
+              {
+                "id": "hr",
+                "name": "HR",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "Graduation+ 2 Years Experience",
+                "description": ""
+              },
+              {
+                "id": "ib",
+                "name": "IB",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "Graduation+ 2 Years Experience",
+                "description": ""
+              },
+              {
+                "id": "insurance",
+                "name": "Insurance",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "Graduation+ 2 Years Experience",
+                "description": ""
+              }
+            ]
+          },
+          {
+            "id": "mba-executive",
+            "name": "MBA (Executive)",
+            "description": "",
+            "category": [
+              {
+                "id": "industrial-safety-and-management",
+                "name": "Industrial Safety & Management",
+                "duration": "1 Years (2 Semesters)",
+                "eligibility": "Graduation + 3 Year Experience",
+                "description": ""
+              },
+              {
+                "id": "supply-chain-management",
+                "name": "Supply Chain Management",
+                "duration": "1 Years (2 Semesters)",
+                "eligibility": "Graduation + 3 Year Experience",
+                "description": ""
+              },
+              {
+                "id": "hospital-administration",
+                "name": "Hospital Administration",
+                "duration": "1 Years (2 Semesters)",
+                "eligibility": "Graduation + 3 Year Experience",
+                "description": ""
+              },
+              {
+                "id": "hotel-management",
+                "name": "Hotel Management",
+                "duration": "1 Years (2 Semesters)",
+                "eligibility": "Graduation + 3 Year Experience",
+                "description": ""
+              },
+              {
+                "id": "international-accounting-and-taxatio",
+                "name": "International Accounting & Taxatio",
+                "duration": "1 Years (2 Semesters)",
+                "eligibility": "Graduation + 3 Year Experience",
+                "description": ""
+              },
+              {
+                "id": "data-analytics",
+                "name": "Data Analytics",
+                "duration": "1 Years (2 Semesters)",
+                "eligibility": "Graduation + 3 Year Experience",
+                "description": ""
+              },
+              {
+                "id": "pharamaceutical-sciences",
+                "name": "Pharamaceutical Sciences",
+                "duration": "1 Years (2 Semesters)",
+                "eligibility": "Graduation + 3 Year Experience",
+                "description": ""
+              },
+              {
+                "id": "digital-marketing-and-e-commerce",
+                "name": "Digital Marketing & E-Commerce",
+                "duration": "1 Years (2 Semesters)",
+                "eligibility": "Graduation + 3 Year Experience",
+                "description": ""
+              }
+            ]
+          },
+          {
+            "id": "mba-dual",
+            "name": "MBA Dual",
+            "description": "",
+            "category": [
+              {
+                "id": "marketing",
+                "name": "Marketing",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "Graduation",
+                "description": ""
+              },
+              {
+                "id": "finance",
+                "name": "Finance",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "Graduation",
+                "description": ""
+              },
+              {
+                "id": "hr",
+                "name": "HR",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "Graduation",
+                "description": ""
+              },
+              {
+                "id": "ib",
+                "name": "IB",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "Graduation",
+                "description": ""
+              },
+              {
+                "id": "insurance",
+                "name": "Insurance",
+                "duration": "3 Years (6 Semesters)",
+                "eligibility": "Graduation",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "health-science",
+        "name": "Health Science",
+        "description": "",
+        "category": [
+          {
+            "id": "m-sc",
+            "name": "M.Sc",
+            "description": "",
+            "category": [
+              {
+                "id": "radiotherapy",
+                "name": "Radiotherapy",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation with Relevant Stream",
+                "description": ""
+              },
+              {
+                "id": "radiology",
+                "name": "Radiology",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation with Relevant Stream",
+                "description": ""
+              },
+              {
+                "id": "imaging-technology",
+                "name": "Imaging Technology",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation with Relevant Stream",
+                "description": ""
+              },
+              {
+                "id": "ot-anesthesia-technology",
+                "name": "OT & Anesthesia Technology",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation with Relevant Stream",
+                "description": ""
+              },
+              {
+                "id": "optometry",
+                "name": "Optometry",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation with Relevant Stream",
+                "description": ""
+              },
+              {
+                "id": "medical-lab-technology",
+                "name": "Medical Lab Technology",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation with Relevant Stream",
+                "description": ""
+              },
+              {
+                "id": "emergency-critical-care",
+                "name": "Emergency & Critical Care",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation with Relevant Stream",
+                "description": ""
+              },
+              {
+                "id": "cardiovascular-technology",
+                "name": "Cardiovascular Technology",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation with Relevant Stream",
+                "description": ""
+              },
+              {
+                "id": "dialysis-therapy",
+                "name": "Dialysis Therapy",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation with Relevant Stream",
+                "description": ""
+              },
+              {
+                "id": "dental-assistant",
+                "name": "Dental Assistant",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation with Relevant Stream",
+                "description": ""
+              },
+              {
+                "id": "physician-assistant",
+                "name": "Physician Assistant",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation with Relevant Stream",
+                "description": ""
+              },
+              {
+                "id": "mha",
+                "name": "Master in Hospital Administration (MHA)",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation",
+                "description": ""
+              },
+              {
+                "id": "mph",
+                "name": "Masters in Public Health (MPH)",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "BPH",
+                "description": ""
+              },
+              {
+                "id": "moptom",
+                "name": "M.Optom (Master of Optometry)",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation with Relevant Stream",
+                "description": ""
+              },
+              {
+                "id": "msc-ott-anaesthesia",
+                "name": "M.Sc. (OTT & Anaesthesia)",
+                "duration": "2 Years",
+                "eligibility": "Graduation with Relevant Stream",
+                "description": ""
+              },
+              {
+                "id": "msc-radiology-imaging-technology",
+                "name": "M.Sc. (Radiology and Imaging Technology)",
+                "duration": "2 Years",
+                "eligibility": "Graduation with Relevant Stream",
+                "description": ""
+              },
+              {
+                "id": "msc-medical-microbiology",
+                "name": "M.Sc. (Medical Microbiology)",
+                "duration": "2 Years",
+                "eligibility": "Graduation with Relevant Stream",
+                "description": ""
+              },
+              {
+                "id": "msc-osteopathy",
+                "name": "M.Sc. (Osteopathy)",
+                "duration": "2 Years",
+                "eligibility": "Graduation with Relevant Stream",
+                "description": ""
+              },
+              {
+                "id": "master-public-health",
+                "name": "Master of Public Health",
+                "duration": "2 Years",
+                "eligibility": "Graduation with Relevant Stream",
+                "description": ""
+              },
+              {
+                "id": "mpt",
+                "name": "MPT",
+                "duration": "2 Years",
+                "eligibility": "Graduation with Relevant Stream",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pharmacy",
+        "name": "Pharmacy",
+        "description": "",
+        "category": [
+          {
+            "id": "m-sc",
+            "name": "M.Sc",
+            "description": "",
+            "category": [
+              {
+                "id": "pharmaceutical-sciences",
+                "name": "Pharmaceutical Sciences",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "B. Pharmacy",
+                "description": ""
+              }
+            ]
+          },
+          {
+            "id": "m-pharma",
+            "name": "M.Pharma",
+            "description": "",
+            "category": [
+              {
+                "id": "allopathy",
+                "name": "Allopathy",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation with Relevant Subject",
+                "description": ""
+              },
+              {
+                "id": "pharmaceutical-chemistry",
+                "name": "Pharmaceutical Chemistry",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation with Relevant Subject",
+                "description": ""
+              },
+              {
+                "id": "pharmacenticals",
+                "name": "Pharmacenticals",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation with Relevant Subject",
+                "description": ""
+              },
+              {
+                "id": "pharmacology",
+                "name": "Pharmacology",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation with Relevant Subject",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "agriculture",
+        "name": "Agriculture",
+        "description": "",
+        "category": [
+          {
+            "id": "m-sc-agriculture",
+            "name": "M.Sc. Agriculture",
+            "description": "",
+            "category": [
+              {
+                "id": "agronomy",
+                "name": "Agronomy",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation with Relevant Stream",
+                "description": ""
+              },
+              {
+                "id": "horticulture",
+                "name": "Horticulture",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation with Relevant Stream",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "applied-science",
+        "name": "Applied Science",
+        "description": "",
+        "category": [
+          {
+            "id": "m-sc",
+            "name": "M.Sc",
+            "description": "",
+            "category": [
+              {
+                "id": "statistics",
+                "name": "Statistics",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation with Relevant Subject",
+                "description": ""
+              },
+              {
+                "id": "geology",
+                "name": "Geology",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation with Relevant Subject",
+                "description": ""
+              },
+              {
+                "id": "home-science",
+                "name": "Home Science",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation with Relevant Subject",
+                "description": ""
+              },
+              {
+                "id": "biochemistry",
+                "name": "Biochemistry",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation with Relevant Subject",
+                "description": ""
+              },
+              {
+                "id": "biotechnology",
+                "name": "Biotechnology",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation with Relevant Subject",
+                "description": ""
+              },
+              {
+                "id": "forensic-science",
+                "name": "Forensic Science",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation with Relevant Subject",
+                "description": ""
+              },
+              {
+                "id": "environmental-science",
+                "name": "Environmental Science",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation with Relevant Subject",
+                "description": ""
+              },
+              {
+                "id": "food-technology",
+                "name": "Food Technology",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation with Relevant Subject",
+                "description": ""
+              },
+              {
+                "id": "mathematics",
+                "name": "Mathematics",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation with Relevant Subject",
+                "description": ""
+              },
+              {
+                "id": "physics",
+                "name": "Physics",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation with Relevant Subject",
+                "description": ""
+              },
+              {
+                "id": "botany",
+                "name": "Botany",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation with Relevant Subject",
+                "description": ""
+              },
+              {
+                "id": "chemistry",
+                "name": "Chemistry",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation with Relevant Subject",
+                "description": ""
+              },
+              {
+                "id": "microbiology",
+                "name": "Microbiology",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation with Relevant Subject",
+                "description": ""
+              },
+              {
+                "id": "zoology",
+                "name": "Zoology",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation with Relevant Subject",
+                "description": ""
+              },
+              {
+                "id": "master-of-library-sciences",
+                "name": "Master of Library Sciences",
+                "duration": "1 Years",
+                "eligibility": "Graduation with Relevant Subject",
+                "description": ""
+              },
+              {
+                "id": "medical-laboratory-technology",
+                "name": "Medical Laboratory Technology",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation with Relevant Subject",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "social-science-and-humanities",
+        "name": "Social Science and Humanities",
+        "description": "",
+        "category": [
+          {
+            "id": "ma",
+            "name": "MA",
+            "description": "",
+            "category": [
+              {
+                "id": "punjabi",
+                "name": "Punjabi",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation",
+                "description": ""
+              },
+              {
+                "id": "sanskrit",
+                "name": "Sanskrit",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation",
+                "description": ""
+              },
+              {
+                "id": "yoga",
+                "name": "Yoga",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation",
+                "description": ""
+              },
+              {
+                "id": "physical-education",
+                "name": "Physical Education",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation",
+                "description": ""
+              },
+              {
+                "id": "health-education-and-sports",
+                "name": "Health Education and Sports",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation",
+                "description": ""
+              },
+              {
+                "id": "geography",
+                "name": "Geography",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation",
+                "description": ""
+              },
+              {
+                "id": "psychology",
+                "name": "Psychology",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation",
+                "description": ""
+              },
+              {
+                "id": "public-administration",
+                "name": "Public Administration",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation",
+                "description": ""
+              },
+              {
+                "id": "political-science",
+                "name": "Political Science",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation",
+                "description": ""
+              },
+              {
+                "id": "economics",
+                "name": "Economics",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation",
+                "description": ""
+              },
+              {
+                "id": "english",
+                "name": "English",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation",
+                "description": ""
+              },
+              {
+                "id": "hindi",
+                "name": "Hindi",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation",
+                "description": ""
+              },
+              {
+                "id": "history",
+                "name": "History",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation",
+                "description": ""
+              },
+              {
+                "id": "music",
+                "name": "Music",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation",
+                "description": ""
+              },
+              {
+                "id": "sociology",
+                "name": "Sociology",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation",
+                "description": ""
+              },
+              {
+                "id": "education",
+                "name": "Education",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation",
+                "description": ""
+              },
+              {
+                "id": "urdu",
+                "name": "Urdu",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation",
+                "description": ""
+              },
+              {
+                "id": "master-of-social-work-msw",
+                "name": "Master of Social Work (MSW)",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation",
+                "description": ""
+              },
+              {
+                "id": "bachelor-of-physical-education-and-sports",
+                "name": "Bachelor of Physical Education and Sports",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation",
+                "description": ""
+              },
+              {
+                "id": "post-graduate-diploma-in-translation-english",
+                "name": "Post Graduate Diploma in Translation (English)",
+                "duration": "1 Years (2 Semesters)",
+                "eligibility": "Graduation",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fine-arts",
+        "name": "Fine Arts",
+        "description": "",
+        "category": [
+          {
+            "id": "m-fine-arts",
+            "name": "M. Fine Arts",
+            "description": "",
+            "category": [
+              {
+                "id": "painting",
+                "name": "Painting",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation with Relevant Stream",
+                "description": ""
+              },
+              {
+                "id": "sculpture",
+                "name": "Sculpture",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation with Relevant Stream",
+                "description": ""
+              },
+              {
+                "id": "graphic-and-applied",
+                "name": "Graphic & Applied",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation with Relevant Stream",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "legal-studies",
+        "name": "Legal Studies",
+        "description": "",
+        "category": [
+          {
+            "id": "llm",
+            "name": "LL.M",
+            "description": "",
+            "category": [
+              {
+                "id": "llm",
+                "name": "LL.M",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "LL.B",
+                "description": ""
+              },
+              {
+                "id": "llm",
+                "name": "LL.M",
+                "duration": "1 Year",
+                "eligibility": "",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hospitality-management",
+        "name": "Hospitality Management",
+        "description": "",
+        "category": [
+          {
+            "id": "m-sc",
+            "name": "M.Sc",
+            "description": "",
+            "category": [
+              {
+                "id": "hotel-management",
+                "name": "Hotel Management",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "journalism-and-mass-communication",
+        "name": "Journalism & Mass Communication",
+        "description": "",
+        "category": [
+          {
+            "id": "ma",
+            "name": "MA",
+            "description": "",
+            "category": [
+              {
+                "id": "journalism-and-mass-communication",
+                "name": "Journalism & Mass Communication",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation with Relevant Stream",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "teaching-education",
+        "name": "Teaching Education",
+        "description": "",
+        "category": [
+          {
+            "id": "m-ed",
+            "name": "M.Ed",
+            "description": "",
+            "category": [
+              {
+                "id": "master-of-education)",
+                "name": "M.Ed. (Master of Education)",
+                "duration": "2 Years",
+                "eligibility": "",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fashion-designing",
+        "name": "Fashion Designing",
+        "description": "",
+        "category": [
+          {
+            "id": "m-sc",
+            "name": "M.Sc",
+            "description": "",
+            "category": [
+              {
+                "id": "fashion-designing",
+                "name": "Fashion Designing",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation with Relevent Subject",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "computer-science",
+        "name": "Computer Science",
+        "description": "",
+        "category": [
+          {
+            "id": "m-sc",
+            "name": "M.Sc",
+            "description": "",
+            "category": [
+              {
+                "id": "computer-science",
+                "name": "Computer Science",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation",
+                "description": ""
+              },
+              {
+                "id": "it",
+                "name": "IT",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation",
+                "description": ""
+              },
+              {
+                "id": "textile-design",
+                "name": "Textile Design",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "Graduation",
+                "description": ""
+              }
+            ]
+          },
+          {
+            "id": "mca",
+            "name": "MCA",
+            "description": "",
+            "category": [
+              {
+                "id": "mca",
+                "name": "MCA",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "BCA/PGDCA",
+                "description": ""
+              },
+              {
+                "id": "master-of-computer-application",
+                "name": "Master of Computer Application",
+                "duration": "2 Years (4 Semesters)",
+                "eligibility": "",
+                "description": ""
+              }
+            ]
+          },
+          {
+            "id": "mca",
+            "name": "MCA",
+            "description": "",
+            "category": [
+              {
+                "id": "mca-leet",
+                "name": "MCA (LEET)",
+                "duration": "1 Year (2 Semesters)",
+                "eligibility": "M.Sc. - IT,CS",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ph.d",
+    "name": "Ph.D",
+    "description": "",
+    "category": [{
+      "id": "phd-courses",
+      "name": "Ph.D. Courses",
+      "description": "",
+      "category": [
+        {
+          "id": "phd-in-science",
+          "name": "Ph.D. in Science",
+          "description": "",
+          "category": [
+            {
+              "id": "phd-in-physics",
+              "name": "Ph.D. in Physics",
+              "duration": "5 Years",
+              "eligibility": "Master's in Physics or related field",
+              "description": ""
+            },
+            {
+              "id": "phd-in-chemistry",
+              "name": "Ph.D. in Chemistry",
+              "duration": "5 Years",
+              "eligibility": "Master's in Chemistry or related field",
+              "description": ""
+            },
+            {
+              "id": "phd-in-biology",
+              "name": "Ph.D. in Biology",
+              "duration": "5 Years",
+              "eligibility": "Master's in Biology or related field",
+              "description": ""
+            },
+            {
+              "id": "phd-in-mathematics",
+              "name": "Ph.D. in Mathematics",
+              "duration": "5 Years",
+              "eligibility": "Master's in Mathematics or related field",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "id": "phd-in-engineering",
+          "name": "Ph.D. in Engineering",
+          "description": "",
+          "category": [
+            {
+              "id": "phd-in-computer-science",
+              "name": "Ph.D. in Computer Science",
+              "duration": "5 Years",
+              "eligibility": "Master's in Computer Science or related field",
+              "description": ""
+            },
+            {
+              "id": "phd-in-electrical-engineering",
+              "name": "Ph.D. in Electrical Engineering",
+              "duration": "5 Years",
+              "eligibility": "Master's in Electrical Engineering or related field",
+              "description": ""
+            },
+            {
+              "id": "phd-in-mechanical-engineering",
+              "name": "Ph.D. in Mechanical Engineering",
+              "duration": "5 Years",
+              "eligibility": "Master's in Mechanical Engineering or related field",
+              "description": ""
+            },
+            {
+              "id": "phd-in-civil-engineering",
+              "name": "Ph.D. in Civil Engineering",
+              "duration": "5 Years",
+              "eligibility": "Master's in Civil Engineering or related field",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "id": "phd-in-social-sciences",
+          "name": "Ph.D. in Social Sciences",
+          "description": "",
+          "category": [
+            {
+              "id": "phd-in-psychology",
+              "name": "Ph.D. in Psychology",
+              "duration": "5 Years",
+              "eligibility": "Master's in Psychology or related field",
+              "description": ""
+            },
+            {
+              "id": "phd-in-sociology",
+              "name": "Ph.D. in Sociology",
+              "duration": "5 Years",
+              "eligibility": "Master's in Sociology or related field",
+              "description": ""
+            },
+            {
+              "id": "phd-in-political-science",
+              "name": "Ph.D. in Political Science",
+              "duration": "5 Years",
+              "eligibility": "Master's in Political Science or related field",
+              "description": ""
+            },
+            {
+              "id": "phd-in-economics",
+              "name": "Ph.D. in Economics",
+              "duration": "5 Years",
+              "eligibility": "Master's in Economics or related field",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "id": "phd-in-humanities",
+          "name": "Ph.D. in Humanities",
+          "description": "",
+          "category": [
+            {
+              "id": "phd-in-history",
+              "name": "Ph.D. in History",
+              "duration": "5 Years",
+              "eligibility": "Master's in History or related field",
+              "description": ""
+            },
+            {
+              "id": "phd-in-philosophy",
+              "name": "Ph.D. in Philosophy",
+              "duration": "5 Years",
+              "eligibility": "Master's in Philosophy or related field",
+              "description": ""
+            },
+            {
+              "id": "phd-in-literature",
+              "name": "Ph.D. in Literature",
+              "duration": "5 Years",
+              "eligibility": "Master's in Literature or related field",
+              "description": ""
+            },
+            {
+              "id": "phd-in-linguistics",
+              "name": "Ph.D. in Linguistics",
+              "duration": "5 Years",
+              "eligibility": "Master's in Linguistics or related field",
+              "description": ""
+            }
+          ]
+        }
+      ]
+    }
+    ]},
+  {
+    "id": "certificate",
+    "name": "Certificate",
+    "description": "",
+    "category": [
+      {
+        "id": "electronics-and-hardware",
+        "name": "Electronics and Hardware",
+        "description": "",
+        "category": [
+          {
+            "id": "certificate-in-electronics-and-hardware",
+            "name": "Certificate in Electronics and Hardware",
+            "description": "",
+            "category": [
+              {
+                "id": "certificate-for-tv-repair-technician",
+                "name": "Certificate for TV Repair Technician (CTRT)",
+                "duration": "6 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-motor-and-transformer-winding",
+                "name": "Certificate in Motor and Transformer Winding (CMTW)",
+                "duration": "6 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-computer-hardware-engineering",
+                "name": "Certificate in Computer Hardware Engineering (CCHE)",
+                "duration": "6 Months",
+                "eligibility": "12th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-advance-networking",
+                "name": "Certificate in Advance Networking (CAN)",
+                "duration": "6 Months",
+                "eligibility": "12th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-networking-technology",
+                "name": "Certificate in Networking Technology (CNT)",
+                "duration": "3 Months",
+                "eligibility": "12th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-for-dth-installer-and-service-technology",
+                "name": "Certificate for DTH Installer and Service Technology (CDIST)",
+                "duration": "3 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-laptop-repairing",
+                "name": "Certificate in Laptop Repairing (CLR)",
+                "duration": "3 Months",
+                "eligibility": "12th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-assembly-of-pc",
+                "name": "Certificate in Assembly of PC (CAP)",
+                "duration": "3 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "food-processing",
+        "name": "Food Processing",
+        "description": "",
+        "category": [
+          {
+            "id": "certificate-in-food-processing",
+            "name": "Certificate in Food Processing",
+            "description": "",
+            "category": [
+              {
+                "id": "certificate-course-in-food-processing",
+                "name": "Certificate Course in Food Processing (CCFP)",
+                "duration": "3 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-course-in-food-preservation",
+                "name": "Certificate Course in Food Preservation (CCFOOD)",
+                "duration": "45 Days",
+                "eligibility": "5th Pass",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "beauty-and-wellness",
+        "name": "Beauty and Wellness",
+        "description": "",
+        "category": [
+          {
+            "id": "certificate-in-beauty-and-wellness",
+            "name": "Certificate in Beauty and Wellness",
+            "description": "",
+            "category": [
+              {
+                "id": "certificate-for-beauty-therapist",
+                "name": "Certificate for Beauty Therapist (CBT)",
+                "duration": "6 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-for-hair-stylist",
+                "name": "Certificate for Hair Stylist (CHS)",
+                "duration": "4 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-for-assistant-spa-therapist",
+                "name": "Certificate for Assistant SPA Therapist (CAST)",
+                "duration": "4 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-for-yoga-instructor",
+                "name": "Certificate for Yoga Instructor (CYI)",
+                "duration": "3 Months",
+                "eligibility": "12th Pass",
+                "description": ""
+              },
+              {
+                "id": "beauty-and-wellness",
+                "name": "Beauty and Wellness",
+                "duration": "1 Year",
+                "eligibility": "10th Pass",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "it",
+        "name": "IT",
+        "description": "",
+        "category": [
+          {
+            "id": "certificate-in-it",
+            "name": "Certificate in IT",
+            "description": "",
+            "category": [
+              {
+                "id": "certificate-in-computer-applications",
+                "name": "Certificate in Computer Applications (CCA)",
+                "duration": "6 Months",
+                "eligibility": "10th",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-web-technology",
+                "name": "Certificate in Web Technology (CWT)",
+                "duration": "6 Months",
+                "eligibility": "12th",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-multimedia-and-animation-designing",
+                "name": "Certificate in Multimedia and Animation Designing (CMAD)",
+                "duration": "6 Months",
+                "eligibility": "12th",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-java-programming",
+                "name": "Certificate in Java Programming (CJP)",
+                "duration": "6 Months",
+                "eligibility": "12th",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-computerized-word-processing-ccwp",
+                "name": "Certificate in Computerized Word Processing (Hindi/English) (CCWP)",
+                "duration": "4 Months",
+                "eligibility": "8th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-web-designing-using-php-mysql",
+                "name": "Certificate in Web Designing using PHP & MySQL (CWDPM)",
+                "duration": "4 Months",
+                "eligibility": "12th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-for-bpo-call-center",
+                "name": "Certificate for BPO & Call Center (CBCC)",
+                "duration": "4 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-data-analysis",
+                "name": "Certificate in Data Analysis (CDA)",
+                "duration": "4 Months",
+                "eligibility": "Graduate",
+                "description": ""
+              },
+              {
+                "id": "advance-certificate-in-digital-marketing",
+                "name": "Advance Certificate in Digital Marketing (ACDM)",
+                "duration": "4 Months",
+                "eligibility": "12th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-search-engine-optimization",
+                "name": "Certificate in Search Engine Optimization (SEO)",
+                "duration": "4 Months",
+                "eligibility": "12th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-social-media-marketing",
+                "name": "Certificate in Social Media Marketing (CSMM)",
+                "duration": "4 Months",
+                "eligibility": "12th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-content-marketing",
+                "name": "Certificate in Content Marketing (CCM)",
+                "duration": "4 Months",
+                "eligibility": "12th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-affiliate-marketing",
+                "name": "Certificate in Affiliate Marketing (CAM)",
+                "duration": "4 Months",
+                "eligibility": "12th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-e-commerce",
+                "name": "Certificate in E-Commerce (CEC)",
+                "duration": "4 Months",
+                "eligibility": "12th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-web-analytics",
+                "name": "Certificate in Web Analytics",
+                "duration": "4 Months",
+                "eligibility": "12th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-search-engine-marketing",
+                "name": "Certificate in Search Engine Marketing (SEM)",
+                "duration": "4 Months",
+                "eligibility": "12th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-email-marketing",
+                "name": "Certificate in Email Marketing (CEM)",
+                "duration": "4 Months",
+                "eligibility": "12th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-c-plus-plus",
+                "name": "Certificate in C++ (CC++)",
+                "duration": "3 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-computer-concepts",
+                "name": "Certificate in Computer Concepts (CCC)",
+                "duration": "3 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-application-software",
+                "name": "Certificate in Application Software (CAS)",
+                "duration": "3 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-for-data-entry-operator",
+                "name": "Certificate for Data Entry Operator (CDEO)",
+                "duration": "3 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-desktop-publishing",
+                "name": "Certificate in Desktop Publishing (CDTP)",
+                "duration": "3 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-itil",
+                "name": "Certificate in ITIL (CITIL)",
+                "duration": "1 Months",
+                "eligibility": "Graduate",
+                "description": ""
+              },
+              {
+                "id": "computer-fundamentals",
+                "name": "Computer Fundamentals",
+                "duration": "1/2 Year",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "digital-marketing",
+                "name": "Digital Marketing",
+                "duration": "1/2 Year",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "website-designing",
+                "name": "Website Designing",
+                "duration": "1/2 Year",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "graphic-designing",
+                "name": "Graphic Designing",
+                "duration": "1/2 Year",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "cloud-computing",
+                "name": "Cloud Computing",
+                "duration": "1/2 Year",
+                "eligibility": "10th Pass",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "construction",
+        "name": "Construction",
+        "description": "",
+        "category": [
+          {
+            "id": "certificate-in-construction",
+            "name": "Certificate in Construction",
+            "description": "",
+            "category": [
+              {
+                "id": "certificate-in-fire-safety-and-security-management",
+                "name": "Certificate in Fire Safety and Security Management (CFSSM)",
+                "duration": "6 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-operator-and-maintenance-of-earth-moving-equipment",
+                "name": "Certificate in Operator and Maintenance of Earth Moving Equipment (COMEE)",
+                "duration": "4 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-for-land-surveyor",
+                "name": "Certificate for Land Surveyor (CLS)",
+                "duration": "3 Months",
+                "eligibility": "10th pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-for-jcb-operator",
+                "name": "Certificate for JCB Operator (CJO)",
+                "duration": "3 Months",
+                "eligibility": "8th pass",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "capital-good",
+        "name": "Capital Good",
+        "description": "",
+        "category": [
+          {
+            "id": "certificate-in-capital-good",
+            "name": "Certificate in Capital Good",
+            "description": "",
+            "category": [
+              {
+                "id": "certificate-in-welding-technology",
+                "name": "Certificate in Welding Technology (CWELT)",
+                "duration": "4 Months",
+                "eligibility": "8th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-hi-tech-welding-technology",
+                "name": "Certificate in Hi-Tech Welding Technology (CHTWT)",
+                "duration": "3 Months",
+                "eligibility": "8th Pass",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "banking-financial-services-insurance",
+        "name": "Banking, Financial Services and Insurance",
+        "description": "",
+        "category": [
+          {
+            "id": "certificate-in-banking-financial-services-insurance",
+            "name": "Certificate in Banking, Financial Services and Insurance",
+            "description": "",
+            "category": [
+              {
+                "id": "certificate-in-retail-banking-operations",
+                "name": "Certificate in Retail Banking Operations (CRBO)",
+                "duration": "6 Months",
+                "eligibility": "12th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-banking-asset-operations",
+                "name": "Certificate in Banking Asset Operations (CBAO)",
+                "duration": "6 Months",
+                "eligibility": "12th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-rural-banking-operations-and-sales",
+                "name": "Certificate in Rural Banking Operations and Sales (CRBOS)",
+                "duration": "6 Months",
+                "eligibility": "12th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-for-debts-recovery-agents",
+                "name": "Certificate for Debts Recovery Agents (CDRA)",
+                "duration": "3 Months",
+                "eligibility": "12th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-financial-services-sales",
+                "name": "Certificate in Financial Services Sales (CFSS)",
+                "duration": "6 Months",
+                "eligibility": "12th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-for-micro-finance-professionals",
+                "name": "Certificate For Micro Finance Professionals (CMFP)",
+                "duration": "3 Months",
+                "eligibility": "12th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-non-banking-finance-company-operations",
+                "name": "Certificate in Non-Banking Finance Company Operations (CNBFCO)",
+                "duration": "3 Months",
+                "eligibility": "12th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-micro-and-rural-insurance",
+                "name": "Certificate in Micro and Rural Insurance (CMRI)",
+                "duration": "6 Months",
+                "eligibility": "12th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-insurance-marketing-and-sales",
+                "name": "Certificate in Insurance Marketing and Sales (CIMS)",
+                "duration": "3 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-computerised-financial-accounting",
+                "name": "Certificate in Computerised Financial Accounting (CCFA)",
+                "duration": "3 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "agriculture",
+        "name": "Agriculture",
+        "description": "",
+        "category": [
+          {
+            "id": "certificate-in-agriculture",
+            "name": "Certificate in Agriculture",
+            "description": "",
+            "category": [
+              {
+                "id": "certificate-in-horticulture-nursery-management",
+                "name": "Certificate in Horticulture Nursery Management (CHNM)",
+                "duration": "6 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-operation-and-maintenance-of-tractor",
+                "name": "Certificate in Operation and Maintenance of Tractor (COMT)",
+                "duration": "3 Months",
+                "eligibility": "8th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-mushroom-production-technology",
+                "name": "Certificate in Mushroom Production Technology (CMPT)",
+                "duration": "2 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "short-term-certificate-programmes",
+        "name": "Short term Certificate Programmes",
+        "description": "",
+        "category": [
+          {
+            "id": "certificate-in-short-term-certificate-programmes",
+            "name": "Certificate in Short Term Certificate Programmes",
+            "description": "",
+            "category": [
+              {
+                "id": "certificate-course-in-computer-programming",
+                "name": "Certificate course in Computer Programming (CCCP)",
+                "duration": "4 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-course-in-rdbms-technology",
+                "name": "Certificate course in RDBMS Technology (CCRDBMS)",
+                "duration": "4 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-course-in-visual-basic",
+                "name": "Certificate Course in Visual Basic (CCVB)",
+                "duration": "2 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-course-in-html-web-page-design",
+                "name": "Certificate Course in HTML & Web Page Design (CCHTML)",
+                "duration": "2 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-course-in-visual-c++-oops",
+                "name": "Certificate Course in Visual C++ & OOPS (CCVCO)",
+                "duration": "3 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-course-in-windows",
+                "name": "Certificate Course in Windows (CCWIN)",
+                "duration": "1 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-course-in-ms-office",
+                "name": "Certificate Course in MS-OFFICE (CCMSO)",
+                "duration": "2 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-courses-in-unix-operating-system",
+                "name": "Certificate Courses in Unix Operating System (CCUNIX)",
+                "duration": "2 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-courses-in-ms-word",
+                "name": "Certificate courses in MS-Word (CCWORD)",
+                "duration": "1 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-course-in-power-point",
+                "name": "Certificate Course in Power Point (CCPP)",
+                "duration": "1 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-courses-in-ms-excel",
+                "name": "Certificate Courses in MS-Excel (CC EXCEL)",
+                "duration": "1 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-course-in-ms-access",
+                "name": "Certificate Course in MS-Access (CC ACCESS)",
+                "duration": "1 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-courses-in-basic-programming",
+                "name": "Certificate Courses in Basic Programming (CCBASIC)",
+                "duration": "2 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-course-in-c-programming",
+                "name": "Certificate Course in C Programming (CCCPRO)",
+                "duration": "2 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-course-in-internet",
+                "name": "Certificate course in Internet (CCINTNET)",
+                "duration": "1 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-course-in-linux",
+                "name": "Certificate Course in Linux (CCLINUX)",
+                "duration": "4 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-course-in-front-page",
+                "name": "Certificate Course in Front Page (CCFP)",
+                "duration": "2 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-course-in-data-structure-with-c++",
+                "name": "Certificate Course in Data Structure with C++ (CCDSC)",
+                "duration": "2 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-courses-in-auto-cad",
+                "name": "Certificate Courses in Auto CAD (CAUTOCAD)",
+                "duration": "2 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-course-in-corel-draw",
+                "name": "Certificate Course in Corel Draw (CCOREL)",
+                "duration": "2 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-course-in-client-server-technology",
+                "name": "Certificate Course in Client Server Technology",
+                "duration": "4 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-course-in-network-system-administration",
+                "name": "Certificate course in Network System Administration (CCNSA)",
+                "duration": "4 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-inverter-and-ups-repairing",
+                "name": "Certificate in Inverter and UPS Repairing (CIUPSR)",
+                "duration": "3 Months",
+                "eligibility": "12th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-course-in-scanner-printer-maintenance",
+                "name": "Certificate Course in Scanner & Printer Maintenance (CCSPM)",
+                "duration": "2 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-course-in-monitor-smps-repairing",
+                "name": "Certificate course in monitor & SMPS Repairing (CCMSMPS)",
+                "duration": "2 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-course-in-ups-cvt-maintenance",
+                "name": "Certificate Course in UPS & CVT Maintenance (CCUPSCVT)",
+                "duration": "1 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-course-in-basic-electrical-training-house-wiring",
+                "name": "Certificate Course in Basic Electrical Training and House wiring",
+                "duration": "45 Days",
+                "eligibility": "5th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-course-in-basic-cutting-tailoring",
+                "name": "Certificate Course in Basic Cutting and Tailoring (CCBCT)",
+                "duration": "45 Days",
+                "eligibility": "5th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-couirse-in-basic-of-beauty-and-hair-dressing",
+                "name": "Certificate Couirse in Basic of Beauty and Hair Dressing (CCBHD)",
+                "duration": "45 Days",
+                "eligibility": "5th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-welding-technology",
+                "name": "Certificate in Welding Technology (CWELT)",
+                "duration": "4 Months",
+                "eligibility": "8th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-hi-tech-welding-technology",
+                "name": "Certificate in Hi-Tech Welding Technology (CHTWT)",
+                "duration": "3 Months",
+                "eligibility": "8th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-courses-in-diesel-engine-servicing",
+                "name": "Certificate Courses in Diesel Engine Servicing (CCDES)",
+                "duration": "45 days",
+                "eligibility": "5th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-for-bedside-assistant",
+                "name": "Certificate for Bedside Assistant (CBA)",
+                "duration": "3 Months",
+                "eligibility": "8th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-for-general-duty-assistant",
+                "name": "Certificate for General Duty Assistant (CGDA)",
+                "duration": "3 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-course-in-citizen-journalism-and-citizen-media",
+                "name": "Certificate Course in Citizen Journalism and Citizen Media (CCCJCM)",
+                "duration": "3 Months",
+                "eligibility": "Graduation",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "retail",
+        "name": "Retail",
+        "description": "",
+        "category": [
+          {
+            "id": "certificate-retail",
+            "name": "Certificate in Retail",
+            "description": "Certificate in Retail",
+            "category": [
+              {
+                "id": "certificate-for-trainee-associate",
+                "name": "Certificate for Trainee Associate (CTA)",
+                "duration": "4 Months",
+                "eligibility": "12th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-for-sales-associate",
+                "name": "Certificate for Sales Associate (CSA)",
+                "duration": "4 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-for-operation-assistant",
+                "name": "Certificate for Operation Assistant (CSOA)",
+                "duration": "3 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-for-cashier",
+                "name": "Certificate for Cashier (CFC)",
+                "duration": "3 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "management",
+        "name": "Management",
+        "description": "",
+        "category": [
+          {
+            "id": "certificate-management",
+            "name": "Certificate in Management",
+            "description": "",
+            "category": [
+              {
+                "id": "certificate-in-spoken-english",
+                "name": "Certificate in Spoken English (CSE)",
+                "duration": "3 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-personality-development",
+                "name": "Certificate in Personality Development",
+                "duration": "1 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-hotel-management",
+                "name": "Certificate in Hotel Management",
+                "duration": "1 Years (2 Semesters)",
+                "eligibility": "10th Pass",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tourism-and-hospitality",
+        "name": "Tourism and Hospitality",
+        "description": "",
+        "category": [
+          {
+            "id": "certificate-tourism-and-hospitality",
+            "name": "Certificate in Tourism and Hospitality",
+            "description": "",
+            "category": [
+              {
+                "id": "certificate-for-food-and-beverage-service-steward",
+                "name": "Certificate for Food and Beverage Service- Steward (CFBSS)",
+                "duration": "6 Months",
+                "eligibility": "12th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-for-food-and-beverage-service-trainee",
+                "name": "Certificate for Food and Beverage Service- Trainee (CFBST)",
+                "duration": "6 Months",
+                "eligibility": "12th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-for-front-office-associate",
+                "name": "Certificate for Front Office Associate (CFOA)",
+                "duration": "4 Months",
+                "eligibility": "12th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-for-travel-consultant",
+                "name": "Certificate for Travel Consultant (CTC)",
+                "duration": "4 Months",
+                "eligibility": "12th Pass",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "apparel-made-ups-and-home-furnishing",
+        "name": "Apparel, Made-ups & Home Furnishing",
+        "description": "",
+        "category": [
+          {
+            "id": "certificate-in-home-furnishing",
+            "name": "Certificate in Home Furnishing",
+            "description": "",
+            "category": [
+              {
+                "id": "certificate-in-cutting-and-tailoring",
+                "name": "Certificate in Cutting & Tailoring (CCT)",
+                "duration": "6 Months",
+                "eligibility": "8th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-for-sewing-machine-operator",
+                "name": "Certificate for Sewing Machine Operator (CSMO)",
+                "duration": "3 Months",
+                "eligibility": "8th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-for-fashion-designer",
+                "name": "Certificate for Fashion Designer (CFFD)",
+                "duration": "3 Months",
+                "eligibility": "12th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-for-self-employed-tailor",
+                "name": "Certificate for Self Employed Tailor (CSET)",
+                "duration": "3 Months",
+                "eligibility": "8th Pass",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "green-jobs",
+        "name": "Green Jobs",
+        "description": "",
+        "category": [
+          {
+            "id": "certificate-in-green-jobs",
+            "name": "Certificate in Green Jobs",
+            "description": "",
+            "category": [
+              {
+                "id": "certificate-for-solar-panel-installation-technician",
+                "name": "Certificate for Solar Panel Installation Technician (CSPIT)",
+                "duration": "3 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "healthcare",
+        "name": "Healthcare",
+        "description": "",
+        "category": [
+          {
+            "id": "certificate-in-healthcare",
+            "name": "Certificate in Healthcare",
+            "description": "",
+            "category": [
+              {
+                "id": "certificate-for-medical-dresser",
+                "name": "Certificate for Medical Dresser (CMD)",
+                "duration": "12 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "media",
+        "name": "Media",
+        "description": "",
+        "category": [
+          {
+            "id": "certificate-in-media",
+            "name": "Certificate in Media",
+            "description": "",
+            "category": [
+              {
+                "id": "certificate-in-video-production",
+                "name": "Certificate in Video Production (CVP)",
+                "duration": "6 Months",
+                "eligibility": "12th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-radio-programme-production",
+                "name": "Certificate in Radio Programme Production (CRPP)",
+                "duration": "6 Months",
+                "eligibility": "12th Pass",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "telecom",
+        "name": "Telecom",
+        "description": "",
+        "category": [
+          {
+            "id": "certificate-in-telecom",
+            "name": "Certificate in Telecom",
+            "description": "",
+            "category": [
+              {
+                "id": "certificate-for-optical-fibre-splicer",
+                "name": "Certificate for Optical Fibre Splicer (COFS)",
+                "duration": "3 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-for-optical-fibre-technician",
+                "name": "Certificate for Optical Fibre Technician (COFT)",
+                "duration": "3 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-for-mobile-handset-repair-technician",
+                "name": "Certificate for Mobile Handset Repair Technician (CMHRT)",
+                "duration": "3 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "foreign-language",
+        "name": "Foreign Language",
+        "description": "",
+        "category": [
+          {
+            "id": "certificate-in-foreign-language",
+            "name": "Certificate in Foreign Language",
+            "description": "",
+            "category": [
+              {
+                "id": "certificate-in-first-level-french-language",
+                "name": "Certificate in First (A1) Level French Language (CFLFL)",
+                "duration": "5 Months",
+                "eligibility": "8th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-second-level-french-language",
+                "name": "Certificate in Second (A2) Level French Language",
+                "duration": "5 Months",
+                "eligibility": "8th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-german-language",
+                "name": "Certificate in German Language (CGL)",
+                "duration": "5 Months",
+                "eligibility": "8th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-japanese-language",
+                "name": "Certificate in Japanese Language",
+                "duration": "5 Months",
+                "eligibility": "8th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-spanish-language",
+                "name": "Certificate in Spanish Language",
+                "duration": "5 Months",
+                "eligibility": "8th Pass",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "future-skills",
+        "name": "Future Skills",
+        "description": "",
+        "category": [
+          {
+            "id": "certificate-in-future-skills",
+            "name": "Certificate in Future Skills",
+            "description": "",
+            "category": [
+              {
+                "id": "certificate-for-artificial-intelligence-professional",
+                "name": "Certificate for Artificial Intelligence Professional (CAIP)",
+                "duration": "3 Months",
+                "eligibility": "Graduate in any Discipline",
+                "description": ""
+              },
+              {
+                "id": "certificate-for-cyber-security-professional",
+                "name": "Certificate for Cyber Security Professional (CCSP)",
+                "duration": "3 Months",
+                "eligibility": "Graduate in any Discipline",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-online-teaching",
+                "name": "Certificate in Online-Teaching (COT)",
+                "duration": "2 Months",
+                "eligibility": "Graduate in any Discipline",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-critical-reasoning",
+                "name": "Certificate in Critical Reasoning (CCR)",
+                "duration": "1 Month",
+                "eligibility": "Graduate in any Discipline",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-time-management-skill",
+                "name": "Certificate in Time Management Skill (CTMS)",
+                "duration": "1 Month",
+                "eligibility": "12th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-data-analysis-using-python-programming",
+                "name": "Certificate in Data Analysis Using Python Programming (CDAUPP)",
+                "duration": "1 Month",
+                "eligibility": "Graduate in any Discipline",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-data-analysis-using-r-programming",
+                "name": "Certificate in Data Analysis using R Programming (CDAURP)",
+                "duration": "1 Month",
+                "eligibility": "Graduate in any Discipline",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-leadership-skill",
+                "name": "Certificate in Leadership Skill (CLS)",
+                "duration": "1 Month",
+                "eligibility": "12th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-risk-management",
+                "name": "Certificate in Risk Management (CRM)",
+                "duration": "1 Month",
+                "eligibility": "12th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-change-management",
+                "name": "Certificate in Change Management (CCM)",
+                "duration": "1 Month",
+                "eligibility": "12th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-project-management-professional",
+                "name": "Certificate in Project Management Professional (CPMP)",
+                "duration": "1 Month",
+                "eligibility": "12th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-itil-foundation",
+                "name": "Certificate in ITIL Foundation (CITILF)",
+                "duration": "1 Month",
+                "eligibility": "Graduate in any Discipline",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "teacher-training",
+        "name": "Teacher Training",
+        "description": "",
+        "category": [
+          {
+            "id": "certificate-in-teacher-training",
+            "name": "Certificate in Teacher Training",
+            "description": "",
+            "category": [
+              {
+                "id": "certificate-in-nursery-teachers-training",
+                "name": "Certificate in Nursery Teachers Training (CNTT)",
+                "duration": "6 Months",
+                "eligibility": "12th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-early-childhood-care-and-education",
+                "name": "Certificate in Early Childhood Care and Education (CECCAE)",
+                "duration": "4 Months",
+                "eligibility": "10th Pass",
+                "description": ""
+              },
+              {
+                "id": "certificate-in-teaching-using-ict",
+                "name": "Certificate in Teaching using ICT (CTUI)",
+                "duration": "1 Month",
+                "eligibility": "12th Pass",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

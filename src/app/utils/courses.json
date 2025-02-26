@@ -1,0 +1,74 @@
+[
+    {
+    "id":"engineering",
+    "name":"Engineering"
+    },
+    {
+    "id":"management",
+    "name":"Management"
+    },
+    {
+    "id":"medical",
+    "name":"Medical"
+    },
+    {
+    "id":"commerce-and-banking",
+    "name":"Commerce and Banking"
+    },
+    {
+    "id":"science",
+    "name":"Science"
+    },
+    {
+    "id":"hotel-management",
+    "name":"Hotel Management"
+    },
+    {
+     "id":"information-technology",
+     "name":"Information Technology"
+    },
+    {
+     "id":"arts-and-humanities",
+     "name":"Arts and Humanities"
+    },
+    {
+     "id":"mass-communication",
+     "name":"Mass Communication"
+    },
+    {
+     "id":"nursing",
+     "name":"Nursing"
+    },
+    {
+     "id":"agriculture",
+     "name":"Agriculture"
+    },
+    {
+     "id":"law",
+     "name":"Law"
+    },
+    {
+     "id":"paramedical",
+     "name":"Paramedical"
+    },
+    {
+     "id":"dental",
+     "name":"Dental"
+    },
+    {
+     "id":"performing-arts",
+     "name":"Performing Arts"
+    },
+    {
+     "id":"education",
+     "name":"Education"
+    },
+    {
+     "id":"pharmacy",
+     "name":"Pharmacy"
+    },
+    {
+     "id":"design",
+     "name":"Design"
+    }
+  ]

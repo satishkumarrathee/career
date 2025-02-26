@@ -1,0 +1,338 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+
+    scroll-behavior: smooth;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+li {
+    list-style: none;
+
+}
+
+ul {
+    padding-left: 0;
+}
+
+/* Header CSS Start */
+.navButton {
+    text-decoration: none;
+    color: gray;
+    border-bottom: 2px solid transparent;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    transition: all ease-in-out 0.1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navButton1 {
+    text-decoration: none;
+    margin: 13px;
+    text-align: center;
+
+}
+
+.navButton:hover {
+
+    color: #007bff;
+}
+
+
+/* Header CSS End */
+
+/* Footer CSS Start */
+#footer {
+    color: white;
+    background-color: #2471A3;
+    font-size: 6px;
+    cursor: pointer;
+}
+
+#footer li {
+    font-size: 1.0rem;
+    transition: all ease-in-out 0.2s;
+    padding: 2px;
+    margin-top: 2px;
+    color: white;
+}
+
+#footer li:hover {
+
+    color: black;
+}
+
+#footer ul a {
+    text-decoration: none;
+    color: gray;
+    font-size: 7px;
+
+}
+
+#footer ul h5 {
+    color: white;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 15px;
+
+}
+
+/* #footer ul{
+    border-bottom: 1px solid white;   
+    
+} */
+#footerImage {
+    display: flex;
+    align-items: center;
+}
+
+/* Footer CSS End */
+/* Back Groud Image CSS Start */
+
+#about{
+    background: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)), url('/about.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 150px;
+}
+#blog{
+    background: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)), url('/blog.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 150px;
+}
+#exam{
+    background: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)), url('/exam.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 150px;
+}
+#coaching{
+    background: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)), url('/exam.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 150px;
+}
+#career{
+    background: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)), url('/careers.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 150px;
+}
+#admission{
+    background: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)), url('/admission.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+}
+#contact{
+    background: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)), url('/contact.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+}
+
+/* Back Groud Image CSS End */
+#shed:hover{
+    background-color: #007bff !important;
+    color: white !important;
+
+}
+
+/* BottomLine CSS Start */
+
+.bottomLine{
+    margin-bottom: 20px;
+    margin-top: 8px;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+.bottomLine:before {
+    border-radius: 8px;
+    bottom: -1px;
+    content: "";
+    height: 6px;
+    left: 10px;
+    position: absolute;
+    width: 24px;
+}
+.bottomLine:after,
+.bottomLine:before {
+  background: #007bff;
+}
+
+.bottomLine:after {
+    border-radius: 8px;
+    bottom: 1px;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 64px;
+}
+
+/* BottomLine CSS End */
+
+.title {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 24px;
+    color: white;
+    font-weight: bold;
+    border-left: 2px solid white;
+    z-index: 200;
+}
+
+
+.news-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-family: "Roboto", sans-serif;
+    box-shadow: 0 4px 8px -4px rgba(0, 0, 0, 0.3);
+}
+
+.news-container {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 24px;
+    color: white;
+    font-weight: bold;
+    z-index: 200;
+}
+
+
+.news-container ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    animation: scroll 25s infinite linear;
+}
+
+.news-container ul li {
+    white-space: nowrap;
+    padding: 10px 24px;
+    color: #ffff;
+    position: relative;
+}
+
+.news-container ul li::after {
+    content:"";
+    width: 1px;
+    height: 100%;
+    background: #b8b8b8;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.news-container ul li:last-child::after {
+    display: none;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(-1083px);
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #newsData {
+      display: none;
+    }
+    #UniversityForm {
+      display: none;
+    }
+    #newDatas {
+      display: none;
+    }
+}
+
+/* Admission  */
+
+.box{
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+.box .img{
+    width: 100%;
+    height: auto;
+    transition: all 0.35s ease 0s;
+}
+.box:hover .img{ transform: translateX(25%); }
+.box .box-content{
+    width:60%;
+    height: 100%;
+    background: #fff;
+    /* background: #0d6efd; */
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.35s ease 0s;
+}
+.box:hover .box-content{ opacity: 1; }
+
+.box:hover .icon{ top: 50%; }
+.box .icon li{ display: inline-block; }
+.box .icon li a{
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    font-size: 18px;
+    color: #0d6efd;
+    border: 2px solid #0d6efd;
+    margin-right: 10px;
+    transition: all 0.35s ease 0s;
+}
+.box .title{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0d6efd;
+
+    text-transform: uppercase;
+    position: absolute;
+    top:0px;
+    /* bottom: -100%; */
+    transition: all 0.35s ease 0s;
+}
+.box:hover .title{ bottom: 50%; }

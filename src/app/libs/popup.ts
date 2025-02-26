@@ -1,0 +1,17 @@
+import mongoose from "mongoose";
+const popupSchema = new mongoose.Schema({
+    name:{
+        type:String,
+        required:true
+    },
+    email:{
+        type:String,
+        required:true
+    },
+    contact:{
+        type:Number,
+        required:true
+    }
+})
+
+export const popupData = mongoose.models.popups || mongoose.model('popups', popupSchema) 

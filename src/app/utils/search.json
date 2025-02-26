@@ -1,0 +1,5480 @@
+[
+    {
+        "id": "ssc-cgl",
+        "url": "ssc-cgl",
+        "name": "SSC CGL",
+        "type": "coaching"
+    },
+    {
+        "id": "ibps-clerk",
+        "url": "ibps-clerk",
+        "name": "IBPS Clerk",
+        "type": "coaching"
+    },
+    {
+        "id": "upsc-civil-services-examination",
+        "url": "upsc-civil-services-examination",
+        "name": "UPSC Civil Services Examination",
+        "type": "coaching"
+    },
+    {
+        "id": "IBPS-specialist-officers",
+        "url": "IBPS-specialist-officers",
+        "name": "IBPS Specialist Officers",
+        "type": "coaching"
+    },
+    {
+        "id": "railways",
+        "url": "railways",
+        "name": "Railways",
+        "type": "coaching"
+    },
+    {
+        "id": "rbi-grade-b",
+        "url": "rbi-grade-b",
+        "name": "RBI Grade B",
+        "type": "coaching"
+    },
+    {
+        "id": "sbi-clerk",
+        "url": "sbi-clerk",
+        "name": "SBI Clerk",
+        "type": "coaching"
+    },
+    {
+        "id": "nda-na",
+        "url": "nda-na",
+        "name": "NDA NA",
+        "type": "coaching"
+    },
+    {
+        "id": "ssc-chsl",
+        "url": "ssc-chsl",
+        "name": "SSC CHSL",
+        "type": "coaching"
+    },
+    {
+        "id": "rrb-ntpc",
+        "url": "rrb-ntpc",
+        "name": "RRB NTPC",
+        "type": "coaching"
+    },
+    {
+        "id": "psu-recruitment",
+        "url": "psu-recruitment",
+        "name": "PSU Recruitment",
+        "type": "coaching"
+    },
+    {
+        "id": "rrb-alp",
+        "url": "rrb-alp",
+        "name": "RRB ALP",
+        "type": "coaching"
+    },
+    {
+        "id": "ssc-stenographer",
+        "url": "ssc-stenographer",
+        "name": "SSC Stenographer",
+        "type": "coaching"
+    },
+    {
+        "id": "banking-exams",
+        "url": "banking-exams",
+        "name": "Banking exams",
+        "type": "coaching"
+    },
+    {
+        "id": "combined-defence-services-examination",
+        "url": "combined-defence-services-examination",
+        "name": "Combined Defence Services Examination",
+        "type": "coaching"
+    },
+    {
+        "id": "defence-exams",
+        "url": "defence-exams",
+        "name": "Defence exams",
+        "type": "coaching"
+    },
+    {
+        "id": "engineering-services-exam",
+        "url": "engineering-services-exam",
+        "name": "Engineering Services exam",
+        "type": "coaching"
+    },
+    {
+        "id": "indian-economic-service-examination",
+        "url": "indian-economic-service-examination",
+        "name": "Indian Economic Service examination",
+        "type": "coaching"
+    },
+    {
+        "id": "teaching-exams",
+        "url": "teaching-exams",
+        "name": "Teaching exams",
+        "type": "coaching"
+    },
+    {
+        "id": "upsc-capf",
+        "url": "upsc-capf",
+        "name": "UPSC CAPF",
+        "type": "coaching"
+    },
+    {
+        "id": "civil-services-examination",
+        "url": "civil-services-examination",
+        "name": "Civil Services Examination",
+        "type": "coaching"
+    },
+    {
+        "id": "rrb-je-sse-examination",
+        "url": "rrb-je-sse-examination",
+        "name": "RRB JE SSE examination",
+        "type": "coaching"
+    },
+    {
+        "id": "sbi-po",
+        "url": "sbi-po",
+        "name": "SBI PO",
+        "type": "coaching"
+    },
+    {
+        "id": "GATE",
+        "url": "GATE",
+        "name": "GATE",
+        "type": "coaching"
+    },
+    {
+        "id": "JEE-main",
+        "url": "JEE-main",
+        "name": "JEE main",
+        "type": "coaching"
+    },
+    {
+        "id": "CAT",
+        "url": "CAT",
+        "name": "CAT",
+        "type": "coaching"
+    },
+    {
+        "id": "CLAT",
+        "url": "CLAT",
+        "name": "CLAT",
+        "type": "coaching"
+    },
+    {
+        "id": "NEET",
+        "url": "NEET",
+        "name": "NEET",
+        "type": "coaching"
+    },
+    {
+        "id": "BITSAT",
+        "url": "BITSAT",
+        "name": "BITSAT",
+        "type": "coaching"
+    },
+    {
+        "id": "SRMJEEE",
+        "url": "SRMJEEE",
+        "name": "SRMJEEE",
+        "type": "coaching"
+    },
+    {
+        "id": "NIFT-entrance",
+        "url": "NIFT-entrance",
+        "name": "NIFT Entrance",
+        "type": "coaching"
+    },
+    {
+        "id": "VITEEE",
+        "url": "VITEEE",
+        "name": "VITEEE",
+        "type": "coaching"
+    },
+    {
+        "id": "CUET",
+        "url": "CUET",
+        "name": "CUET",
+        "type": "coaching"
+    },
+    {
+        "id": "MET",
+        "url": "MET",
+        "name": "MET",
+        "type": "coaching"
+    },
+    {
+        "id": "ssc-cgl",
+        "url": "ssc-cgl",
+        "name": "SSC CGL",
+        "type": "exam"
+    },
+    {
+        "id": "ibps-clerk",
+        "url": "ibps-clerk",
+        "name": "IBPS Clerk",
+        "type": "exam"
+    },
+    {
+        "id": "upsc-civil-services-examination",
+        "url": "upsc-civil-services-examination",
+        "name": "UPSC Civil Services Examination",
+        "type": "exam"
+    },
+    {
+        "id": "IBPS-specialist-officers",
+        "url": "IBPS-specialist-officers",
+        "name": "IBPS Specialist Officers",
+        "type": "exam"
+    },
+    {
+        "id": "railways",
+        "url": "railways",
+        "name": "Railways",
+        "type": "exam"
+    },
+    {
+        "id": "rbi-grade-b",
+        "url": "rbi-grade-b",
+        "name": "RBI Grade B",
+        "type": "exam"
+    },
+    {
+        "id": "sbi-clerk",
+        "url": "sbi-clerk",
+        "name": "SBI Clerk",
+        "type": "exam"
+    },
+    {
+        "id": "nda-na",
+        "url": "nda-na",
+        "name": "NDA NA",
+        "type": "exam"
+    },
+    {
+        "id": "ssc-chsl",
+        "url": "ssc-chsl",
+        "name": "SSC CHSL",
+        "type": "exam"
+    },
+    {
+        "id": "rrb-ntpc",
+        "url": "rrb-ntpc",
+        "name": "RRB NTPC",
+        "type": "exam"
+    },
+    {
+        "id": "psu-recruitment",
+        "url": "psu-recruitment",
+        "name": "PSU Recruitment",
+        "type": "exam"
+    },
+    {
+        "id": "rrb-alp",
+        "url": "rrb-alp",
+        "name": "RRB ALP",
+        "type": "exam"
+    },
+    {
+        "id": "ssc-stenographer",
+        "url": "ssc-stenographer",
+        "name": "SSC Stenographer",
+        "type": "exam"
+    },
+    {
+        "id": "banking-exams",
+        "url": "banking-exams",
+        "name": "Banking exams",
+        "type": "exam"
+    },
+    {
+        "id": "combined-defence-services-examination",
+        "url": "combined-defence-services-examination",
+        "name": "Combined Defence Services Examination",
+        "type": "exam"
+    },
+    {
+        "id": "defence-exams",
+        "url": "defence-exams",
+        "name": "Defence exams",
+        "type": "exam"
+    },
+    {
+        "id": "engineering-services-exam",
+        "url": "engineering-services-exam",
+        "name": "Engineering Services exam",
+        "type": "exam"
+    },
+    {
+        "id": "indian-economic-service-examination",
+        "url": "indian-economic-service-examination",
+        "name": "Indian Economic Service examination",
+        "type": "exam"
+    },
+    {
+        "id": "teaching-exams",
+        "url": "teaching-exams",
+        "name": "Teaching exams",
+        "type": "exam"
+    },
+    {
+        "id": "upsc-capf",
+        "url": "upsc-capf",
+        "name": "UPSC CAPF",
+        "type": "exam"
+    },
+    {
+        "id": "civil-services-examination",
+        "url": "civil-services-examination",
+        "name": "Civil Services Examination",
+        "type": "exam"
+    },
+    {
+        "id": "rrb-je-sse-examination",
+        "url": "rrb-je-sse-examination",
+        "name": "RRB JE SSE examination",
+        "type": "exam"
+    },
+    {
+        "id": "sbi-po",
+        "url": "sbi-po",
+        "name": "SBI PO",
+        "type": "exam"
+    },
+    {
+        "id": "logistics-supervisors",
+        "url": "logistics-supervisors",
+        "name": "Logistics Supervisors",
+        "type": "career"
+    },
+    {
+        "id": "content-writer",
+        "url": "content-writer",
+        "name": "Content Writer",
+        "type": "career"
+    },
+    {
+        "id": "web-developer",
+        "url": "web-developer",
+        "name": "Web Developer",
+        "type": "career"
+    },
+    {
+        "id": "human-resoucres",
+        "url": "human-resoucres",
+        "name": "Human Resoucres",
+        "type": "career"
+    },
+    {
+        "id": "flutter-developer",
+        "url": "flutter-developer",
+        "name": "Flutter Developer",
+        "type": "career"
+    },
+    {
+        "id": "trainee-engineer",
+        "url": "trainee-engineer",
+        "name": "Trainee Engineer",
+        "type": "career"
+    },
+    {
+        "id": "admin",
+        "url": "admin",
+        "name": "Admin",
+        "type": "career"
+    },
+    {
+        "id": "web-designer",
+        "url": "web-designer",
+        "name": "Web Designer",
+        "type": "career"
+    },
+    {
+        "id": "devops",
+        "url": "devops",
+        "name": "Devops",
+        "type": "career"
+    },
+    {
+        "id": "digital-marketing",
+        "url": "digital-marketing",
+        "name": "Digital Marketing",
+        "type": "career"
+    },
+    {
+        "id": "full-stack-engineer",
+        "url": "full-stack-engineer",
+        "name": "Full Stack Engineer",
+        "type": "career"
+    },
+    {
+        "id": "graphic-designer",
+        "url": "graphic-designer",
+        "name": "Graphic Designer",
+        "type": "career"
+    },
+    {
+        "id": "information-technology",
+        "url": "information-technology",
+        "name": "Information Technology",
+        "type": "career"
+    },
+    {
+        "id": "software-developer",
+        "url": "software-developer",
+        "name": "Software Developer",
+        "type": "career"
+    },
+    {
+        "id": "business-development",
+        "url": "business-development",
+        "name": "Business Development",
+        "type": "career"
+    },
+    {
+        "id": "data-scientist",
+        "url": "data-scientist",
+        "name": "Data Scientist",
+        "type": "career"
+    },
+    {
+        "id": "sales-marketing",
+        "url": "sales-marketing",
+        "name": "Sales & Marketing",
+        "type": "career"
+    },
+    {
+        "id": "associate-consultant",
+        "url": "associate-consultant",
+        "name": "Associate Consultant",
+        "type": "career"
+    },
+    {
+        "id": "android-developer",
+        "url": "android-developer",
+        "name": "Android Developer",
+        "type": "career"
+    },
+    {
+        "id": "blockchain-developers",
+        "url": "blockchain-developers",
+        "name": "Blockchain Developers",
+        "type": "career"
+    },
+    {
+        "id": "cyber-security",
+        "url": "cyber-security",
+        "name": "Cyber Security",
+        "type": "career"
+    },
+    {
+        "id": "tele-caller",
+        "url": "tele-caller",
+        "name": "Tele Caller",
+        "type": "career"
+    },
+    {
+        "id": "accountants",
+        "url": "accountants",
+        "name": "Accountants",
+        "type": "career"
+    },
+    {
+        "name": "B.Tech Bachelor of Technology",
+        "id": "b.tech-bachelor-of-technology",
+        "top": 1,
+        "url": "engineering",
+        "type": "admission/college"
+    },
+    {
+        "name": "Diploma",
+        "id": "diploma",
+        "top": 2,
+        "type": "admission/college",
+        "url": "engineering"
+    },
+    {
+        "name": "M.Tech Master of Technology",
+        "id": "m.tech-master-of-technology",
+        "top": 3,
+        "type": "admission/college",
+        "url": "engineering"
+    },
+    {
+        "name": "B.Arch Bachelor of Architecture",
+        "id": "b.arch-bachelor-of-architecture",
+        "top": 4,
+        "type": "admission/college",
+        "url": "engineering"
+    },
+    {
+        "name": "M.Arch Master of Architecture",
+        "id": "m.arch-master-of-architecture",
+        "top": 5,
+        "type": "admission/college",
+        "url": "engineering"
+    },
+    {
+        "name": "Ph.D Doctor of Philosophy",
+        "id": "ph.d-doctor-of-philosophy",
+        "top": 6,
+        "type": "admission/college",
+        "url": "engineering"
+    },
+    {
+        "name": "B.Tech + M.B.A",
+        "id": "b.tech-m.b.a",
+        "top": 7,
+        "type": "admission/college",
+        "url": "engineering"
+    },
+    {
+        "name": "Post Graduate Diploma",
+        "id": "post-graduate-diploma",
+        "top": 8,
+        "type": "admission/college",
+        "url": "engineering"
+    },
+    {
+        "name": "Certificate",
+        "id": "certificate",
+        "top": 1,
+        "type": "admission/college",
+        "url": "engineering"
+    },
+    {
+        "name": "B.Tech + M.Tech",
+        "id": "b.tech-m.tech",
+        "top": 2,
+        "type": "admission/college",
+        "url": "engineering"
+    },
+    {
+        "name": "B.Tech + M.S",
+        "id": "b.tech-m.s",
+        "top": 3,
+        "type": "admission/college",
+        "url": "engineering"
+    },
+    {
+        "name": "M.Plan Master of Planning",
+        "id": "m.plan-master-of-planning",
+        "top": 4,
+        "type": "admission/college",
+        "url": "engineering"
+    },
+    {
+        "name": "B.E + M.E",
+        "id": "b.e-m.e",
+        "top": 5,
+        "type": "admission/college",
+        "url": "engineering"
+    },
+    {
+        "name": "B.Plan Bachelor of Planning",
+        "id": "b.plan-bachelor-of-planning",
+        "top": 6,
+        "type": "admission/college",
+        "url": "engineering"
+    },
+    {
+        "name": "B.Voc Bachelor of Vocation",
+        "id": "b.voc-bachelor-of-vocation",
+        "top": 7,
+        "type": "admission/college",
+        "url": "engineering"
+    },
+    {
+        "name": "M.Com Master of Commerce",
+        "id": "m.com-master-of-commerce",
+        "top": 8,
+        "type": "admission/college",
+        "url": "engineering"
+    },
+    {
+        "name": "B.Com Bachelor of Commerce",
+        "id": "b.com-bachelor-of-commerce",
+        "top": 1,
+        "type": "admission/college",
+        "url": "engineering"
+    },
+    {
+        "name": "M.Tech + Ph.D",
+        "id": "m.tech-ph.d",
+        "top": 2,
+        "type": "admission/college",
+        "url": "engineering"
+    },
+    {
+        "name": "M.S Master of Surgery",
+        "id": "m.s-master-of-surgery",
+        "top": 3,
+        "type": "admission/college",
+        "url": "engineering"
+    },
+    {
+        "name": "B.Sc M.Sc",
+        "id": "b.sc-m.sc",
+        "top": 4,
+        "type": "admission/college",
+        "url": "engineering"
+    },
+    {
+        "name": "M.B.A Master of Business Administration",
+        "id": "m.b.a-master-of-business-administration",
+        "top": 5,
+        "type": "admission/college",
+        "url": "engineering"
+    },
+    {
+        "name": "Diploma + B.Tech",
+        "id": "diploma-b.tech",
+        "top": 6,
+        "type": "admission/college",
+        "url": "engineering"
+    },
+    {
+        "name": "B.Sc Bachelor of Science",
+        "id": "b.sc-bachelor-of-science",
+        "top": 7,
+        "type": "admission/college",
+        "url": "engineering"
+    },
+    {
+        "name": "M.Phil Master of Philosophy",
+        "id": "m.phil-master-of-philosophy",
+        "top": 8,
+        "type": "admission/college",
+        "url": "engineering"
+    },
+    {
+        "name": "M.C.A Master of Computer Applications",
+        "id": "m.c.a-master-of-computer-applications",
+        "top": 1,
+        "type": "admission/college",
+        "url": "engineering"
+    },
+    {
+        "name": "M.S Master of Science",
+        "id": "m.s-master-of-science",
+        "top": 2,
+        "type": "admission/college",
+        "url": "engineering"
+    },
+    {
+        "name": "M.Ed Master of Education",
+        "id": "m.ed-master-of-education",
+        "top": 3,
+        "type": "admission/college",
+        "url": "engineering"
+    },
+    {
+        "name": "Other",
+        "id": "other",
+        "top": 4,
+        "type": "admission/college",
+        "url": "engineering"
+    },
+    {
+        "name": "B.B.A Bachelor of Business Administration",
+        "id": "b.b.a-bachelor-of-business-administration",
+        "top": 5,
+        "type": "admission/college",
+        "url": "engineering"
+    },
+    {
+        "name": "B.F.Tech Bachelor of Fashion Technology",
+        "id": "b.f.tech-bachelor-of-fashion-technology",
+        "top": 6,
+        "type": "admission/college",
+        "url": "engineering"
+    },
+    {
+        "name": "M.Phil Ph.D",
+        "id": "m.phil-ph.d",
+        "top": 7,
+        "type": "admission/college",
+        "url": "engineering"
+    },
+    {
+        "name": "M.Des Master of Design",
+        "id": "m.des-master-of-design",
+        "top": 8,
+        "type": "admission/college",
+        "url": "engineering"
+    },
+    {
+        "name": "B.F.Sc Bachelor of Fishery Science",
+        "id": "b.f.sc-bachelor-of-fishery-science",
+        "top": 1,
+        "type": "admission/college",
+        "url": "engineering"
+    },
+    {
+        "name": "B.Text Bachelor of Textile",
+        "id": "b.text-bachelor-of-textile",
+        "top": 2,
+        "type": "admission/college",
+        "url": "engineering"
+    },
+    {
+        "name": "M.Voc Master of Vocation",
+        "id": "m.voc-master-of-vocation",
+        "top": 3,
+        "type": "admission/college",
+        "url": "engineering"
+    },
+    {
+        "name": "B.Des Bachelor of Design",
+        "id": "b.des-bachelor-of-design",
+        "top": 4,
+        "type": "admission/college",
+        "url": "engineering"
+    },
+    {
+        "name": "M.Pharm M.B.A",
+        "id": "m.pharm-m.b.a",
+        "top": 5,
+        "type": "admission/college",
+        "url": "engineering"
+    },
+    {
+        "name": "M.Text Master of Textile",
+        "id": "m.text-master-of-textile",
+        "top": 6,
+        "type": "admission/college",
+        "url": "engineering"
+    },
+    {
+        "name": "M.Optom Master of optometry",
+        "id": "m.optom-master-of-optometry",
+        "top": 7,
+        "type": "admission/college",
+        "url": "engineering"
+    },
+    {
+        "name": "M.P.H Master of Public Health",
+        "id": "m.p.h-master-of-public-health",
+        "top": 8,
+        "type": "admission/college",
+        "url": "engineering"
+    },
+    {
+        "name": "M.E Ph.D",
+        "id": "m.e-ph.d",
+        "top": 1,
+        "type": "admission/college",
+        "url": "engineering"
+    },
+    {
+        "name": "B.S.M.S",
+        "id": "b.s.m.s",
+        "top": 2,
+        "type": "admission/college",
+        "url": "engineering"
+    },
+    {
+        "name": "PGP Post of Graduate Program",
+        "id": "pgp-post-of-graduate-program",
+        "top": 3,
+        "type": "admission/college",
+        "url": "engineering"
+    },
+    {
+        "name": "B.H.M Bachelor of Hotel Management",
+        "id": "b.h.m-bachelor-of-hotel-management",
+        "top": 4,
+        "type": "admission/college",
+        "url": "engineering"
+    },
+    {
+        "name": "M.H.R.D.M Master of Human Resources Development Mangement",
+        "id": "m.h.r.d.m-master-of-human-resources-development-mangement",
+        "top": 5,
+        "type": "admission/college",
+        "url": "engineering"
+    },
+    {
+        "name": "B.Pharm Bachelor of Pharmacy",
+        "id": "b.pharm-bachelor-of-pharmacy",
+        "top": 6,
+        "type": "admission/college",
+        "url": "engineering"
+    },
+    {
+        "name": "M.Ch Master of Chirurgiae",
+        "id": "m.ch-master-of-chirurgiae",
+        "top": 7,
+        "type": "admission/college",
+        "url": "engineering"
+    },
+    {
+        "name": "B.B.I Bachelor of Banking and Insurance",
+        "id": "b.b.i-bachelor-of-banking-and-insurance",
+        "top": 8,
+        "type": "admission/college",
+        "url": "engineering"
+    },
+    {
+        "name": "B.Sc B.Ed",
+        "id": "b.sc-b.ed",
+        "top": 1,
+        "type": "admission/college",
+        "url": "engineering"
+    },
+    {
+        "name": "M.Sc Master of Science",
+        "id": "m.sc-master-of-science",
+        "top": 2,
+        "type": "admission/college",
+        "url": "engineering"
+    },
+    {
+        "name": "B.C.A + M.C.A",
+        "id": "b.c.a-m.c.a",
+        "top": 3,
+        "type": "admission/college",
+        "url": "engineering"
+    },
+    {
+        "name": "Licence",
+        "id": "licence",
+        "top": 4,
+        "type": "admission/college",
+        "url": "engineering"
+    },
+    {
+        "id": "m.b.a-master-of-business-administration",
+        "name": "M.B.A Master Of Business Administration",
+        "top": 1,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "b.b.a-bachelor-of-business-administration",
+        "name": "B.B.A Bachelor of business administration",
+        "top": 2,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "post-graduate-diploma",
+        "name": "Post Graduate Diploma",
+        "top": 3,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "p.g.d.m-post-graduate-diploma-in-management",
+        "name": "P.G.D.M Post Graduate Diploma In Management",
+        "top": 4,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "certificate",
+        "name": "Certificate",
+        "top": 5,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "diploma",
+        "name": "Diploma",
+        "top": 6,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "b.b.m-bachelor-of-business-management",
+        "name": "B.B.M Bachelor Of Business Management",
+        "top": 7,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "ph.d-doctor-of-philosophy",
+        "name": "Ph.D Doctor Of Philosophy",
+        "top": 8,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "executive-m.b.a",
+        "name": "Executive M.B.A",
+        "top": 1,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "b.m.s-bachelor-of-management-studies",
+        "name": "B.M.S Bachelor of Management Studies",
+        "top": 2,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "b.b.a-m.b.a",
+        "name": "B.B.A + M.B.A",
+        "top": 3,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "b.b.s-bachelor-of-business-studies",
+        "name": "B.B.S Bachelor Of Business Studies",
+        "top": 4,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "m.m.s-master-of-management-studies",
+        "name": "M.M.S Master Of Management Studies",
+        "top": 5,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "m.sc-master-of-science",
+        "name": "M.Sc Master Of Science",
+        "top": 6,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "m.h.r.d.m-master-of-human-resourses-development",
+        "name": "M.H.R.D.M Master Of Human Resourses Development",
+        "top": 7,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "b.a-bachelor-of-arts",
+        "name": "B.A Bachelor of arts",
+        "top": 8,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "master-of-business-studies",
+        "name": "Master of business studies",
+        "top": 1,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "m.phil-master-of-philosophy",
+        "name": "M.Phil. Master of Philosophy",
+        "top": 2,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "p.g.p.m-post-graduate-programme-in-management",
+        "name": "P.G.P.M Post Graduate Programme In Management",
+        "top": 3,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "m.a-master-of-arts",
+        "name": "M.A Master of arts",
+        "top": 4,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "b.sc-bachelor-of-science",
+        "name": "B.Sc. Bachelor Of Science",
+        "top": 5,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "m.a.m-master-of-applied-managemenet",
+        "name": "M.A.M Master Of Applied Managemenet",
+        "top": 6,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "m.i.b-master-of-internation-business",
+        "name": "M.I.B Master of Internation Business",
+        "top": 7,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "m.com-master-of-commerce",
+        "name": "M.Com Master of Commerce",
+        "top": 8,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "executive-p.g.d.m",
+        "name": "Executive P.G.D.M",
+        "top": 1,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "m.p.m-master-of-personnel-management",
+        "name": "M.P.M Master of Personnel Management",
+        "top": 2,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "m.m.m-master-of-marketing-management",
+        "name": "M.M.M Master of Marketing Management",
+        "top": 3,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "m.c.m-master-of-computer-management",
+        "name": "M.C.M Master of Computer Management",
+        "top": 4,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "other",
+        "name": "Other",
+        "top": 5,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "m.f.m-master-of-financial-management",
+        "name": "M.F.M Master of Financial Management",
+        "top": 6,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "m.c.a-master-of-computer-applications",
+        "name": "M.C.A Master of Computer Applications",
+        "top": 7,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "mba-pgpm",
+        "name": "MBA + PGPM",
+        "top": 8,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "b.com-m.b.a",
+        "name": "B.Com + M.B.A",
+        "top": 1,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "m.tech-master-of-technology",
+        "name": "M.Tech Master of Technology",
+        "top": 2,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "p.g.p.ex-post-graduate-programme-for-executives",
+        "name": "P.G.P.Ex. Post Graduate Programme for Executives",
+        "top": 3,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "m.b.m-master-of-business-management",
+        "name": "M.B.M Master of Business Management",
+        "top": 4,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "m.b.a-p.g.d.m",
+        "name": "M.B.A + P.G.D.M",
+        "top": 5,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "b.com-bachelor of commerce",
+        "name": "B.Com Bachelor of Commerce",
+        "top": 6,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "m.f.c-master-of-finance-and-control",
+        "name": "M.F.C Master of Finance and Control",
+        "top": 7,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "m.s-master-of-surgery",
+        "name": "M.S Master of Surgery",
+        "top": 8,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "b.b.i-bachelor-of-banking-and-insurance",
+        "name": "B.B.I Bachelor of Banking and Insurance",
+        "top": 1,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "m.s-master-of-science",
+        "name": "M.S Master of Science",
+        "top": 2,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "master-in-sports-management",
+        "name": "Master in Sports Management",
+        "top": 3,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "m.f.a-master-of-finance-and-accounting",
+        "name": "M.F.A Master of Finance and Accounting",
+        "top": 4,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "c.a-chartered-accountant",
+        "name": "C.A Chartered Accountant",
+        "top": 5,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "m.ed-master-of-education",
+        "name": "M.Ed. Master of Education",
+        "top": 6,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "p.g.d.b.m-post-graduate-diploma-in-business-management",
+        "name": "P.G.D.B.M Post Graduate Diploma in Business Management",
+        "top": 7,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "b.des-bachelor-of-design",
+        "name": "B.Des Bachelor of Design",
+        "top": 7,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "m.phil-ph.d",
+        "name": "M.Phil + Ph.D",
+        "top": 8,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "bachelor-of-business-administration-post-graduate-diploma",
+        "name": "Bachelor of Business Administration BBA + Post Graduate Diploma PGD",
+        "top": 1,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "b.b.a-ll.b",
+        "name": "B.B.A + LL.B",
+        "top": 2,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "pgp-post-graduate-programme",
+        "name": "PGP-Post-Graduate-Programme",
+        "top": 3,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "m.d-doctor-of-medicine",
+        "name": "M.D Doctor of Medicine",
+        "top": 4,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "b.voc-bachelor-of-vocation",
+        "name": "B.Voc Bachelor of Vocation",
+        "top": 5,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "b.c.a-bachelor-of-computer-applications",
+        "name": "B.C.A Bachelor of Computer Applications",
+        "top": 6,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "m.h.a-master-of-hospital-administration",
+        "name": "M.H.A Master of Hospital Administration",
+        "top": 7,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "m.f.m-master-of-fashion-management",
+        "name": "M.F.M Master of Fashion Management",
+        "top": 8,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "b.m.m-bachelor-of-mass-media",
+        "name": "B.M.M Bachelor of Mass Media",
+        "top": 1,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "b.i.b-bachelor-of-international-business-adminstration",
+        "name": "B.I.B Bachelor of International Business Adminstration",
+        "top": 2,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "master-of-social-work",
+        "name": "Master of Social Work",
+        "top": 3,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "b.a.m-bachelor-of-applied-management",
+        "name": "B.A.M Bachelor of Applied Management",
+        "top": 4,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "b.f.tech-bachelor-of-fashion-technology",
+        "name": "B.F.Tech Bachelor of Fashion Technology",
+        "top": 5,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "master-in-human-resource-management",
+        "name": "Master in Human Resource Management",
+        "top": 6,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "other",
+        "name": "Other",
+        "top": 7,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "b.tech-bachelor-of-technology",
+        "name": "B.Tech Bachelor of Technology",
+        "top": 8,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "b.tech-m.b.a",
+        "name": "B.Tech + M.B.A",
+        "top": 1,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "b.f.m-bachelor-of-financial-markets",
+        "name": "B.F.M Bachelor of Financial Markets",
+        "top": 2,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "m.b.e-master-of-business-economics",
+        "name": "M.B.E Master of Business Economics",
+        "top": 3,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "m.i.m-master-of-information-management",
+        "name": "M.I.M Master of Information Management",
+        "top": 4,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "bachelor-in-sports-management",
+        "name": "Bachelor in Sports Management",
+        "top": 5,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "m.plan-master-of-planning",
+        "name": "M.Plan Master of Planning",
+        "top": 6,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "m.voc-master-of-vocation",
+        "name": "M.Voc Master of Vocation",
+        "top": 7,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "post-graduate-degree",
+        "name": "Post Graduate Degree",
+        "top": 8,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "b.h.r.m-bachelor-of-human-resource",
+        "name": "B.H.R.M Bachelor of Human Resource",
+        "top": 1,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "b.sc-m.b.a",
+        "name": "B.Sc + M.B.A",
+        "top": 2,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "master-of-global-business",
+        "name": "Master of Global Business",
+        "top": 3,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "master-in-valuation",
+        "name": "Master in Valuation",
+        "top": 4,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "b.arch-bachelor-of-architecture",
+        "name": "B.Arch Bachelor of Architecture",
+        "top": 5,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "b.i.m-bachelor-of-management",
+        "name": "B.I.M Bachelor of Management",
+        "top": 6,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "b.b.m-m.b.a.",
+        "name": "B.B.M + M.B.A",
+        "top": 7,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "m.sc-m.b.a.",
+        "name": "M.Sc + M.B.A",
+        "top": 8,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "m.f.t-master-of-foreign-trade",
+        "name": "M.F.T Master of Foreign Trade",
+        "top": 1,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "m.p.t-master-of-physiotherapy",
+        "name": "M.P.T Master of Physiotherapy",
+        "top": 2,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "m.arch-master-of-architecture",
+        "name": "M.Arch Master of Architecture",
+        "top": 3,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "b.a.f-bachelor-of-accounting-and-finance",
+        "name": "B.A.F Bachelor of Accounting and Finance",
+        "top": 4,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "ll.b-bachelor-of-laws",
+        "name": "LL.B Bachelor of Laws",
+        "top": 5,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "m.des-master-of-design",
+        "name": "M.Des Master of Design",
+        "top": 6,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "b.j.m.c-bachelor-of-journalism-and-mass-communication",
+        "name": "B.J.M.C Bachelor of Journalism and Mass Communication",
+        "top": 7,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "m.j.m.c-master-of-journalism-and-mass-communication",
+        "name": "M.J.M.C Master of Journalism and Mass Communication",
+        "top": 8,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "b.sc-bachelor-of-science",
+        "name": "B.Sc Bachelor of Science",
+        "top": 1,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "b.plan-bachelor-of-planning",
+        "name": "B.Plan Bachelor of Planning",
+        "top": 2,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "b.h.m-bachelor-of-hospitality-management",
+        "name": "B.H.M Bachelor of Hospitality Management",
+        "top": 3,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "b.o.t-bachelor-of-occupational-therapy",
+        "name": "B.O.T Bachelor of Occupational Therapy",
+        "top": 4,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "b.p.p-bachelor-preparatory-programme",
+        "name": "B.P.P Bachelor preparatory Programme",
+        "top": 5,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "m.f.sc-master-of-fisheries-science",
+        "name": "M.F.Sc Master of Fisheries Science",
+        "top": 6,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "m.optom-master-of-optometry",
+        "name": "M.Optom Master of Optometry",
+        "top": 7,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "diploma-in-vocation",
+        "name": "Diploma in Vocation",
+        "top": 8,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "diploma-bba",
+        "name": "Diploma + BBA",
+        "top": 1,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "bachelor-of-travel-and-tourism-management-bttm-master-of-travel-and-tourism-management-mttm",
+        "name": "Bachelor of Travel and Tourism Management BTTM & Master of Travel and Tourism Management MTTM",
+        "top": 2,
+        "type": "admission/college",
+        "url": "management"
+    },
+    {
+        "id": "m.b.b.s-bachelor-of-medicine-and-bachelor-of-surgery",
+        "name": "M.B.B.S Bachelor of Medicine and Bachelor of Surgery",
+        "top": 1,
+        "type": "admission/college",
+        "url": "medical"
+    },
+    {
+        "id": "m.d-doctor-of-medicine",
+        "name": "M.D Doctor of Medicine",
+        "top": 2,
+        "type": "admission/college",
+        "url": "medical"
+    },
+    {
+        "id": "m.s-master-of-surgery",
+        "name": "M.S Master of Surgery",
+        "top": 3,
+        "type": "admission/college",
+        "url": "medical"
+    },
+    {
+        "id": "b.a.m.s-bachelor-of-ayurvedic-medicine-and-surgery",
+        "name": "B.A.M.S Bachelor of Ayurvedic Medicine and Surgery",
+        "top": 4,
+        "type": "admission/college",
+        "url": "medical"
+    },
+    {
+        "id": "diploma",
+        "name": "Diploma",
+        "top": 5,
+        "type": "admission/college",
+        "url": "medical"
+    },
+    {
+        "id": "b.sc-bachelor-of-science",
+        "name": "B.Sc Bachelor of Science",
+        "top": 6,
+        "type": "admission/college",
+        "url": "medical"
+    },
+    {
+        "id": "m.sc-master-of-science",
+        "name": "M.Sc Master of Science",
+        "top": 7,
+        "type": "admission/college",
+        "url": "medical"
+    },
+    {
+        "id": "b.h.m.s-bachelor-of-homoeopathic-medicine-and-surgery",
+        "name": "B.H.M.S Bachelor of Homoeopathic Medicine and Surgery",
+        "top": 8,
+        "type": "admission/college",
+        "url": "medical"
+    },
+    {
+        "id": "certificate",
+        "name": "Certificate",
+        "top": 1,
+        "type": "admission/college",
+        "url": "medical"
+    },
+    {
+        "id": "m.ch-master-of-chirurgiae",
+        "name": "M.Ch Master of Chirurgiae",
+        "top": 2,
+        "type": "admission/college",
+        "url": "medical"
+    },
+    {
+        "id": "post-graduate-diploma",
+        "name": "Post Graduate Diploma",
+        "top": 3,
+        "type": "admission/college",
+        "url": "medical"
+    },
+    {
+        "id": "ph.d-doctor-of-philosophy",
+        "name": "Ph.D Doctor of Philosophy",
+        "top": 4,
+        "type": "admission/college",
+        "url": "medical"
+    },
+    {
+        "id": "m.p.t-master-of-physiotherapy",
+        "name": "M.P.T Master of Physiotherapy",
+        "top": 5,
+        "type": "admission/college",
+        "url": "medical"
+    },
+    {
+        "id": "post-doctoral-certificate-course",
+        "name": "Post Doctoral Certificate Course",
+        "top": 6,
+        "type": "admission/college",
+        "url": "medical"
+    },
+    {
+        "id": "m.phil-master-of-philosophy",
+        "name": "M.Phil Master of Philosophy",
+        "top": 7,
+        "type": "admission/college",
+        "url": "medical"
+    },
+    {
+        "id": "m.s-master-of-science",
+        "name": "M.S Master of Science",
+        "top": 8,
+        "type": "admission/college",
+        "url": "medical"
+    },
+    {
+        "id": "d.m-doctorate-of-medicine",
+        "name": "D.M Doctorate of Medicine",
+        "top": 1,
+        "type": "admission/college",
+        "url": "medical"
+    },
+    {
+        "id": "m.d.s-master-of-dental-surgery",
+        "name": "M.D.S Master of Dental Surgery",
+        "top": 2,
+        "type": "admission/college",
+        "url": "medical"
+    },
+    {
+        "id": "m.ed-master-of-education",
+        "name": "M.Ed Master of Education",
+        "top": 3,
+        "type": "admission/college",
+        "url": "medical"
+    },
+    {
+        "id": "m.v.sc-master-of-veterinary-science",
+        "name": "M.V.Sc Master of Veterinary Science",
+        "top": 4,
+        "type": "admission/college",
+        "url": "medical"
+    },
+    {
+        "id": "b.u.m.s-bachelor-of-unani-medicine-and-surgery",
+        "name": "B.U.M.S Bachelor of Unani Medicine and Surgery",
+        "top": 5,
+        "type": "admission/college",
+        "url": "medical"
+    },
+    {
+        "id": "m.p.h-master-of-public-health",
+        "name": "M.P.H Master of Public Health",
+        "top": 6,
+        "type": "admission/college",
+        "url": "medical"
+    },
+    {
+        "id": "b.v.sc-bachelor-of-veterinary-science",
+        "name": "B.V.Sc Bachelor of veterinary Science",
+        "top": 7,
+        "type": "admission/college",
+        "url": "medical"
+    },
+    {
+        "id": "pharm.d-doctor-of-pharmacy",
+        "name": "pharm.D Doctor of pharmacy",
+        "top": 8,
+        "type": "admission/college",
+        "url": "medical"
+    },
+    {
+        "id": "b.s.m.s-bachelor-of-siddha-medicine-and-surgery",
+        "name": "B.S.M.S Bachelor of Siddha Medicine and surgery",
+        "top": 1,
+        "type": "admission/college",
+        "url": "medical"
+    },
+    {
+        "id": "d.n.b-diplomate-of-national-board",
+        "name": "D.N.B Diplomate of National Board",
+        "top": 2,
+        "type": "admission/college",
+        "url": "medical"
+    },
+    {
+        "id": "m.pharm-master-of-pharmacy",
+        "name": "M.Pharm Master of Pharmacy",
+        "top": 3,
+        "type": "admission/college",
+        "url": "medical"
+    },
+    {
+        "id": "b.a-bachelor-of-arts",
+        "name": "B.A Bachelor of Arts",
+        "top": 4,
+        "type": "admission/college",
+        "url": "medical"
+    },
+    {
+        "id": "b.pharm-bachelor-of-pharmacy",
+        "name": "B.Pharm Bachelor of Pharmacy",
+        "top": 5,
+        "type": "admission/college",
+        "url": "medical"
+    },
+    {
+        "id": "m.o.t-master-of-occupational-therapy",
+        "name": "M.O.T Master of Occupational Therapy",
+        "top": 6,
+        "type": "admission/college",
+        "url": "medical"
+    },
+    {
+        "id": "m.a.m.s-master-of-ayurvedic-medicine-and-surgery",
+        "name": "M.A.M.S Master of Ayurvedic Medicine and surgery",
+        "top": 7,
+        "type": "admission/college",
+        "url": "medical"
+    },
+    {
+        "id": "b.p.t-bachelor-of-physiotherapy",
+        "name": "B.P.T Bachelor of Physiotherapy",
+        "top": 8,
+        "type": "admission/college",
+        "url": "medical"
+    },
+    {
+        "id": "m.a-master-of-arts",
+        "name": "M.A Master of Arts",
+        "top": 1,
+        "type": "admission/college",
+        "url": "medical"
+    },
+    {
+        "id": "m.tech-master-of-technology",
+        "name": "M.Tech Master of Technology",
+        "top": 2,
+        "type": "admission/college",
+        "url": "medical"
+    },
+    {
+        "id": "master-of-social-work",
+        "name": "Master of Social work",
+        "top": 3,
+        "type": "admission/college",
+        "url": "medical"
+    },
+    {
+        "id": "other",
+        "name": "other",
+        "top": 4,
+        "type": "admission/college",
+        "url": "medical"
+    },
+    {
+        "id": "b.p.m.t-bachelor-of-paramedical-technology",
+        "name": "B.P.M.T Bachelor of Paramedical Technology",
+        "top": 5,
+        "type": "admission/college",
+        "url": "medical"
+    },
+    {
+        "id": "b.s-m.s",
+        "name": "B.S + M.S",
+        "top": 6,
+        "type": "admission/college",
+        "url": "medical"
+    },
+    {
+        "id": "b.j.m.c-bachelor-of-journalism-and-mass-communication",
+        "name": "B.J.M.C Bachelor of Journalism and Mass Communication",
+        "top": 7,
+        "type": "admission/college",
+        "url": "medical"
+    },
+    {
+        "id": "g.n.m-general-nursing-and-midwifery",
+        "name": "G.N.M General Nursing and Midwifery",
+        "top": 8,
+        "type": "admission/college",
+        "url": "medical"
+    },
+    {
+        "id": "medical-records-management-mrm",
+        "name": "Medical Records Management MRM",
+        "top": 1,
+        "type": "admission/college",
+        "url": "medical"
+    },
+    {
+        "id": "m.optom-master-of-optometry",
+        "name": "M.Optom Master of Optometry",
+        "top": 2,
+        "type": "admission/college",
+        "url": "medical"
+    },
+    {
+        "id": "vachaspati",
+        "name": "Vachaspati",
+        "top": 3,
+        "type": "admission/college",
+        "url": "medical"
+    },
+    {
+        "id": "m.arch-master-of-architecture",
+        "name": "M.Arch Master of Architecture",
+        "top": 4,
+        "type": "admission/college",
+        "url": "medical"
+    },
+    {
+        "id": "b.h.m-bachelor-of-hotel-management",
+        "name": "B.H.M Bachelor of Hotel Management",
+        "top": 5,
+        "type": "admission/college",
+        "url": "medical"
+    },
+    {
+        "id": "b.m.m-bachelor-of-mass-media",
+        "name": "B.M.M Bachelor of Mass Media",
+        "top": 6,
+        "type": "admission/college",
+        "url": "medical"
+    },
+    {
+        "id": "b.a-b.ed",
+        "name": "B.A + B.Ed",
+        "top": 7,
+        "type": "admission/college",
+        "url": "medical"
+    },
+    {
+        "id": "m.tech-ph.d",
+        "name": "M.Tech + Ph.D",
+        "top": 8,
+        "type": "admission/college",
+        "url": "medical"
+    },
+    {
+        "id": "m.a.m-master-of-applied-management",
+        "name": "M.A.M Master of Applied Management",
+        "top": 1,
+        "type": "admission/college",
+        "url": "medical"
+    },
+    {
+        "id": "b.d.s-bachelor-of-dental",
+        "name": "B.D.S Bachelor of Dental",
+        "top": 2,
+        "type": "admission/college",
+        "url": "medical"
+    },
+    {
+        "id": "b.h.s-bachelor-of-hospital-administration",
+        "name": "B.H.S Bachelor of Hospital Administration",
+        "top": 3,
+        "type": "admission/college",
+        "url": "medical"
+    },
+    {
+        "id": "b.com-bachelor-of-commerce",
+        "name": "B.Com Bachelor of Commerce",
+        "top": 1,
+        "type": "admission/college",
+        "url": "commerce-and-banking"
+    },
+    {
+        "id": "m.com-master-of-commerce",
+        "name": "M.Com Master of Commerce",
+        "top": 2,
+        "type": "admission/college",
+        "url": "commerce-and-banking"
+    },
+    {
+        "id": "m.phil-master-of-philosophy",
+        "name": "M.Phil Master of Philosophy",
+        "top": 3,
+        "type": "admission/college",
+        "url": "commerce-and-banking"
+    },
+    {
+        "id": "diploma",
+        "name": "Diploma",
+        "top": 4,
+        "type": "admission/college",
+        "url": "commerce-and-banking"
+    },
+    {
+        "id": "ph.d-doctor-of-philosophy",
+        "name": "Ph.D Doctor of Philosophy",
+        "top": 5,
+        "type": "admission/college",
+        "url": "commerce-and-banking"
+    },
+    {
+        "id": "b.sc-bachelor-of-science",
+        "name": "B.Sc Bachelor of Science",
+        "top": 6,
+        "type": "admission/college",
+        "url": "commerce-and-banking"
+    },
+    {
+        "id": "certificate",
+        "name": "Certificate",
+        "top": 7,
+        "type": "admission/college",
+        "url": "commerce-and-banking"
+    },
+    {
+        "id": "b.com-m.com",
+        "name": "B.Com + M.Com",
+        "top": 8,
+        "type": "admission/college",
+        "url": "commerce-and-banking"
+    },
+    {
+        "id": "b.a.f-bachelor-of-accounting-and-finance",
+        "name": "B.A.F Bachelor of Accounting and Finance",
+        "top": 1,
+        "type": "admission/college",
+        "url": "commerce-and-banking"
+    },
+    {
+        "id": "post-graduate-diploma",
+        "name": "Post Graduate Diploma",
+        "top": 2,
+        "type": "admission/college",
+        "url": "commerce-and-banking"
+    },
+    {
+        "id": "m.sc-master-of-science",
+        "name": "M.Sc Master of Science",
+        "top": 3,
+        "type": "admission/college",
+        "url": "commerce-and-banking"
+    },
+    {
+        "id": "m.phil-ph.d",
+        "name": "M.Phil + Ph.D",
+        "top": 4,
+        "type": "admission/college",
+        "url": "commerce-and-banking"
+    },
+    {
+        "id": "b.a-bachelor-of-arts",
+        "name": "B.A Bachelor of Arts",
+        "top": 5,
+        "type": "admission/college",
+        "url": "commerce-and-banking"
+    },
+    {
+        "id": "b.b.a-bachelor-of-business-administration",
+        "name": "B.B.A Bachelor of Business Administration",
+        "top": 6,
+        "type": "admission/college",
+        "url": "commerce-and-banking"
+    },
+    {
+        "id": "b.voc-bachelor-of-vocation",
+        "name": "B.Voc Bachelor of Vocation",
+        "top": 7,
+        "type": "admission/college",
+        "url": "commerce-and-banking"
+    },
+    {
+        "id": "m.m.s-master-of-management-studies",
+        "name": "M.M.S Master of Management Studies",
+        "top": 8,
+        "type": "admission/college",
+        "url": "commerce-and-banking"
+    },
+    {
+        "id": "c.a-chartered-accountant",
+        "name": "C.A Chartered Accountant",
+        "top": 1,
+        "type": "admission/college",
+        "url": "commerce-and-banking"
+    },
+    {
+        "id": "m.s-master-of-science",
+        "name": "M.S Master of Science",
+        "top": 2,
+        "type": "admission/college",
+        "url": "commerce-and-banking"
+    },
+    {
+        "id": "m.ed-master-of-education",
+        "name": "M.Ed Master of Education",
+        "top": 3,
+        "type": "admission/college",
+        "url": "commerce-and-banking"
+    },
+    {
+        "id": "m.f.a-master-of-finance-and-accounting",
+        "name": "M.F.A Master of Finance and Accounting",
+        "top": 4,
+        "type": "admission/college",
+        "url": "commerce-and-banking"
+    },
+    {
+        "id": "m.c.a-master-of-computer-applications",
+        "name": "M.C.A Master of Computer Applications",
+        "top": 5,
+        "type": "admission/college",
+        "url": "commerce-and-banking"
+    },
+    {
+        "id": "other",
+        "name": "Other",
+        "top": 6,
+        "type": "admission/college",
+        "url": "commerce-and-banking"
+    },
+    {
+        "id": "b.b.m-bachelor-of-business-management",
+        "name": "B.B.M Bachelor of Business Management",
+        "top": 7,
+        "type": "admission/college",
+        "url": "commerce-and-banking"
+    },
+    {
+        "id": "m.f.m-master-of-financial-management",
+        "name": "M.F.M Master of Financial Management",
+        "top": 8,
+        "type": "admission/college",
+        "url": "commerce-and-banking"
+    },
+    {
+        "id": "m.m.m-master-of-marketing-management",
+        "name": "M.M.M Master of Marketing Management",
+        "top": 1,
+        "type": "admission/college",
+        "url": "commerce-and-banking"
+    },
+    {
+        "id": "m.h.r.d.m-master-in-human-resources-development-management",
+        "name": "M.H.R.D.M Master in Human Resources Development Management",
+        "top": 2,
+        "type": "admission/college",
+        "url": "commerce-and-banking"
+    },
+    {
+        "id": "ll.b-bachelor-of-laws",
+        "name": "LL.B Bachelor of Laws",
+        "top": 3,
+        "type": "admission/college",
+        "url": "commerce-and-banking"
+    },
+    {
+        "id": "b.com-ll.b",
+        "name": "B.Com + LL.B",
+        "top": 4,
+        "type": "admission/college",
+        "url": "commerce-and-banking"
+    },
+    {
+        "id": "b.s-bachelor-of-science",
+        "name": "B.S Bachelor of Science",
+        "top": 5,
+        "type": "admission/college",
+        "url": "commerce-and-banking"
+    },
+    {
+        "id": "b.com-m.b.a",
+        "name": "B.Com + M.B.A",
+        "top": 6,
+        "type": "admission/college",
+        "url": "commerce-and-banking"
+    },
+    {
+        "id": "b.b.i-bachelor-of-banking-and-insurance",
+        "name": "B.B.I Bachelor of Banking and Insurance",
+        "top": 7,
+        "type": "admission/college",
+        "url": "commerce-and-banking"
+    },
+    {
+        "id": "p.g.p.m-post-graduate-program-in-management",
+        "name": "P.G.P.M Post Graduate Program in Management",
+        "top": 8,
+        "type": "admission/college",
+        "url": "commerce-and-banking"
+    },
+    {
+        "id": "b.f.m-bachelor-of-financial-markets",
+        "name": "B.F.M Bachelor of Financial Markets",
+        "top": 1,
+        "type": "admission/college",
+        "url": "commerce-and-banking"
+    },
+    {
+        "id": "m.b.e-master-of-business-economics",
+        "name": "M.B.E Master of Business Economics",
+        "top": 2,
+        "type": "admission/college",
+        "url": "commerce-and-banking"
+    },
+    {
+        "id": "bgfm",
+        "name": "BGFM",
+        "top": 3,
+        "type": "admission/college",
+        "url": "commerce-and-banking"
+    },
+    {
+        "id": "b.sc-bachelor-of-science",
+        "name": "B.Sc Bachelor of Science",
+        "top": 1,
+        "type": "admission/college",
+        "url": "science"
+    },
+    {
+        "id": "m.sc-master-of-science",
+        "name": "M.Sc-Master of Science",
+        "top": 2,
+        "type": "admission/college",
+        "url": "science"
+    },
+    {
+        "id": "b.a-bachelor-of-arts",
+        "name": "B.A-Bachelor of Arts",
+        "top": 3,
+        "type": "admission/college",
+        "url": "science"
+    },
+    {
+        "id": "ph.d-doctor-of-philosophy",
+        "name": "Ph.D Doctor of Philosophy",
+        "top": 4,
+        "type": "admission/college",
+        "url": "science"
+    },
+    {
+        "id": "m.phil-master-of-philosophy",
+        "name": "M.Phil Master of Philosophy",
+        "top": 5,
+        "type": "admission/college",
+        "url": "science"
+    },
+    {
+        "id": "diploma",
+        "name": "Diploma",
+        "top": 6,
+        "type": "admission/college",
+        "url": "science"
+    },
+    {
+        "id": "certificate",
+        "name": "Certificate",
+        "top": 7,
+        "type": "admission/college",
+        "url": "science"
+    },
+    {
+        "id": "m.d-doctor-of-medicine",
+        "name": "M.D Doctor of Medicine",
+        "top": 8,
+        "type": "admission/college",
+        "url": "science"
+    },
+    {
+        "id": "b.sc-m.sc",
+        "name": "B.Sc + M.Sc",
+        "top": 1,
+        "type": "admission/college",
+        "url": "science"
+    },
+    {
+        "id": "post-graduate-diploma",
+        "name": "Post Graduate Diploma",
+        "top": 2,
+        "type": "admission/college",
+        "url": "science"
+    },
+    {
+        "id": "m.a-master-of-arts",
+        "name": "M.A Master of Arts",
+        "top": 3,
+        "type": "admission/college",
+        "url": "science"
+    },
+    {
+        "id": "m.s-master-of-science",
+        "name": "M.S Master of Science",
+        "top": 4,
+        "type": "admission/college",
+        "url": "science"
+    },
+    {
+        "id": "m.com-master-of-commerce",
+        "name": "M.Com Master of Commerce",
+        "top": 5,
+        "type": "admission/college",
+        "url": "science"
+    },
+    {
+        "id": "b.voc-bachelor of vocation",
+        "name": "B.Voc-Bachelor of Vocation",
+        "top": 6,
+        "type": "admission/college",
+        "url": "science"
+    },
+    {
+        "id": "b.tech-bachelor-of-technology",
+        "name": "B.Tech Bachelor of Technology",
+        "top": 7,
+        "type": "admission/college",
+        "url": "science"
+    },
+    {
+        "id": "b.f.sc-bachelor-of-fishery-science",
+        "name": "B.F.Sc Bachelor of Fishery Science",
+        "top": 8,
+        "type": "admission/college",
+        "url": "science"
+    },
+    {
+        "id": "m.f.sc-master-of-fisheries-science",
+        "name": "M.F.Sc Master of Fisheries Science",
+        "top": 1,
+        "type": "admission/college",
+        "url": "science"
+    },
+    {
+        "id": "m.phil-ph.d",
+        "name": "M.Phil + Ph.D",
+        "top": 2,
+        "type": "admission/college",
+        "url": "science"
+    },
+    {
+        "id": "m.tech-master-of-technology",
+        "name": "M.Tech Master of Technology",
+        "top": 3,
+        "type": "admission/college",
+        "url": "science"
+    },
+    {
+        "id": "b.com-bachelor-of-commerce",
+        "name": "B.Com Bachelor of Commerce",
+        "top": 4,
+        "type": "admission/college",
+        "url": "science"
+    },
+    {
+        "id": "b.s-bachelor-of-science",
+        "name": "B.S Bachelor of Science",
+        "top": 5,
+        "type": "admission/college",
+        "url": "science"
+    },
+    {
+        "id": "b.sc-b.ed",
+        "name": "B.Sc + B.Ed",
+        "top": 6,
+        "type": "admission/college",
+        "url": "science"
+    },
+    {
+        "id": "m.sc-ph.d",
+        "name": "M.Sc + Ph.D",
+        "top": 7,
+        "type": "admission/college",
+        "url": "science"
+    },
+    {
+        "id": "m.ed-master-of-education",
+        "name": "M.Ed Master of Education",
+        "top": 8,
+        "type": "admission/college",
+        "url": "science"
+    },
+    {
+        "id": "b.v.sc-bachelor-of-veterinary-science",
+        "name": "B.V.Sc Bachelor of Veterinary Science",
+        "top": 1,
+        "type": "admission/college",
+        "url": "science"
+    },
+    {
+        "id": "b.s-m.s",
+        "name": "B.S + M.S",
+        "top": 2,
+        "type": "admission/college",
+        "url": "science"
+    },
+    {
+        "id": "m.d.s-master-of-dental-surgery",
+        "name": "M.D.S Master of Dental Surgery",
+        "top": 3,
+        "type": "admission/college",
+        "url": "science"
+    },
+    {
+        "id": "m.pharm-master-of-pharmacy",
+        "name": "M.Pharm Master of Pharmacy",
+        "top": 4,
+        "type": "admission/college",
+        "url": "science"
+    },
+    {
+        "id": "b.o.t-bachelor-of-occupational-therapy",
+        "name": "B.O.T Bachelor of Occupational Therapy",
+        "top": 5,
+        "type": "admission/college",
+        "url": "science"
+    },
+    {
+        "id": "b.tech-m.tech",
+        "name": "B.Tech + M.Tech",
+        "top": 6,
+        "type": "admission/college",
+        "url": "science"
+    },
+    {
+        "id": "m.v.sc-master-of-veterinary-science",
+        "name": "M.V.Sc Master of Veterinary Science",
+        "top": 7,
+        "type": "admission/college",
+        "url": "science"
+    },
+    {
+        "id": "d.sc-doctor-of-science",
+        "name": "D.Sc Doctor of science",
+        "top": 8,
+        "type": "admission/college",
+        "url": "science"
+    },
+    {
+        "id": "other",
+        "name": "Other",
+        "top": 1,
+        "type": "admission/college",
+        "url": "science"
+    },
+    {
+        "id": "m.s-master-of-surgery",
+        "name": "M.S Master of Surgery",
+        "top": 2,
+        "type": "admission/college",
+        "url": "science"
+    },
+    {
+        "id": "m.lib-master-of-library-sciences",
+        "name": "M.Lib Master of Library Sciences",
+        "top": 3,
+        "type": "admission/college",
+        "url": "science"
+    },
+    {
+        "id": "b.sc-m.b.a",
+        "name": "B.Sc + M.B.A",
+        "top": 4,
+        "type": "admission/college",
+        "url": "science"
+    },
+    {
+        "id": "b.p.ed-bachelor-of-physical-education",
+        "name": "B.P.Ed Bachelor of Physical Education",
+        "top": 5,
+        "type": "admission/college",
+        "url": "science"
+    },
+    {
+        "id": "m.h.a-master-of-administration",
+        "name": "M.H.A Master of Administration",
+        "top": 6,
+        "type": "admission/college",
+        "url": "science"
+    },
+    {
+        "id": "b.tech-m.s",
+        "name": "B.Tech M.S",
+        "top": 7,
+        "type": "admission/college",
+        "url": "science"
+    },
+    {
+        "id": "m.b.b.s-bachelor-of-medicine-and-bachelor-of-surgery",
+        "name": "M.B.B.S Bachelor of Medicine and Bachelor of Surgery",
+        "top": 8,
+        "type": "admission/college",
+        "url": "science"
+    },
+    {
+        "id": "b.h.m-bachelor-of-foreign-trade",
+        "name": "B.H.M Bachelor of Foreign Trade",
+        "top": 1,
+        "type": "admission/college",
+        "url": "science"
+    },
+    {
+        "id": "m.b.a-master-of-business-administration",
+        "name": "M.B.A Master of Business Administration",
+        "top": 2,
+        "type": "admission/college",
+        "url": "science"
+    },
+    {
+        "id": "b.p.t-bachelor-of-physiotherapy",
+        "name": "B.P.T Bachelor of physiotherapy",
+        "top": 3,
+        "type": "admission/college",
+        "url": "science"
+    },
+    {
+        "id": "b.pharm-bachelor-of-pharmacy",
+        "name": "B.Pharm Bachelor of Pharmacy",
+        "top": 4,
+        "type": "admission/college",
+        "url": "science"
+    },
+    {
+        "id": "b.c.a-bachelor-of-computer-applications",
+        "name": "B.C.A Bachelor of Computer Applications",
+        "top": 5,
+        "type": "admission/college",
+        "url": "science"
+    },
+    {
+        "id": "b.h.m.c.t-bachelor-of-hotel-management-and-catering-technology",
+        "name": "B.H.M.C.T Bachelor of Hotel Management and Catering Technology",
+        "top": 6,
+        "type": "admission/college",
+        "url": "science"
+    },
+    {
+        "id": "b.a.m-bachelor-of-applied-management",
+        "name": "B.A.M Bachelor of Applied Management",
+        "top": 7,
+        "type": "admission/college",
+        "url": "science"
+    },
+    {
+        "id": "b.p.p-bachelor-of-preparatory-programme",
+        "name": "B.P.P Bachelor of Preparatory Programme",
+        "top": 8,
+        "type": "admission/college",
+        "url": "science"
+    },
+    {
+        "id": "other",
+        "name": "Other",
+        "top": 1,
+        "type": "admission/college",
+        "url": "science"
+    },
+    {
+        "id": "diploma",
+        "name": "Diploma",
+        "top": 1,
+        "type": "admission/college",
+        "url": "hotel-management"
+    },
+    {
+        "id": "b.sc-bachelor-of-science",
+        "name": "B.Sc Bachelor of Science",
+        "top": 2,
+        "type": "admission/college",
+        "url": "hotel-management"
+    },
+    {
+        "id": "certificate",
+        "name": "Certificate",
+        "top": 3,
+        "type": "admission/college",
+        "url": "hotel-management"
+    },
+    {
+        "id": "b.h.m-bachelor-of-hotel-management",
+        "name": "B.H.M Bachelor of Hotel Management",
+        "top": 4,
+        "type": "admission/college",
+        "url": "hotel-management"
+    },
+    {
+        "id": "b.h.m.c.t-bachelor-of-hotel-management-and-catering-technology",
+        "name": "B.H.M.C.T Bachelor of Hotel Management and Catering Technology",
+        "top": 5,
+        "type": "admission/college",
+        "url": "hotel-management"
+    },
+    {
+        "id": "post-graduate-diploma",
+        "name": "Post Graduate Diploma",
+        "top": 6,
+        "type": "admission/college",
+        "url": "hotel-management"
+    },
+    {
+        "id": "b.a-bachelor-of-arts",
+        "name": "B.A Bachelor of Arts",
+        "top": 7,
+        "type": "admission/college",
+        "url": "hotel-management"
+    },
+    {
+        "id": "b.t.t.m-bachelor-of-tourism-and-travel-management",
+        "name": "B.T.T.M Bachelor of Tourism and Travel Management",
+        "top": 8,
+        "type": "admission/college",
+        "url": "hotel-management"
+    },
+    {
+        "id": "b.b.a-bachelor-of-business-administration",
+        "name": "B.B.A Bachelor of Business Administration",
+        "top": 1,
+        "type": "admission/college",
+        "url": "hotel-management"
+    },
+    {
+        "id": "m.sc-master-of-science",
+        "name": "M.Sc Master of Science",
+        "top": 2,
+        "type": "admission/college",
+        "url": "hotel-management"
+    },
+    {
+        "id": "m.h.m-master-of-hotel-management",
+        "name": "M.H.M Master of Hotel Management",
+        "top": 3,
+        "type": "admission/college",
+        "url": "hotel-management"
+    },
+    {
+        "id": "b.voc-bachelor-of-vocation",
+        "name": "B.Voc Bachelor of Vocation",
+        "top": 4,
+        "type": "admission/college",
+        "url": "hotel-management"
+    },
+    {
+        "id": "ph.d-doctor-of-philosophy",
+        "name": "Ph.D Doctor of Philosophy",
+        "top": 5,
+        "type": "admission/college",
+        "url": "hotel-management"
+    },
+    {
+        "id": "bachelor-of-tourism-and-hotel-management",
+        "name": "Bachelor of Tourism and Hotel Management",
+        "top": 6,
+        "type": "admission/college",
+        "url": "hotel-management"
+    },
+    {
+        "id": "m.a-master-of-arts",
+        "name": "M.A Master of Arts",
+        "top": 7,
+        "type": "admission/college",
+        "url": "hotel-management"
+    },
+    {
+        "id": "b.com-bachelor-of-commerce",
+        "name": "B.Com Bachelor of Commerce",
+        "top": 8,
+        "type": "admission/college",
+        "url": "hotel-management"
+    },
+    {
+        "id": "m.t.m-master-of-tourism-management",
+        "name": "M.T.M Master of Tourism Management",
+        "top": 1,
+        "type": "admission/college",
+        "url": "hotel-management"
+    },
+    {
+        "id": "m.t.a-master-of-tourism-administration",
+        "name": "M.T.A Master of Tourism Administration",
+        "top": 2,
+        "type": "admission/college",
+        "url": "hotel-management"
+    },
+    {
+        "id": "m.h.a-master-of-hospital-administartion",
+        "name": "M.H.A Master of Hospital Administartion",
+        "top": 3,
+        "type": "admission/college",
+        "url": "hotel-management"
+    },
+    {
+        "id": "b.h.m-bachelor-of-hotel-management",
+        "name": "B.H.M Bachelor of Hotel Management",
+        "top": 4,
+        "type": "admission/college",
+        "url": "hotel-management"
+    },
+    {
+        "id": "m.h.m-master-of-hospitality-management",
+        "name": "M.H.M Master of Hospitality Management",
+        "top": 5,
+        "type": "admission/college",
+        "url": "hotel-management"
+    },
+    {
+        "id": "m.b.a-master-of-business-administration",
+        "name": "M.B.A Master of Business Administration",
+        "top": 6,
+        "type": "admission/college",
+        "url": "hotel-management"
+    },
+    {
+        "id": "master-of-tourism-and-trave- management",
+        "name": "Master of Tourism and Travel Management",
+        "top": 7,
+        "type": "admission/college",
+        "url": "hotel-management"
+    },
+    {
+        "id": "b.b.a-m.b.a.",
+        "name": "B.B.A-M.B.A.",
+        "top": 8,
+        "type": "admission/college",
+        "url": "hotel-management"
+    },
+    {
+        "id": "other",
+        "name": "Other",
+        "top": 1,
+        "type": "admission/college",
+        "url": "hotel-management"
+    },
+    {
+        "id": "m.tech-master-of-technology",
+        "name": "M.Tech Master of Technology",
+        "top": 2,
+        "type": "admission/college",
+        "url": "hotel-management"
+    },
+    {
+        "id": "b.b.m-bachelor-of-business-management",
+        "name": "B.B.M-Bachelor of Business Management",
+        "top": 3,
+        "type": "admission/college",
+        "url": "hotel-management"
+    },
+    {
+        "id": "m.m.s-master-of-management-studies",
+        "name": "M.M.S Master of Management Studies",
+        "top": 4,
+        "type": "admission/college",
+        "url": "hotel-management"
+    },
+    {
+        "id": "m.s-master-of-science",
+        "name": "M.S Master of Science",
+        "top": 5,
+        "type": "admission/college",
+        "url": "hotel-management"
+    },
+    {
+        "id": "m.phil-master-of-philosophy",
+        "name": "M.Phil Master of Philosophy",
+        "top": 6,
+        "type": "admission/college",
+        "url": "hotel-management"
+    },
+    {
+        "id": "other",
+        "name": "Other",
+        "top": 7,
+        "type": "admission/college",
+        "url": "hotel-management"
+    },
+    {
+        "id": "b.h.m-m.b.a-bachelor-hospitality-management-master-of-business-management",
+        "name": "B.H.M + M.B.A Bachelor Hospitality Management + Master of Business Management",
+        "top": 8,
+        "type": "admission/college",
+        "url": "hotel-management"
+    },
+    {
+        "id": "b.arch-bachelor-of-architecture",
+        "name": "B.Arch Bachelor of Architecture",
+        "top": 1,
+        "type": "admission/college",
+        "url": "hotel-management"
+    },
+    {
+        "id": "b.m.s-bachelor-of-management-studies",
+        "name": "B.M.S Bachelor of Management Studies",
+        "top": 2,
+        "type": "admission/college",
+        "url": "hotel-management"
+    },
+    {
+        "id": "b.i.b-bachelor-of-international-business-adminstration",
+        "name": "B.I.B Bachelor of International Business Adminstration",
+        "top": 3,
+        "type": "admission/college",
+        "url": "hotel-management"
+    },
+    {
+        "id": "m.m.m-master-of-marketing-management",
+        "name": "M.M.M Master of Marketing Management",
+        "top": 4,
+        "type": "admission/college",
+        "url": "hotel-management"
+    },
+    {
+        "id": "m.s-master-of-surgery",
+        "name": "M.S Master of Surgery",
+        "top": 5,
+        "type": "admission/college",
+        "url": "hotel-management"
+    },
+    {
+        "id": "m.b.a-p.g.d.m",
+        "name": "M.B.A + P.G.D.M",
+        "top": 6,
+        "type": "admission/college",
+        "url": "hotel-management"
+    },
+    {
+        "id": "b.h.s-bachelor-of-home-science",
+        "name": "B.H.S Bachelor of Home Science",
+        "top": 7,
+        "type": "admission/college",
+        "url": "hotel-management"
+    },
+    {
+        "id": "b.sc-m.sc",
+        "name": "B.Sc + M.Sc",
+        "top": 8,
+        "type": "admission/college",
+        "url": "hotel-management"
+    },
+    {
+        "id": "b.hm.c.t-m.b.a",
+        "name": "B.HM.C.T + M.B.A",
+        "top": 1,
+        "type": "admission/college",
+        "url": "hotel-management"
+    },
+    {
+        "id": "b.c.a-bachelor-of-computer-application",
+        "name": "B.C.A Bachelor of Computer Application",
+        "top": 1,
+        "type": "admission/college",
+        "url": "information-technology"
+    },
+    {
+        "id": "m.c.a-master-of-computer-application",
+        "name": "M.C.A Master of Computer Application",
+        "top": 2,
+        "type": "admission/college",
+        "url": "information-technology"
+    },
+    {
+        "id": "diploma",
+        "name": "Diploma",
+        "top": 3,
+        "type": "admission/college",
+        "url": "information-technology"
+    },
+    {
+        "id": "b.sc-bachelor-of-science",
+        "name": "B.Sc Bachelor of Science",
+        "top": 4,
+        "type": "admission/college",
+        "url": "information-technology"
+    },
+    {
+        "id": "post-graduate-diploma",
+        "name": "Post Graduate Diploma",
+        "top": 5,
+        "type": "admission/college",
+        "url": "information-technology"
+    },
+    {
+        "id": "m.sc-master-of-science",
+        "name": "M.Sc Master of Science",
+        "top": 6,
+        "type": "admission/college",
+        "url": "information-technology"
+    },
+    {
+        "id": "b.tech-bachelor-of-technology",
+        "name": "B.Tech Bachelor of Technology",
+        "top": 7,
+        "type": "admission/college",
+        "url": "information-technology"
+    },
+    {
+        "id": "certificate",
+        "name": "Certificate",
+        "top": 8,
+        "type": "admission/college",
+        "url": "information-technology"
+    },
+    {
+        "id": "other",
+        "name": "Other",
+        "top": 1,
+        "type": "admission/college",
+        "url": "information-technology"
+    },
+    {
+        "id": "b.a-bachelor-of-arts",
+        "name": "B.A Bachelor of Arts",
+        "top": 2,
+        "type": "admission/college",
+        "url": "information-technology"
+    },
+    {
+        "id": "b.com-bachelor-of-commerce",
+        "name": "B.Com Bachelor of Commerce",
+        "top": 3,
+        "type": "admission/college",
+        "url": "information-technology"
+    },
+    {
+        "id": "ph.d-doctor-of-philosophy",
+        "name": "Ph.D Doctor of Philosophy",
+        "top": 4,
+        "type": "admission/college",
+        "url": "information-technology"
+    },
+    {
+        "id": "m.tech-master-of-technology",
+        "name": "M.Tech Master of Technology",
+        "top": 5,
+        "type": "admission/college",
+        "url": "information-technology"
+    },
+    {
+        "id": "b.c.a-m.c.a",
+        "name": "B.C.A + M.C.A",
+        "top": 6,
+        "type": "admission/college",
+        "url": "information-technology"
+    },
+    {
+        "id": "m.b.a-master-of-business-administration",
+        "name": "M.B.A Master of Business Administration",
+        "top": 7,
+        "type": "admission/college",
+        "url": "information-technology"
+    },
+    {
+        "id": "m.com-master-of-commerce",
+        "name": "M.Com Master of Commerce",
+        "top": 8,
+        "type": "admission/college",
+        "url": "information-technology"
+    },
+    {
+        "id": "b.voc-bachelor-of-vocation",
+        "name": "B.Voc Bachelor of Vocation",
+        "top": 1,
+        "type": "admission/college",
+        "url": "information-technology"
+    },
+    {
+        "id": "b.b.a-bachelor-of-business-administration",
+        "name": "B.B.A Bachelor of Business Administration",
+        "top": 2,
+        "type": "admission/college",
+        "url": "information-technology"
+    },
+    {
+        "id": "post-graduate-diploma-in-computer-application",
+        "name": "Post Graduate Diploma in Computer Application",
+        "top": 3,
+        "type": "admission/college",
+        "url": "information-technology"
+    },
+    {
+        "id": "m.phil-master-of-philosophy",
+        "name": "M.Phil Master of Philosophy",
+        "top": 4,
+        "type": "admission/college",
+        "url": "information-technology"
+    },
+    {
+        "id": "m.s-master-of-science",
+        "name": "M.S Master of Science",
+        "top": 5,
+        "type": "admission/college",
+        "url": "information-technology"
+    },
+    {
+        "id": "b.sc-m.sc",
+        "name": "B.Sc + M.Sc",
+        "top": 6,
+        "type": "admission/college",
+        "url": "information-technology"
+    },
+    {
+        "id": "b.b.m-bachelor-of-business-management",
+        "name": "B.B.M Bachelor of Business Management",
+        "top": 7,
+        "type": "admission/college",
+        "url": "information-technology"
+    },
+    {
+        "id": "m.c.m-master-of-computer-management",
+        "name": "M.C.M Master of Computer Management",
+        "top": 8,
+        "type": "admission/college",
+        "url": "information-technology"
+    },
+    {
+        "id": "m.m.s-master-of-management-studies",
+        "name": "M.M.S Master of Management Studies",
+        "top": 1,
+        "type": "admission/college",
+        "url": "information-technology"
+    },
+    {
+        "id": "m.a-master-of-rts",
+        "name": "M.A Master of Arts",
+        "top": 2,
+        "type": "admission/college",
+        "url": "information-technology"
+    },
+    {
+        "id": "b.b.a-m.b.a",
+        "name": "B.B.A + M.B.A",
+        "top": 3,
+        "type": "admission/college",
+        "url": "information-technology"
+    },
+    {
+        "id": "m.s-master-of-surgery",
+        "name": "M.S Master of Surgery",
+        "top": 4,
+        "type": "admission/college",
+        "url": "information-technology"
+    },
+    {
+        "id": "m.i.b-master-of-internation-business",
+        "name": "M.I.B Master of Internation Business",
+        "top": 5,
+        "type": "admission/college",
+        "url": "information-technology"
+    },
+    {
+        "id": "b.c.a-m.b.a",
+        "name": "B.C.A + M.B.A",
+        "top": 6,
+        "type": "admission/college",
+        "url": "information-technology"
+    },
+    {
+        "id": "b.tech-m.b.a",
+        "name": "B.Tech + M.B.A",
+        "top": 7,
+        "type": "admission/college",
+        "url": "information-technology"
+    },
+    {
+        "id": "b.tech-m.tech",
+        "name": "B.Tech + M.Tech",
+        "top": 8,
+        "type": "admission/college",
+        "url": "information-technology"
+    },
+    {
+        "id": "m.voc-master-of-vocation",
+        "name": "M.Voc Master of Vocation",
+        "top": 1,
+        "type": "admission/college",
+        "url": "information-technology"
+    },
+    {
+        "id": "b.m.s-bachelor-of-management-studies",
+        "name": "B.M.S Bachelor of Management Studies",
+        "top": 2,
+        "type": "admission/college",
+        "url": "information-technology"
+    },
+    {
+        "id": "b.s-bachelor-of-science",
+        "name": "B.S Bachelor of Science",
+        "top": 3,
+        "type": "admission/college",
+        "url": "information-technology"
+    },
+    {
+        "id": "b.des-bachelor-of-design",
+        "name": "B.Des Bachelor of Design",
+        "top": 4,
+        "type": "admission/college",
+        "url": "information-technology"
+    },
+    {
+        "id": "m.arch-master-of-architecture",
+        "name": "M.Arch Master of Architecture",
+        "top": 5,
+        "type": "admission/college",
+        "url": "information-technology"
+    },
+    {
+        "id": "b.i.b-bachelor-of-international-business-administration",
+        "name": "B.I.B Bachelor of International Business Administration",
+        "top": 6,
+        "type": "admission/college",
+        "url": "information-technology"
+    },
+    {
+        "id": "b.i.m-bachelor-of-information-management",
+        "name": "B.I.M Bachelor of Information Management",
+        "top": 7,
+        "type": "admission/college",
+        "url": "information-technology"
+    },
+    {
+        "id": "b.s-m.s",
+        "name": "B.S + M.S",
+        "top": 8,
+        "type": "admission/college",
+        "url": "information-technology"
+    },
+    {
+        "id": "m.ed-master-of-education",
+        "name": "M.Ed Master of Education",
+        "top": 1,
+        "type": "admission/college",
+        "url": "information-technology"
+    },
+    {
+        "id": "m.b.a-p.g.d.m",
+        "name": "M.B.A + P.G.D.M",
+        "top": 2,
+        "type": "admission/college",
+        "url": "information-technology"
+    },
+    {
+        "id": "m.b.m-master-of-business-management",
+        "name": "M.B.M Master of Business Management",
+        "top": 3,
+        "type": "admission/college",
+        "url": "information-technology"
+    },
+    {
+        "id": "diploma-in-vocation",
+        "name": "Diploma in Vocation",
+        "top": 4,
+        "type": "admission/college",
+        "url": "information-technology"
+    },
+    {
+        "id": "pgp-post-graduate-programme",
+        "name": "PGP Post Graduate Programme",
+        "top": 5,
+        "type": "admission/college",
+        "url": "information-technology"
+    },
+    {
+        "id": "b.a-bachelor-of-arts",
+        "name": "B.A Bachelor of Arts",
+        "top": 1,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "m.a-master-of-arts",
+        "name": "M.A Master of Arts",
+        "top": 2,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "b.sc-bachelor-of-science",
+        "name": "B.Sc Bachelor of Science",
+        "top": 3,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "master-of-social-work",
+        "name": "Master of Social work",
+        "top": 4,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "certificate",
+        "name": "Certificate",
+        "top": 5,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "m.phil-master-of-philosophy",
+        "name": "M.Phil Master of Philosophy",
+        "top": 6,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "b.lib-bachelor-of-library-sciences",
+        "name": "B.Lib Bachelor of Library Sciences",
+        "top": 7,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "diploma",
+        "name": "Diploma",
+        "top": 8,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "ph.d-doctor-of-philosophy",
+        "name": "Ph.D Doctor of Philosophy",
+        "top": 1,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "b.s.w-bachelor-of-social-work",
+        "name": "B.S.W Bachelor of Social Work",
+        "top": 2,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "m.lib-master-of-library-sciences",
+        "name": "M.Lib Master of Library Sciences",
+        "top": 3,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "b.a-m.a",
+        "name": "B.A + M.A",
+        "top": 4,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "m.sc-master-of-science",
+        "name": "M.Sc Master of Science",
+        "top": 5,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "post-graduate-diploma",
+        "name": "Post Graduate Diploma",
+        "top": 6,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "b.com-bachelor-of-commerce",
+        "name": "B.Com Bachelor of Commerce",
+        "top": 7,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "b.f.a-bachelor-of-fine-arts",
+        "name": "B.F.A Bachelor of Fine Arts",
+        "top": 8,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "integrated-master-of-rural-studies",
+        "name": "Integrated Master of Rural Studies",
+        "top": 1,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "m.f.a-master-of-fine-arts",
+        "name": "M.F.A Master of Fine Arts",
+        "top": 2,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "m.phil-ph.d",
+        "name": "M.Phil + Ph.D",
+        "top": 3,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "b.a-b.ed",
+        "name": "B.A + B.Ed",
+        "top": 4,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "m.ed-master-of-education",
+        "name": "M.Ed Master of Education",
+        "top": 5,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "b.h.s-bachelor-of-home-science",
+        "name": "B.H.S Bachelor of Home Science",
+        "top": 6,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "b.ed-bachelor-of-education",
+        "name": "B.Ed Bachelor of Education",
+        "top": 7,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "b.tech-bachelor-of-technology",
+        "name": "B.Tech Bachelor of Technology",
+        "top": 8,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "m.p.h-master-of-public-health",
+        "name": "M.P.H Master of Public Health",
+        "top": 1,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "m.f.a-master-of-finance-and-accounting",
+        "name": "M.F.A Master of Finance and Accounting",
+        "top": 2,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "m.b.a-master-of-business-administration",
+        "name": "M.B.A Master of Business Administration",
+        "top": 3,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "m.tech-master-of-technology",
+        "name": "M.Tech Master of Technology",
+        "top": 4,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "m.p.ed-master-of-physical-education",
+        "name": "M.P.Ed Master of Physical Education",
+        "top": 5,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "m.sc-master-of-science",
+        "name": "M.Sc Master of Science",
+        "top": 6,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "m.d-doctor-of-medicine",
+        "name": "M.D Doctor of Medicine",
+        "top": 7,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "d.litt-doctor-of-literature",
+        "name": "D.Litt Doctor of Literature",
+        "top": 8,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "b.s-bachelor-of-science",
+        "name": "B.S Bachelor of Science",
+        "top": 1,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "m.com-master-of-commerce",
+        "name": "M.Com Master of Commerce",
+        "top": 2,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "b.b.a-bachelor-of-business-administration",
+        "name": "B.B.A Bachelor of Business Administration",
+        "top": 3,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "m.plan-master-of-planning",
+        "name": "M.Plan Master of Planning",
+        "top": 4,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "b.voc-bachelor-of-vocation",
+        "name": "B.Voc Bachelor of Vocation",
+        "top": 5,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "b.f.sc-bachelor-of-fishery-science",
+        "name": "B.F.Sc Bachelor of Fishery Science",
+        "top": 6,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "b.a.m-bachelor-of-applied-management",
+        "name": "B.A.M Bachelor of Applied management",
+        "top": 7,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "m.a.m-master-of-applied-management",
+        "name": "M.A.M Master of Applied Management",
+        "top": 8,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "b.m.m-bachelor-of-mass-media",
+        "name": "B.M.M Bachelor of Mass Media",
+        "top": 1,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "m.c.m-master-of-computer-management",
+        "name": "M.C.M Master of Computer Management",
+        "top": 2,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "b.plan-bachelor-of-planning",
+        "name": "B.Plan Bachelor of Planning",
+        "top": 3,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "b.v.sc-bachelor-of-veterinary-science",
+        "name": "B.V.Sc Bachelor of Veterinary Science",
+        "top": 4,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "m.s-master-of-surgery",
+        "name": "M.S Master of Surgery",
+        "top": 5,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "b.p.p-bachelor-preparatory-programme",
+        "name": "B.P.P Bachelor Preparatory Programme",
+        "top": 6,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "b.mus-bachelor-of-music",
+        "name": "B.Mus Bachelor of Music",
+        "top": 7,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "b.sc-m.sc",
+        "name": "B.Sc + M.Sc",
+        "top": 8,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "executive-m.b.a",
+        "name": "Executive M.B.A",
+        "top": 1,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "masters-in-sports-management",
+        "name": "Masters in Sports Management",
+        "top": 2,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "bachelor-of-oriental-learning",
+        "name": "Bachelor of Oriental Learning",
+        "top": 3,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "master-of-social-work",
+        "name": "Master of Social work",
+        "top": 4,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "bachelor-of-social-work-and-master-of-social-work",
+        "name": "Bachelor of Social Work and Master of Social Work",
+        "top": 5,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "practical-training-and-skill-development-program",
+        "name": "Practical Training  and Skill Development Program",
+        "top": 6,
+        "type": "admission/college",
+        "url": "arts-and-humanities"
+    },
+    {
+        "id": "b.a-bachelor-of-arts",
+        "name": "B.A Bachelor of Arts",
+        "top": 1,
+        "type": "admission/college",
+        "url": "mass-communication"
+    },
+    {
+        "id": "m.a-master-of-arts",
+        "name": "M.A Master of Arts",
+        "top": 2,
+        "type": "admission/college",
+        "url": "mass-communication"
+    },
+    {
+        "id": "diploma",
+        "name": "Diploma",
+        "top": 3,
+        "type": "admission/college",
+        "url": "mass-communication"
+    },
+    {
+        "id": "certificate",
+        "name": "Certificate",
+        "top": 4,
+        "type": "admission/college",
+        "url": "mass-communication"
+    },
+    {
+        "id": "post-graduate-diploma",
+        "name": "Post Graduate Diploma",
+        "top": 5,
+        "type": "admission/college",
+        "url": "mass-communication"
+    },
+    {
+        "id": "b.j.m.c-bachelor-of-journalism-and-mass-communication",
+        "name": "B.J.M.C Bachelor of Journalism and Mass Communication",
+        "top": 6,
+        "type": "admission/college",
+        "url": "mass-communication"
+    },
+    {
+        "id": "b.sc-bachelor-of-science",
+        "name": "B.Sc Bachelor of Science",
+        "top": 7,
+        "type": "admission/college",
+        "url": "mass-communication"
+    },
+    {
+        "id": "m.j.m.c-master-of-journalism-and-mass-communication",
+        "name": "M.J.M.C Master of Journalism and Mass Communication",
+        "top": 8,
+        "type": "admission/college",
+        "url": "mass-communication"
+    },
+    {
+        "id": "bachelors-degree",
+        "name": "Bachelors Degree",
+        "top": 1,
+        "type": "admission/college",
+        "url": "mass-communication"
+    },
+    {
+        "id": "b.m.m-bachelor-of-mass-media",
+        "name": "B.M.M Bachelor of Mass Media",
+        "top": 2,
+        "type": "admission/college",
+        "url": "mass-communication"
+    },
+    {
+        "id": "ph.d-doctor-of-philosophy",
+        "name": "Ph.D Doctor of Philosophy",
+        "top": 3,
+        "type": "admission/college",
+        "url": "mass-communication"
+    },
+    {
+        "id": "m.sc-master-of-science",
+        "name": "M.Sc Master of Science",
+        "top": 4,
+        "type": "admission/college",
+        "url": "mass-communication"
+    },
+    {
+        "id": "b.m.c-bachelor-of-mass-communication",
+        "name": "B.M.C Bachelor of Mass Communication",
+        "top": 5,
+        "type": "admission/college",
+        "url": "mass-communication"
+    },
+    {
+        "id": "b.voc-bachelor-of-vocation",
+        "name": "B.Voc Bachelor of Vocation",
+        "top": 6,
+        "type": "admission/college",
+        "url": "mass-communication"
+    },
+    {
+        "id": "m.ed-master-of-education",
+        "name": "M.Ed Master of Education",
+        "top": 7,
+        "type": "admission/college",
+        "url": "mass-communication"
+    },
+    {
+        "id": "m.m.c-master-of-mass-communication",
+        "name": "M.M.C Master of Mass Communication",
+        "top": 8,
+        "type": "admission/college",
+        "url": "mass-communication"
+    },
+    {
+        "id": "m.phil-master-of-philosophy",
+        "name": "M.Phil Master of Philosophy",
+        "top": 1,
+        "type": "admission/college",
+        "url": "mass-communication"
+    },
+    {
+        "id": "b.com-bachelor-of-commerce",
+        "name": "B.Com Bachelor of Commerce",
+        "top": 2,
+        "type": "admission/college",
+        "url": "mass-communication"
+    },
+    {
+        "id": "b.m.m.c-bachelor-of-multimedia-communication",
+        "name": "B.M.M.C Bachelor of Multimedia Communication",
+        "top": 3,
+        "type": "admission/college",
+        "url": "mass-communication"
+    },
+    {
+        "id": "master-of-media-science",
+        "name": "Master of Media Science",
+        "top": 4,
+        "type": "admission/college",
+        "url": "mass-communication"
+    },
+    {
+        "id": "m.des-master-of-design",
+        "name": "M.Des Master of Design",
+        "top": 5,
+        "type": "admission/college",
+        "url": "mass-communication"
+    },
+    {
+        "id": "b.f.a-bachelor-of-fine-arts",
+        "name": "B.F.A Bachelor of Fine Arts",
+        "top": 6,
+        "type": "admission/college",
+        "url": "mass-communication"
+    },
+    {
+        "id": "other",
+        "name": "Other",
+        "top": 7,
+        "type": "admission/college",
+        "url": "mass-communication"
+    },
+    {
+        "id": "m.a.m-master-of-applied-management",
+        "name": "M.A.M Master of Applied Management",
+        "top": 8,
+        "type": "admission/college",
+        "url": "mass-communication"
+    },
+    {
+        "id": "b.des-bachelor-of-design",
+        "name": "B.Des Bachelor of Design",
+        "top": 1,
+        "type": "admission/college",
+        "url": "mass-communication"
+    },
+    {
+        "id": "m.d-doctor-of-medicine",
+        "name": "M.D Doctor of Medicine",
+        "top": 2,
+        "type": "admission/college",
+        "url": "mass-communication"
+    },
+    {
+        "id": "b.b.a-bachelor-of-business-administration",
+        "name": "B.B.A Bachelor of Business Administration",
+        "top": 3,
+        "type": "admission/college",
+        "url": "mass-communication"
+    },
+    {
+        "id": "m.s-master-of-surgery",
+        "name": "M.S Master of Surgery",
+        "top": 4,
+        "type": "admission/college",
+        "url": "mass-communication"
+    },
+    {
+        "id": "pgp-post-graduate-programme",
+        "name": "PGP Post Graduate Programme",
+        "top": 5,
+        "type": "admission/college",
+        "url": "mass-communication"
+    },
+    {
+        "id": "b.sc-m.sc",
+        "name": "B.Sc + M.Sc",
+        "top": 6,
+        "type": "admission/college",
+        "url": "mass-communication"
+    },
+    {
+        "id": "b.tech-bachelor-of-technology",
+        "name": "B.Tech Bachelor of Technology",
+        "top": 7,
+        "type": "admission/college",
+        "url": "mass-communication"
+    },
+    {
+        "id": "m.tech-master-of-technology",
+        "name": "M.Tech Master of Technology",
+        "top": 8,
+        "type": "admission/college",
+        "url": "mass-communication"
+    },
+    {
+        "id": "b.a-m.a",
+        "name": "B.A + M.A",
+        "top": 1,
+        "type": "admission/college",
+        "url": "mass-communication"
+    },
+    {
+        "id": "b.v.c-bachelor-of-visual-communication",
+        "name": "B.V.C Bachelor of Visual Communication",
+        "top": 2,
+        "type": "admission/college",
+        "url": "mass-communication"
+    },
+    {
+        "id": "m.voc-master-of-vocation",
+        "name": "M.Voc Master of Vocation",
+        "top": 3,
+        "type": "admission/college",
+        "url": "mass-communication"
+    },
+    {
+        "id": "other",
+        "name": "Other",
+        "top": 4,
+        "type": "admission/college",
+        "url": "mass-communication"
+    },
+    {
+        "id": "m.f.a-master-of-fine-arts",
+        "name": "M.F.A Master of Fine Arts",
+        "top": 5,
+        "type": "admission/college",
+        "url": "mass-communication"
+    },
+    {
+        "id": "b.c.a-bachelor-of-computer-applications",
+        "name": "B.C.A Bachelor of Computer Applications",
+        "top": 6,
+        "type": "admission/college",
+        "url": "mass-communication"
+    },
+    {
+        "id": "b.sc-bachelor-of-science",
+        "name": "B.Sc Bachelor of Science",
+        "top": 1,
+        "type": "admission/college",
+        "url": "nursing"
+    },
+    {
+        "id": "m.sc-master-of-science",
+        "name": "M.Sc Master of Science",
+        "top": 2,
+        "type": "admission/college",
+        "url": "nursing"
+    },
+    {
+        "id": "g.n.m-general-nursing-and-midwifery",
+        "name": "G.N.M General Nursing and Midwifery",
+        "top": 3,
+        "type": "admission/college",
+        "url": "nursing"
+    },
+    {
+        "id": "diploma",
+        "name": "Diploma",
+        "top": 4,
+        "type": "admission/college",
+        "url": "nursing"
+    },
+    {
+        "id": "certificate",
+        "name": "Certificate",
+        "top": 5,
+        "type": "admission/college",
+        "url": "nursing"
+    },
+    {
+        "id": "a.n.m-auxiliary-nursing-and-midwifery",
+        "name": "A.N.M Auxiliary Nursing and Midwifery",
+        "top": 6,
+        "type": "admission/college",
+        "url": "nursing"
+    },
+    {
+        "id": "ph.d-doctor-of-philosophy",
+        "name": "Ph.D Doctor of Philosophy",
+        "top": 7,
+        "type": "admission/college",
+        "url": "nursing"
+    },
+    {
+        "id": "m.phil-master-of-philosophy",
+        "name": "M.Phil Master of Philosophy",
+        "top": 8,
+        "type": "admission/college",
+        "url": "nursing"
+    },
+    {
+        "id": "m.pharm-master-of-pharmacy",
+        "name": "M.Pharm Master of Pharmacy",
+        "top": 1,
+        "type": "admission/college",
+        "url": "nursing"
+    },
+    {
+        "id": "post-graduate-diploma",
+        "name": "Post Graduate Diploma",
+        "top": 2,
+        "type": "admission/college",
+        "url": "nursing"
+    },
+    {
+        "id": "b.a-bachelor-of-arts",
+        "name": "B.A Bachelor of Arts",
+        "top": 3,
+        "type": "admission/college",
+        "url": "nursing"
+    },
+    {
+        "id": "m.p.t-master-of-physiotherapy",
+        "name": "M.P.T Master of Physiotherapy",
+        "top": 4,
+        "type": "admission/college",
+        "url": "nursing"
+    },
+    {
+        "id": "m.s-master-of-science",
+        "name": "M.S Master of Science",
+        "top": 5,
+        "type": "admission/college",
+        "url": "nursing"
+    },
+    {
+        "id": "b.h.m-bachelor-of-hospitality-management",
+        "name": "B.H.M Bachelor of Hospitality Management",
+        "top": 6,
+        "type": "admission/college",
+        "url": "nursing"
+    },
+    {
+        "id": "other",
+        "name": "Other",
+        "top": 7,
+        "type": "admission/college",
+        "url": "nursing"
+    },
+    {
+        "id": "m.d-doctor-of-medicine",
+        "name": "M.D Doctor of Medicine",
+        "top": 8,
+        "type": "admission/college",
+        "url": "nursing"
+    },
+    {
+        "id": "m.s-master-of-science",
+        "name": "M.S Master of Science",
+        "top": 1,
+        "type": "admission/college",
+        "url": "nursing"
+    },
+    {
+        "id": "b.sc-bachelor-of-science",
+        "name": "B.Sc Bachelor of Science",
+        "top": 1,
+        "type": "admission/college",
+        "url": "agriculture"
+    },
+    {
+        "id": "m.sc-master-of-science",
+        "name": "M.Sc Master of Science",
+        "top": 2,
+        "type": "admission/college",
+        "url": "agriculture"
+    },
+    {
+        "id": "diploma",
+        "name": "Diploma",
+        "top": 3,
+        "type": "admission/college",
+        "url": "agriculture"
+    },
+    {
+        "id": "certificate",
+        "name": "Certificate",
+        "top": 4,
+        "type": "admission/college",
+        "url": "agriculture"
+    },
+    {
+        "id": "ph.d-doctor-of-philosophy",
+        "name": "Ph.D Doctor of Philosophy",
+        "top": 5,
+        "type": "admission/college",
+        "url": "agriculture"
+    },
+    {
+        "id": "b.tech-bachelor-of-technology",
+        "name": "B.Tech Bachelor of Technology",
+        "top": 6,
+        "type": "admission/college",
+        "url": "agriculture"
+    },
+    {
+        "id": "post-graduate-diploma",
+        "name": "Post Graduate Diploma",
+        "top": 7,
+        "type": "admission/college",
+        "url": "agriculture"
+    },
+    {
+        "id": "b.voc-bachelor-of-vocation",
+        "name": "B.Voc Bachelor of Vocation",
+        "top": 8,
+        "type": "admission/college",
+        "url": "agriculture"
+    },
+    {
+        "id": "b.sc-m.b.a",
+        "name": "B.Sc + M.B.A",
+        "top": 1,
+        "type": "admission/college",
+        "url": "agriculture"
+    },
+    {
+        "id": "m.tech-master-of-technology",
+        "name": "M.Tech Master of Technology",
+        "top": 2,
+        "type": "admission/college",
+        "url": "agriculture"
+    },
+    {
+        "id": "b.a-bachelor-of-arts",
+        "name": "B.A Bachelor of Arts",
+        "top": 3,
+        "type": "admission/college",
+        "url": "agriculture"
+    },
+    {
+        "id": "b.sc-m.sc",
+        "name": "B.Sc + M.Sc",
+        "top": 4,
+        "type": "admission/college",
+        "url": "agriculture"
+    },
+    {
+        "id": "b.s-bachelor-of-science",
+        "name": "B.S Bachelor of Science",
+        "top": 5,
+        "type": "admission/college",
+        "url": "agriculture"
+    },
+    {
+        "id": "m.b.a-master-of-business-administration",
+        "name": "M.B.A Master of Business Administration",
+        "top": 6,
+        "type": "admission/college",
+        "url": "agriculture"
+    },
+    {
+        "id": "m.phil-master-of-philosophy",
+        "name": "M.Phil Master of Philosophy",
+        "top": 7,
+        "type": "admission/college",
+        "url": "agriculture"
+    },
+    {
+        "id": "m.ed-master-of-education",
+        "name": "M.Ed Master of Education",
+        "top": 8,
+        "type": "admission/college",
+        "url": "agriculture"
+    },
+    {
+        "id": "m.phil-ph.d",
+        "name": "M.Phil + Ph.D",
+        "top": 1,
+        "type": "admission/college",
+        "url": "agriculture"
+    },
+    {
+        "id": "b.b.a-bachelor-of-business-administration",
+        "name": "B.B.A Bachelor of Business Administration",
+        "top": 2,
+        "type": "admission/college",
+        "url": "agriculture"
+    },
+    {
+        "id": "p.g.d.m-post-graduate-diploma-in-management",
+        "name": "P.G.D.M Post Graduate Diploma in Management",
+        "top": 3,
+        "type": "admission/college",
+        "url": "agriculture"
+    },
+    {
+        "id": "m.a-master-of-arts",
+        "name": "M.A Master of Arts",
+        "top": 4,
+        "type": "admission/college",
+        "url": "agriculture"
+    },
+    {
+        "id": "m.lib-master-of-library-science",
+        "name": "M.Lib Master of Library Science",
+        "top": 5,
+        "type": "admission/college",
+        "url": "agriculture"
+    },
+    {
+        "id": "ll.b-bachelor-of-laws",
+        "name": "LL.B Bachelor of Laws",
+        "top": 1,
+        "type": "admission/college",
+        "url": "law"
+    },
+    {
+        "id": "b.a-ll.b",
+        "name": "B.A + LL.B",
+        "top": 2,
+        "type": "admission/college",
+        "url": "law"
+    },
+    {
+        "id": "ll.m-master-of-law",
+        "name": "LL.M Master of Law",
+        "top": 3,
+        "type": "admission/college",
+        "url": "law"
+    },
+    {
+        "id": "b.b.a-ll.b",
+        "name": "B.B.A + LL.B",
+        "top": 4,
+        "type": "admission/college",
+        "url": "law"
+    },
+    {
+        "id": "ph.d-doctor-of-philosophy",
+        "name": "Ph.D Doctor of Philosophy",
+        "top": 5,
+        "type": "admission/college",
+        "url": "law"
+    },
+    {
+        "id": "b.com-ll.b",
+        "name": "B.Com + LL.B",
+        "top": 6,
+        "type": "admission/college",
+        "url": "law"
+    },
+    {
+        "id": "post-graduate-diploma",
+        "name": "Post Graduate Diploma",
+        "top": 7,
+        "type": "admission/college",
+        "url": "law"
+    },
+    {
+        "id": "diploma",
+        "name": "Diploma",
+        "top": 8,
+        "type": "admission/college",
+        "url": "law"
+    },
+    {
+        "id": "certificate",
+        "name": "Certificate",
+        "top": 1,
+        "type": "admission/college",
+        "url": "law"
+    },
+    {
+        "id": "b.l.s-ll.b",
+        "name": "B.L.S + LL.B",
+        "top": 2,
+        "type": "admission/college",
+        "url": "law"
+    },
+    {
+        "id": "b.a-bachelor-of-arts",
+        "name": "B.A Bachelor of Arts",
+        "top": 3,
+        "type": "admission/college",
+        "url": "law"
+    },
+    {
+        "id": "b.sc-ll.b",
+        "name": "B.Sc + LL.B",
+        "top": 4,
+        "type": "admission/college",
+        "url": "law"
+    },
+    {
+        "id": "b.com-bachelor-of-commerce",
+        "name": "B.Com Bachelor of Commerce",
+        "top": 5,
+        "type": "admission/college",
+        "url": "law"
+    },
+    {
+        "id": "m.phil-master-of-philosophy",
+        "name": "M.Phil Master of Philosophy",
+        "top": 6,
+        "type": "admission/college",
+        "url": "law"
+    },
+    {
+        "id": "ll.b-ll.m",
+        "name": "LL.B + LL.M",
+        "top": 7,
+        "type": "admission/college",
+        "url": "law"
+    },
+    {
+        "id": "b.b.a-bachelor-of-business-administration",
+        "name": "B.B.A Bachelor of Business Administration",
+        "top": 8,
+        "type": "admission/college",
+        "url": "law"
+    },
+    {
+        "id": "m.sc-master-of-science",
+        "name": "M.Sc Master of Science",
+        "top": 1,
+        "type": "admission/college",
+        "url": "law"
+    },
+    {
+        "id": "master-in-labour-welfare",
+        "name": "Master in Labour Welfare",
+        "top": 2,
+        "type": "admission/college",
+        "url": "law"
+    },
+    {
+        "id": "b.sc-bachelor-of-science",
+        "name": "B.Sc Bachelor of Science",
+        "top": 3,
+        "type": "admission/college",
+        "url": "law"
+    },
+    {
+        "id": "bca-llb",
+        "name": "BCA + LLB",
+        "top": 4,
+        "type": "admission/college",
+        "url": "law"
+    },
+    {
+        "id": "ll.m-m.b.a",
+        "name": "LL.M + M.B.A",
+        "top": 5,
+        "type": "admission/college",
+        "url": "law"
+    },
+    {
+        "id": "m.h.r.d.m-master-in-human-resources-development-management",
+        "name": "M.H.R.D.M Master in Human Resources Development Management",
+        "top": 6,
+        "type": "admission/college",
+        "url": "law"
+    },
+    {
+        "id": "m.ed-master-of-education",
+        "name": "M.Ed Master of Education",
+        "top": 7,
+        "type": "admission/college",
+        "url": "law"
+    },
+    {
+        "id": "master-in-business-law",
+        "name": "Master in Business Law",
+        "top": 8,
+        "type": "admission/college",
+        "url": "law"
+    },
+    {
+        "id": "ll.m-ph.d",
+        "name": "LL.M + Ph.D",
+        "top": 1,
+        "type": "admission/college",
+        "url": "law"
+    },
+    {
+        "id": "b.tech-ll.b",
+        "name": "B.Tech + LL.B",
+        "top": 2,
+        "type": "admission/college",
+        "url": "law"
+    },
+    {
+        "id": "pgp-post-graduate-programme",
+        "name": "PGP Post Graduate Programme",
+        "top": 3,
+        "type": "admission/college",
+        "url": "law"
+    },
+    {
+        "id": "m.com-master-of-commerce",
+        "name": "M.Com Master of Commerce",
+        "top": 4,
+        "type": "admission/college",
+        "url": "law"
+    },
+    {
+        "id": "b.tech-bachelor-of-technology",
+        "name": "B.Tech Bachelor of Technology",
+        "top": 5,
+        "type": "admission/college",
+        "url": "law"
+    },
+    {
+        "id": "other",
+        "name": "Other",
+        "top": 6,
+        "type": "admission/college",
+        "url": "law"
+    },
+    {
+        "id": "m.b.a-master-of-business-administartion",
+        "name": "M.B.A Master of Business Administartion",
+        "top": 7,
+        "type": "admission/college",
+        "url": "law"
+    },
+    {
+        "id": "m.tech-master-of-technology",
+        "name": "M.Tech Master of Technology",
+        "top": 8,
+        "type": "admission/college",
+        "url": "law"
+    },
+    {
+        "id": "b.s.w-bachelor-of-social-work",
+        "name": "B.S.W Bachelor of Social Work",
+        "top": 1,
+        "type": "admission/college",
+        "url": "law"
+    },
+    {
+        "id": "m.s-master-of-surgery",
+        "name": "M.S Master of Surgery",
+        "top": 2,
+        "type": "admission/college",
+        "url": "law"
+    },
+    {
+        "id": "lld-doctor-of-law",
+        "name": "LLD Doctor of Law",
+        "top": 3,
+        "type": "admission/college",
+        "url": "law"
+    },
+    {
+        "id": "ll.b-m.b.a",
+        "name": "LL.B + M.B.A",
+        "top": 4,
+        "type": "admission/college",
+        "url": "law"
+    },
+    {
+        "id": "diploma",
+        "name": "Diploma",
+        "top": 1,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "b.sc-bachelor-of-science",
+        "name": "B.Sc Bachelor of Science",
+        "top": 2,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "b.p.t-bachelor-of-physiotherapy",
+        "name": "B.P.T Bachelor of Physiotherapy",
+        "top": 3,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "m.sc-master-of-science",
+        "name": "M.Sc Master of Science",
+        "top": 4,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "m.p.t-master-of-physiotherapy",
+        "name": "M.P.T Master of Physiotherapy",
+        "top": 5,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "certificate",
+        "name": "Certificate",
+        "top": 6,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "m.d-doctor-of-medicine",
+        "name": "M.D Doctor of Medicine",
+        "top": 7,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "post-graduate-diploma",
+        "name": "Post Graduate Diploma",
+        "top": 8,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "b.optom-bachelor-of-optometry",
+        "name": "B.Optom Bachelor of Optometry",
+        "top": 1,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "b.m.l.t-bachelor-of-medical-lab-technology",
+        "name": "B.M.L.T Bachelor of Medical Lab Technology",
+        "top": 2,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "m.p.h-master-of-public-health",
+        "name": "M.P.H Master of Public Health",
+        "top": 3,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "ph.d-doctor-of-philosophy",
+        "name": "Ph.D Doctor of Philosophy",
+        "top": 4,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "m.h.a-master-of-hospital-administration",
+        "name": "M.H.A Master of Hospital Administration",
+        "top": 5,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "b.voc-bachelor-of-vocation",
+        "name": "B.Voc Bachelor of Vocation",
+        "top": 6,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "m.d.s-master-of-dental-surgery",
+        "name": "M.D.S Master of Dental Surgery",
+        "top": 7,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "b.o.t-bachelor-of-occupational-therapy",
+        "name": "B.O.T Bachelor of Occupational Therapy",
+        "top": 8,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "m.optom-master-of-optometry",
+        "name": "M.Optom Master of Optometry",
+        "top": 1,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "m.a-master-of-arts",
+        "name": "M.A Master of Arts",
+        "top": 2,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "b.a-bachelor-of-arts",
+        "name": "B.A Bachelor of Arts",
+        "top": 3,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "m.phil-master-of-philosophy",
+        "name": "M.Phil Master of Philosophy",
+        "top": 4,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "m.ed-master-of-education",
+        "name": "M.Ed Master of Education",
+        "top": 5,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "bachelor-in-audiology-and-speech-language-pathology",
+        "name": "Bachelor in Audiology and Speech Language Pathology",
+        "top": 6,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "m.pharm-master-of-pharmacy",
+        "name": "M.Pharm Master of Pharmacy",
+        "top": 7,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "m.o.t-master-of-occupational-therapy",
+        "name": "M.O.T Master of Occupational Therapy",
+        "top": 8,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "m.s-master-of-surgery",
+        "name": "M.S Master of Surgery",
+        "top": 1,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "b.b.a-bachelor-of-business-administration",
+        "name": "B.B.A Bachelor of Business Administration",
+        "top": 2,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "m.b.a-master-of-business-administration",
+        "name": "M.B.A Master of Business Administration",
+        "top": 3,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "master-in-medical-laboratory-technology",
+        "name": "Master in Medical Laboratory Technology",
+        "top": 4,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "m.s-master-of-science",
+        "name": "M.S Master of Science",
+        "top": 5,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "b.p.m.t-bachelor-of-paramedical-technology",
+        "name": "B.P.M.T Bachelor of Paramedical Technology",
+        "top": 6,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "b.h.a-bachelor-of-hospital-administration",
+        "name": "B.H.A Bachelor of Hospital Administration",
+        "top": 7,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "p.g.d.m-post-graduate-diploma-in-management",
+        "name": "P.G.D.M Post Graduate Diploma in Management",
+        "top": 8,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "m.h.m-master-of-hotel-management",
+        "name": "M.H.M Master of Hotel Management",
+        "top": 1,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "m.sc-ph.d",
+        "name": "M.Sc + Ph.D",
+        "top": 2,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "b.n.y.s-bachelor-of-naturopathy-and-yogic-science",
+        "name": "B.N.Y.S Bachelor of Naturopathy and yogic Science",
+        "top": 3,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "diploma-in-vocation",
+        "name": "Diploma in Vocation",
+        "top": 4,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "b.s-bachelor-in-science",
+        "name": "B.S Bachelor in Science",
+        "top": 5,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "b.m.s-bachelor-of-management-studies",
+        "name": "B.M.S Bachelor of Management Studies",
+        "top": 6,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "master-of-social-work",
+        "name": "Master of Social work",
+        "top": 7,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "b.d.s-bachelor-of-dental-surgery",
+        "name": "B.D.S Bachelor of Dental Surgery",
+        "top": 8,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "b.h.m-bachelor-of-hospitality-management",
+        "name": "B.H.M Bachelor of Hospitality Management",
+        "top": 1,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "d.n.b-diplomate-of-national-board",
+        "name": "D.N.B Diplomate of National Board",
+        "top": 2,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "other",
+        "name": "Other",
+        "top": 3,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "b.h.m-bachelor-of-hotel-management",
+        "name": "B.H.M Bachelor of Hotel Management",
+        "top": 4,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "d.m-doctorate-of-medicine",
+        "name": "D.M Doctorate of Medicine",
+        "top": 5,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "executive-m.b.a",
+        "name": "Executive M.B.A.",
+        "top": 6,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "m.phil-ph.d",
+        "name": "M.Phil + ph.D",
+        "top": 7,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "b.tech-bachelor-of-technology",
+        "name": "B.Tech Bachelor of Technology",
+        "top": 8,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "m.b.b.s-bachelor-of-medicine-and-bachelor-of-surgery",
+        "name": "M.B.B.S Bachelor of Medicine and Bachelor of Surgery",
+        "top": 1,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "b.h.m.s-bachelor-of-homoeapathic-medicine-and-surgery",
+        "name": "B.H.M.S Bachelor of Homoeapathic Medicine and Surgery",
+        "top": 2,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "m.tech-master-of-technology",
+        "name": "M.Tech Master of Technology",
+        "top": 3,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "m.ch-master-of-chirurgiae",
+        "name": "M.Ch Master of Chirurgiae",
+        "top": 4,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "b.h.m.c.t-bachelor-of-hotel-management-and-catering-technology",
+        "name": "B.H.M.C.T Bachelor of Hotel Management and Catering Technology",
+        "top": 5,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "b.c.a-m.c.a",
+        "name": "B.C.A + M.C.A",
+        "top": 6,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "b.h.s-bachelor-of-home-science",
+        "name": "B.H.S Bachelor of Home Science",
+        "top": 7,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "m.voc-master-of-vocation",
+        "name": "M.Voc Master of Vocation",
+        "top": 8,
+        "type": "admission/college",
+        "url": "paramedical"
+    },
+    {
+        "id": "b.d.s-bachelor-of-dental-surgery",
+        "name": "B.D.S Bachelor of Dental Surgery",
+        "top": 1,
+        "type": "admission/college",
+        "url": "dental"
+    },
+    {
+        "id": "m.d.s-master-of-dental-surgery",
+        "name": "M.D.S Master of Dental Surgery",
+        "top": 2,
+        "type": "admission/college",
+        "url": "dental"
+    },
+    {
+        "id": "diploma",
+        "name": "Diploma",
+        "top": 3,
+        "type": "admission/college",
+        "url": "dental"
+    },
+    {
+        "id": "certificate",
+        "name": "Certificate",
+        "top": 4,
+        "type": "admission/college",
+        "url": "dental"
+    },
+    {
+        "id": "ph.d-doctor-of-philosophy",
+        "name": "Ph.D Doctor of Philosophy",
+        "top": 5,
+        "type": "admission/college",
+        "url": "dental"
+    },
+    {
+        "id": "b.sc-bachelor-of-science",
+        "name": "B.Sc Bachelor of Science",
+        "top": 6,
+        "type": "admission/college",
+        "url": "dental"
+    },
+    {
+        "id": "post-graduate-diploma",
+        "name": "Post Graduate Diploma",
+        "top": 7,
+        "type": "admission/college",
+        "url": "dental"
+    },
+    {
+        "id": "m.d-doctor-of-medicine",
+        "name": "M.D Doctor of Medicine",
+        "top": 8,
+        "type": "admission/college",
+        "url": "dental"
+    },
+    {
+        "id": "m.plan-master-of-planning",
+        "name": "M.Plan Master of Planning",
+        "top": 1,
+        "type": "admission/college",
+        "url": "dental"
+    },
+    {
+        "id": "m.ed-master-of-education",
+        "name": "M.Ed Master of Education",
+        "top": 2,
+        "type": "admission/college",
+        "url": "dental"
+    },
+    {
+        "id": "m.sc-master-of-science",
+        "name": "M.Sc Master of Science",
+        "top": 3,
+        "type": "admission/college",
+        "url": "dental"
+    },
+    {
+        "id": "other",
+        "name": "Other",
+        "top": 4,
+        "type": "admission/college",
+        "url": "dental"
+    },
+    {
+        "id": "m.b.b.s-bachelor-of-medicine-and-bachelor-of-surgery",
+        "name": "M.B.B.S Bachelor of Medicine and Bachelor of Surgery",
+        "top": 5,
+        "type": "admission/college",
+        "url": "dental"
+    },
+    {
+        "id": "b.h.m.s-bachelor-of-homoeopathic-medicine-and-surgery",
+        "name": "B.H.M.S Bachelor of Homoeopathic Medicine and Surgery",
+        "top": 6,
+        "type": "admission/college",
+        "url": "dental"
+    },
+    {
+        "id": "m.s-master-of-surgery",
+        "name": "M.S Master of Surgery",
+        "top": 7,
+        "type": "admission/college",
+        "url": "dental"
+    },
+    {
+        "id": "b.a-bachelor-of-arts",
+        "name": "B.A Bachelor of Arts",
+        "top": 1,
+        "type": "admission/college",
+        "url": "performing-arts"
+    },
+    {
+        "id": "m.a-master-of-arts",
+        "name": "M.A Master of Arts",
+        "top": 2,
+        "type": "admission/college",
+        "url": "performing-arts"
+    },
+    {
+        "id": "diploma",
+        "name": "Diploma",
+        "top": 3,
+        "type": "admission/college",
+        "url": "performing-arts"
+    },
+    {
+        "id": "certificate",
+        "name": "Certificate",
+        "top": 4,
+        "type": "admission/college",
+        "url": "performing-arts"
+    },
+    {
+        "id": "b.f.a-bachelor-of-fine-arts",
+        "name": "B.F.A Bachelor of Fine Arts",
+        "top": 5,
+        "type": "admission/college",
+        "url": "performing-arts"
+    },
+    {
+        "id": "m.f.a-master-of-fine-arts",
+        "name": "M.F.A Master of Fine Arts",
+        "top": 6,
+        "type": "admission/college",
+        "url": "performing-arts"
+    },
+    {
+        "id": "bachelor-of-performing-arts-bpa",
+        "name": "Bachelor of Performing Arts BPA",
+        "top": 7,
+        "type": "admission/college",
+        "url": "performing-arts"
+    },
+    {
+        "id": "ph.d-doctor-of-philosophy",
+        "name": "Ph.D Doctor of Philosophy",
+        "top": 8,
+        "type": "admission/college",
+        "url": "performing-arts"
+    },
+    {
+        "id": "master-of-performing-arts-mpa",
+        "name": "Master of Performing Arts MPA",
+        "top": 1,
+        "type": "admission/college",
+        "url": "performing-arts"
+    },
+    {
+        "id": "b.v.a-bachelor-of-visual-arts",
+        "name": "B.V.A Bachelor of Visual Arts",
+        "top": 2,
+        "type": "admission/college",
+        "url": "performing-arts"
+    },
+    {
+        "id": "bachelor-of-performing-arts-and-master-of-performing-arts",
+        "name": "Bachelor of Performing Arts and Master of Performing Arts",
+        "top": 3,
+        "type": "admission/college",
+        "url": "performing-arts"
+    },
+    {
+        "id": "b.mus-bachelor-of-music",
+        "name": "B.Mus Bachelor of Music",
+        "top": 4,
+        "type": "admission/college",
+        "url": "performing-arts"
+    },
+    {
+        "id": "post-graduate-diploma",
+        "name": "Post Graduate Diploma",
+        "top": 5,
+        "type": "admission/college",
+        "url": "performing-arts"
+    },
+    {
+        "id": "m.v.a-master-of-visual-arts",
+        "name": "M.V.A Master of Visual Arts",
+        "top": 6,
+        "type": "admission/college",
+        "url": "performing-arts"
+    },
+    {
+        "id": "m.phil-master-of-philosophy",
+        "name": "M.Phil Master of Philosophy",
+        "top": 7,
+        "type": "admission/college",
+        "url": "performing-arts"
+    },
+    {
+        "id": "diploma-in-performing-arts",
+        "name": "Diploma in Performing Arts",
+        "top": 8,
+        "type": "admission/college",
+        "url": "performing-arts"
+    },
+    {
+        "id": "m.mus-master-of-music",
+        "name": "M.Mus Master of Music",
+        "top": 1,
+        "type": "admission/college",
+        "url": "performing-arts"
+    },
+    {
+        "id": "b.a-b.ed",
+        "name": "B.A + B.Ed",
+        "top": 2,
+        "type": "admission/college",
+        "url": "performing-arts"
+    },
+    {
+        "id": "b.sc-bachelor-of-science",
+        "name": "B.Sc Bachelor of Science",
+        "top": 3,
+        "type": "admission/college",
+        "url": "performing-arts"
+    },
+    {
+        "id": "m.com-master-of-commerce",
+        "name": "M.Com Master of Commerce",
+        "top": 4,
+        "type": "admission/college",
+        "url": "performing-arts"
+    },
+    {
+        "id": "b.voc-bachelor-of-vocation",
+        "name": "B.Voc Bachelor of Vocation",
+        "top": 5,
+        "type": "admission/college",
+        "url": "performing-arts"
+    },
+    {
+        "id": "m.b.a-master-of-business-administration",
+        "name": "M.B.A Master of Business Administration",
+        "top": 6,
+        "type": "admission/college",
+        "url": "performing-arts"
+    },
+    {
+        "id": "m.tech-master-of-technology",
+        "name": "M.Tech Master of Technology",
+        "top": 7,
+        "type": "admission/college",
+        "url": "performing-arts"
+    },
+    {
+        "id": "m.ed-master-of-education",
+        "name": "M.Ed Master of Education",
+        "top": 8,
+        "type": "admission/college",
+        "url": "performing-arts"
+    },
+    {
+        "id": "m.a.m-master-of-applied-management",
+        "name": "M.A.M Master of Applied Management",
+        "top": 1,
+        "type": "admission/college",
+        "url": "performing-arts"
+    },
+    {
+        "id": "m.phil-ph.d",
+        "name": "M.Phil + Ph.D",
+        "top": 2,
+        "type": "admission/college",
+        "url": "performing-arts"
+    },
+    {
+        "id": "b.tech-bachelor-of-technology",
+        "name": "B.Tech Bachelor of Technology",
+        "top": 3,
+        "type": "admission/college",
+        "url": "performing-arts"
+    },
+    {
+        "id": "m.p.t-master-of-physiotheraphy",
+        "name": "M.P.T Master of Physiotheraphy",
+        "top": 4,
+        "type": "admission/college",
+        "url": "performing-arts"
+    },
+    {
+        "id": "b.com-bachelor-of-commerce",
+        "name": "B.Com Bachelor of Commerce",
+        "top": 5,
+        "type": "admission/college",
+        "url": "performing-arts"
+    },
+    {
+        "id": "m.des-master-of-design",
+        "name": "M.Des Master of Design",
+        "top": 6,
+        "type": "admission/college",
+        "url": "performing-arts"
+    },
+    {
+        "id": "m.sc-master-of-science",
+        "name": "M.Sc Master of Science",
+        "top": 7,
+        "type": "admission/college",
+        "url": "performing-arts"
+    },
+    {
+        "id": "b.a.m-bachelor-of-applied-management",
+        "name": "B.A.M Bachelor of Applied Management",
+        "top": 8,
+        "type": "admission/college",
+        "url": "performing-arts"
+    },
+    {
+        "id": "other",
+        "name": "Other",
+        "top": 1,
+        "type": "admission/college",
+        "url": "performing-arts"
+    },
+    {
+        "id": "b.ed-bachelor-education",
+        "name": "B.Ed Bachelor Education",
+        "top": 1,
+        "type": "admission/college",
+        "url": "education"
+    },
+    {
+        "id": "diploma",
+        "name": "Diploma",
+        "top": 2,
+        "type": "admission/college",
+        "url": "education"
+    },
+    {
+        "id": "b.a-bachelor-of-arts",
+        "name": "B.A Bachelor of Arts",
+        "top": 3,
+        "type": "admission/college",
+        "url": "education"
+    },
+    {
+        "id": "m.ed-master-of-education",
+        "name": "M.Ed Master of Education",
+        "top": 4,
+        "type": "admission/college",
+        "url": "education"
+    },
+    {
+        "id": "m.a-master-of-arts",
+        "name": "M.A Master of Arts",
+        "top": 5,
+        "type": "admission/college",
+        "url": "education"
+    },
+    {
+        "id": "certificate",
+        "name": "Certificate",
+        "top": 6,
+        "type": "admission/college",
+        "url": "education"
+    },
+    {
+        "id": "b.t.c-basic-teacher-certificate",
+        "name": "B.T.C Basic Teacher Certificate",
+        "top": 7,
+        "type": "admission/college",
+        "url": "education"
+    },
+    {
+        "id": "ph.d-doctor-of-philosophy",
+        "name": "Ph.D Doctor of Philosophy",
+        "top": 8,
+        "type": "admission/college",
+        "url": "education"
+    },
+    {
+        "id": "post-graduate-diploma",
+        "name": "Post Graduate Diploma",
+        "top": 1,
+        "type": "admission/college",
+        "url": "education"
+    },
+    {
+        "id": "b.a-b.ed",
+        "name": "B.A + B.Ed",
+        "top": 2,
+        "type": "admission/college",
+        "url": "education"
+    },
+    {
+        "id": "m.phil-master-of-philosophy",
+        "name": "M.Phil Master of Philosophy",
+        "top": 3,
+        "type": "admission/college",
+        "url": "education"
+    },
+    {
+        "id": "b.sc-b.ed",
+        "name": "B.Sc + B.Ed",
+        "top": 4,
+        "type": "admission/college",
+        "url": "education"
+    },
+    {
+        "id": "b.el.ed-bachelor-of-elementary-education",
+        "name": "B.El.Ed Bachelor of Elementary Education",
+        "top": 5,
+        "type": "admission/college",
+        "url": "education"
+    },
+    {
+        "id": "b.p.p-bachelor-preparatory-programme",
+        "name": "B.P.P Bachelor Preparatory Programme",
+        "top": 6,
+        "type": "admission/college",
+        "url": "education"
+    },
+    {
+        "id": "m.sc-master-of-science",
+        "name": "M.Sc Master of Science",
+        "top": 7,
+        "type": "admission/college",
+        "url": "education"
+    },
+    {
+        "id": "b.sc-bachelor-of-science",
+        "name": "B.Sc Bachelor of Science",
+        "top": 8,
+        "type": "admission/college",
+        "url": "education"
+    },
+    {
+        "id": "b.ed-m.ed-",
+        "name": "B.Ed + M.Ed",
+        "top": 1,
+        "type": "admission/college",
+        "url": "education"
+    },
+    {
+        "id": "b.p.ed-bachelor-of-physical-education",
+        "name": "B.P.Ed Bachelor of Physical Education",
+        "top": 2,
+        "type": "admission/college",
+        "url": "education"
+    },
+    {
+        "id": "bachelor-of-degree",
+        "name": "Bachelor of Degree",
+        "top": 3,
+        "type": "admission/college",
+        "url": "education"
+    },
+    {
+        "id": "m.b.a-master-of-business-administration",
+        "name": "M.B.A Master of Business Administration",
+        "top": 4,
+        "type": "admission/college",
+        "url": "education"
+    },
+    {
+        "id": "master-of-social-work",
+        "name": "Master of Social Work",
+        "top": 5,
+        "type": "admission/college",
+        "url": "education"
+    },
+    {
+        "id": "m.p.ed-master-of-physical-education",
+        "name": "M.P.Ed Master of Physical Education",
+        "top": 6,
+        "type": "admission/college",
+        "url": "education"
+    },
+    {
+        "id": "b.voc-bachelor-of-vocation",
+        "name": "B.Voc Bachelor of Vocation",
+        "top": 7,
+        "type": "admission/college",
+        "url": "education"
+    },
+    {
+        "id": "m.phil-ph.d",
+        "name": "M.Phil + Ph.D",
+        "top": 8,
+        "type": "admission/college",
+        "url": "education"
+    },
+    {
+        "id": "ll.m-master-of-law",
+        "name": "LL.M Master of Law",
+        "top": 1,
+        "type": "admission/college",
+        "url": "education"
+    },
+    {
+        "id": "b.com-bachelor-of-commerce",
+        "name": "B.Com Bachelor of Commerce",
+        "top": 2,
+        "type": "admission/college",
+        "url": "education"
+    },
+    {
+        "id": "m.s-master-of-surgery",
+        "name": "M.S Master of Surgery",
+        "top": 3,
+        "type": "admission/college",
+        "url": "education"
+    },
+    {
+        "id": "integrated-teacher-education-programme",
+        "name": "Integrated Teacher Education Programme",
+        "top": 4,
+        "type": "admission/college",
+        "url": "education"
+    },
+    {
+        "id": "doctor-of-pharmacy",
+        "name": "Doctor of Pharmacy",
+        "top": 1,
+        "type": "admission/college",
+        "url": "pharmacy"
+    },
+    {
+        "id": "biochemistry",
+        "name": "Biochemistry",
+        "top": 2,
+        "type": "admission/college",
+        "url": "pharmacy"
+    },
+    {
+        "id": "diploma-pharmacy",
+        "name": "Diploma pharmacy",
+        "top": 3,
+        "type": "admission/college",
+        "url": "pharmacy"
+    },
+    {
+        "id": "human-anatomy-and-physiology",
+        "name": "Human Anatomy and Physiology",
+        "top": 4,
+        "type": "admission/college",
+        "url": "pharmacy"
+    },
+    {
+        "id": "pharmaceutical-inorganic-chemistry",
+        "name": "Pharmaceutical inorganic chemistry",
+        "top": 5,
+        "type": "admission/college",
+        "url": "pharmacy"
+    },
+    {
+        "id": "pharmaceutical-organic-chemistry",
+        "name": "Pharmaceutical Organic Chemistry",
+        "top": 6,
+        "type": "admission/college",
+        "url": "pharmacy"
+    },
+    {
+        "id": "pharmaceutics",
+        "name": "Pharmaceutics",
+        "top": 7,
+        "type": "admission/college",
+        "url": "pharmacy"
+    },
+    {
+        "id": "pharmacology",
+        "name": "Pharmacology",
+        "top": 8,
+        "type": "admission/college",
+        "url": "pharmacy"
+    },
+    {
+        "id": "remedial-mathematics",
+        "name": "Remedial Mathematics",
+        "top": 1,
+        "type": "admission/college",
+        "url": "pharmacy"
+    },
+    {
+        "id": "bachelor-of-pharmacy",
+        "name": "Bachelor of Pharmacy",
+        "top": 2,
+        "type": "admission/college",
+        "url": "pharmacy"
+    },
+    {
+        "id": "communication-skills",
+        "name": "Communication skills",
+        "top": 3,
+        "type": "admission/college",
+        "url": "pharmacy"
+    },
+    {
+        "id": "drug-development",
+        "name": "Drug development",
+        "top": 4,
+        "type": "admission/college",
+        "url": "pharmacy"
+    },
+    {
+        "id": "pharmaceutical-microbiology",
+        "name": "Pharmaceutical microbiology",
+        "top": 5,
+        "type": "admission/college",
+        "url": "pharmacy"
+    },
+    {
+        "id": "pharmacist",
+        "name": "Pharmacist",
+        "top": 6,
+        "type": "admission/college",
+        "url": "pharmacy"
+    },
+    {
+        "id": "biopharmaceutics-and-pharmacokinetics",
+        "name": "Biopharmaceutics and pharmacokinetics",
+        "top": 7,
+        "type": "admission/college",
+        "url": "pharmacy"
+    },
+    {
+        "id": "computer-applications-in-pharmacy",
+        "name": "Computer Applications in pharmacy",
+        "top": 8,
+        "type": "admission/college",
+        "url": "pharmacy"
+    },
+    {
+        "id": "environmental-sciences",
+        "name": "Environmental Sciences",
+        "top": 1,
+        "type": "admission/college",
+        "url": "pharmacy"
+    },
+    {
+        "id": "herbal-drug-technology",
+        "name": "Herbal drug Technology",
+        "top": 2,
+        "type": "admission/college",
+        "url": "pharmacy"
+    },
+    {
+        "id": "industrial-pharmacy",
+        "name": "Industrial Pharmacy",
+        "top": 3,
+        "type": "admission/college",
+        "url": "pharmacy"
+    },
+    {
+        "id": "medicinal-chemistry",
+        "name": "Medicinal Chemistry",
+        "top": 4,
+        "type": "admission/college",
+        "url": "pharmacy"
+    },
+    {
+        "id": "pathophysiology",
+        "name": "Pathophysiology",
+        "top": 5,
+        "type": "admission/college",
+        "url": "pharmacy"
+    },
+    {
+        "id": "pharmaceutical-engineering",
+        "name": "Pharmaceutical Engineering",
+        "top": 6,
+        "type": "admission/college",
+        "url": "pharmacy"
+    },
+    {
+        "id": "pharmacognosy-and-phytochemistry",
+        "name": "Pharmacognosy and Phytochemistry",
+        "top": 7,
+        "type": "admission/college",
+        "url": "pharmacy"
+    },
+    {
+        "id": "advanced-instrumental-analysis",
+        "name": "Advanced instrumental Analysis",
+        "top": 8,
+        "type": "admission/college",
+        "url": "pharmacy"
+    },
+    {
+        "id": "interior-design",
+        "name": "Interior design",
+        "top": 1,
+        "type": "admission/college",
+        "url": "design"
+    },
+    {
+        "id": "communication-design",
+        "name": "Communication Design",
+        "top": 2,
+        "type": "admission/college",
+        "url": "design"
+    },
+    {
+        "id": "design-certificate-programs",
+        "name": "Design Certificate programs",
+        "top": 3,
+        "type": "admission/college",
+        "url": "design"
+    },
+    {
+        "id": "fashion-design",
+        "name": "Fashion design",
+        "top": 4,
+        "type": "admission/college",
+        "url": "design"
+    },
+    {
+        "id": "product-design",
+        "name": "Product design",
+        "top": 5,
+        "type": "admission/college",
+        "url": "design"
+    },
+    {
+        "id": "textile-design",
+        "name": "Textile design",
+        "top": 6,
+        "type": "admission/college",
+        "url": "design"
+    },
+    {
+        "id": "graphic-design",
+        "name": "Graphic design",
+        "top": 7,
+        "type": "admission/college",
+        "url": "design"
+    },
+    {
+        "id": "undergraduate-design-courses",
+        "name": "Undergraduate design courses",
+        "top": 8,
+        "type": "admission/college",
+        "url": "design"
+    },
+    {
+        "id": "industrial-design",
+        "name": "Industrial Design",
+        "top": 1,
+        "type": "admission/college",
+        "url": "design"
+    },
+    {
+        "id": "interior-designing-courses",
+        "name": "Interior designing courses",
+        "top": 2,
+        "type": "admission/college",
+        "url": "design"
+    },
+    {
+        "id": "animation-design",
+        "name": "Animation design",
+        "top": 3,
+        "type": "admission/college",
+        "url": "design"
+    },
+    {
+        "id": "bachelor-in-fashion-technology",
+        "name": "Bachelor in Fashion Technology",
+        "top": 4,
+        "type": "admission/college",
+        "url": "design"
+    },
+    {
+        "id": "bdes-in-animation",
+        "name": "BDes in Animation",
+        "top": 5,
+        "type": "admission/college",
+        "url": "design"
+    },
+    {
+        "id": "digital-and-interaction-design",
+        "name": "Digital and Interaction Design",
+        "top": 6,
+        "type": "admission/college",
+        "url": "design"
+    },
+    {
+        "id": "furniture-design",
+        "name": "Furniture design",
+        "top": 7,
+        "type": "admission/college",
+        "url": "design"
+    },
+    {
+        "id": "game-design",
+        "name": "Game design",
+        "top": 8,
+        "type": "admission/college",
+        "url": "design"
+    },
+    {
+        "id": "jewellery-design",
+        "name": "Jewellery design",
+        "top": 1,
+        "type": "admission/college",
+        "url": "design"
+    },
+    {
+        "id": "multimedia-design",
+        "name": "Multimedia Design",
+        "top": 2,
+        "type": "admission/college",
+        "url": "design"
+    },
+    {
+        "id": "set-design",
+        "name": "Set design",
+        "top": 3,
+        "type": "admission/college",
+        "url": "design"
+    },
+    {
+        "id": "web-design",
+        "name": "Web design",
+        "top": 4,
+        "type": "admission/college",
+        "url": "design"
+    }
+]
