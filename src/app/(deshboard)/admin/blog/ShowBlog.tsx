@@ -1,6 +1,6 @@
 'use client'
 import AdminHeading from '@/app/components/AdminHeading';
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
 import EditIcon from '@mui/icons-material/Edit';
 import VisibilityIcon from '@mui/icons-material/Visibility';
@@ -9,11 +9,28 @@ import toast from 'react-hot-toast';
 import { Col, Container, Image, Row } from 'react-bootstrap';
 import { useRouter } from 'next/navigation';
 import 'react-quill/dist/quill.snow.css';
-
+import {
+    DataGrid,
+    GridToolbar,
+    GridToolbarQuickFilter,
+    GridToolbarExport,
+    GridColDef,
+  } from "@mui/x-data-grid";
 
 const ShowBlog = () => {
     const router = useRouter();
     const [blogData, setBlogData] = useState<any[]>([]);
+
+    const formatDate = (dateString: string): string => {
+        const date = new Date(dateString);
+        return date.toLocaleString("en-GB", {
+          timeZone: "Asia/Kolkata",
+          day: "2-digit",
+          month: "short",
+          year: "numeric",
+          hour12: true,
+        });
+      };
 
     useEffect(() => {
         axios.get('/api/blog')
@@ -25,6 +42,9 @@ const ShowBlog = () => {
                 toast.error(errorMessage);
             });
     }, [blogData]);
+
+
+
 
 
     //Call Delete API
@@ -40,81 +60,126 @@ const ShowBlog = () => {
         } null
     }
 
-    return (
-        <Container>
-            <Row>
-                <Col md={12}>
-                    <div>
-                        <AdminHeading title='Manage Blogs' center />
-                    </div>
-                </Col>
-                <hr />
-                <Row className='d-flex align-items-center justify-content-center text-center fw-bold'>
-                    <Col md={3}>
-                        <div>
-                            <p>Blog Image</p>
-                        </div>
-                    </Col>
-                    <Col md={3}>
-                        <div>
-                            <p>Meta Title</p>
-                        </div>
-                    </Col>
-                    <Col md={3}>
-                        <div>
-                            <p>Blog Title</p>
-                        </div>
-                    </Col>
-                    <Col md={3} >
-                        <div>
-                            <p>Action</p>
-                        </div>
-                    </Col>
-                </Row>
-                {
-                    blogData.map((item: any) => (
-                        <Row className='d-flex align-items-center p-2 bg-light border justify-content-center text-center my-2' style={{ fontSize: "13px" }}>
+    let rows: any[] = [];
+  
+   
+  
+  if (blogData) {
+    rows = blogData.map((order: any) => {
+      return {
+        id: order._id,
+        image: order.imgUrl,
+        name: order.name,
+        customUrl: order.customUrl,
+        title: order.title,
+        metaTitle: order.metaTitle,
+        date: formatDate(order.createdAt),
+      };
+    });
+  }
+    const columns: GridColDef[] =  [
+        {
+            field: "image",
+            headerName: "Image",
+            width: 150,
+            renderCell: (params) => (
+                <div>
+                    <Image
+                        width={120}
+                        height={120}
+                        src={params.row.image}
+                        alt={params.row.id}
+                        thumbnail
+                        className="p-2 m-2"
+                        fluid
+                    />
+                </div>
+            ),
+        },
+          {
+            field: "name",
+            headerName: "Name",
+            width: 200,
+          },
+          {
+            field: "title",
+            headerName: "Title",
+            width: 200,
+          },
+          {
+            field: "metaTitle",
+            headerName: "Meta Title",
+            width: 200,
+          },
+          {
+            field: "delete",
+            headerName: "Delete",
+            width: 100,
+            renderCell: (params: any) => (
+                <DeleteForeverIcon onClick={() => { deleteBlog(params.row.id) }} color='error' fontSize='large' style={{cursor:"pointer"}}/>
+            ),
+          },
+          {
+            field: "update",
+            headerName: "Update",
+            width: 100,
+            renderCell: (params: any) => (
+                <EditIcon onClick={()=>router.push(`/admin/blog/${params.row.id}`)}  color='success' style={{cursor:"pointer"}} fontSize='large' />
+            ),
+          },
+          {
+            field: "view",
+            headerName: "View",
+            width: 100,
+            renderCell: (params: any) => (
+                <VisibilityIcon onClick={()=>router.push(`/blog/${params.row.customUrl}`)}  color='primary'  style={{cursor:"pointer"}} fontSize='large' />
+            ),  
+          },
+        ]
 
-                            <Col md={3}>
-                                <div>
-                                    <Image width={100} height={30} src={item.imgUrl} alt={item.name} fluid />
-                                </div>
-                            </Col>
-                            <Col md={3}>
-                                {/* <div>
-                                <p dangerouslySetInnerHTML={{ __html: item.message }} />
-                                </div> */}
-                                 <div>
-                                    <p>{item.title}</p>
-                                </div>
-                            </Col>
-                            <Col md={3}>
-                                <div>
-                                    <p>{item.name}</p>
-                                </div>
-                            </Col>
-                            <Col md={3}>
-                                <div className='d-flex justify-content-center align-items-center'>
-                                    <div className='mx-2'>
-                                        <DeleteForeverIcon onClick={() => { deleteBlog(item._id) }} color='error' fontSize='large' />
-                                    </div>
-                                    <div className='mx-2'>
-                                        <EditIcon onClick={()=>router.push(`/admin/blog/${item._id}`)}  color='success' fontSize='large' />
-                                    </div>
-                                    <div className='mx-2'>
-                                        <VisibilityIcon onClick={()=>router.push(`/admin/blog/${item._id}`)}  color='primary' fontSize='large' />
-                                    </div>
-                                </div>
-                            </Col>
-                        </Row>
-
-                    ))
+      return (
+        <div style={{ width: "100%" }} className="my-4">
+          <div>
+            <AdminHeading title="Manage Blogs" center />
+          </div>
+          <DataGrid
+            disableColumnFilter
+            disableColumnSelector
+            disableDensitySelector
+            disableRowSelectionOnClick
+            rows={rows}
+            rowHeight={140}
+            columns={columns}
+            hideFooter={true}
+            getRowId={(row) => row.id}
+            slots={{ toolbar: GridToolbar }}
+            sx={{
+              "& .MuiDataGrid-row:hover": {
+                backgroundColor: "inherit",
+              },
+              
+              "& .MuiDataGrid-cell:focus": {
+                outline: "none",
+              },
+              "& .MuiDataGrid-row.Mui-selected:hover": {
+                backgroundColor: "inherit",
+              },
+              "& .MuiDataGrid-cell:focus-within": {
+                outline: "none",
+              },
+            }}
+            slotProps={{
+              toolbar: {
+                showQuickFilter: true,
+                quickFilterProps: {
+                  debounceMs: 500,
                 }
-            </Row >
-        </Container >
-
-
-    );
+              },
+            }}
+          />
+        </div>
+      );
+  
 };
 
 export default ShowBlog;

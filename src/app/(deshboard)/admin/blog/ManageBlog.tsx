@@ -15,7 +15,6 @@ import { Container, Col, Row } from "react-bootstrap";
 import AdminHeading from "@/app/components/AdminHeading";
 import ReactQuill from "react-quill";
 import "react-quill/dist/quill.snow.css";
-
 const modules = {
   toolbar: [
     [{ header: [1, 2, 3, 4, 5, 6, false] }],
