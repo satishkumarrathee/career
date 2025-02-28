@@ -16,21 +16,28 @@ import {
     GridToolbarExport,
     GridColDef,
   } from "@mui/x-data-grid";
+  import React from 'react';
+import { deleteObject, getStorage, ref } from 'firebase/storage';
+import app from '@/app/libs/firebase';
 
 const ShowBlog = () => {
     const router = useRouter();
+    const storage = getStorage(app)
     const [blogData, setBlogData] = useState<any[]>([]);
 
     const formatDate = (dateString: string): string => {
-        const date = new Date(dateString);
-        return date.toLocaleString("en-GB", {
-          timeZone: "Asia/Kolkata",
-          day: "2-digit",
-          month: "short",
-          year: "numeric",
-          hour12: true,
-        });
-      };
+      const date = new Date(dateString);
+      return date.toLocaleString("en-GB", {
+        timeZone: "Asia/Kolkata",
+        day: "2-digit",
+        month: "short",
+        year: "numeric",
+        hour: "2-digit",
+        minute: "2-digit",
+        second: "2-digit",
+        hour12: true,
+      });
+    };
 
     useEffect(() => {
         axios.get('/api/blog')
@@ -49,16 +56,34 @@ const ShowBlog = () => {
 
     //Call Delete API
 
-    const deleteBlog = async (id: any) => {
-        if (confirm("Do you want to Delete ?") == true) {
-            let blog = await fetch(`/api/blog/${id}`, {
-                method: 'Delete',
-                cache: 'no-cache',
-            })
-            blog = await blog.json();
-            router.refresh()
-        } null
-    }
+    const deleteBlog = React.useCallback(async (id: string, images: any[]) => {
+      toast('Deleting Banner please wait !')
+      const handleImageDelete = async () => {
+        try {
+          for (const item of images) {
+            if (item.imgUrl) {
+              const imageRef = ref(storage, item.imgUrl)
+              await deleteObject(imageRef)
+            }
+          }
+        } catch (error) {
+          return console.log('Deleting Banner Image Error', error)
+        }
+      }
+      await handleImageDelete()
+  
+      // Delete product from MongoDb
+      if (confirm("Do you want to Delete ?") == true) {
+        axios.delete(`/api/blog/${id}`).then((res) => {
+          toast.success('blog Deleted')
+          router.refresh()
+        }).catch((err) => {
+          toast.error('Failed to delete blog')
+          console.log(err)
+        })
+      }
+  
+    }, [])
 
     let rows: any[] = [];
   
@@ -107,8 +132,8 @@ const ShowBlog = () => {
             width: 200,
           },
           {
-            field: "metaTitle",
-            headerName: "Meta Title",
+            field: "date",
+            headerName: "Date",
             width: 200,
           },
           {
@@ -116,7 +141,7 @@ const ShowBlog = () => {
             headerName: "Delete",
             width: 100,
             renderCell: (params: any) => (
-                <DeleteForeverIcon onClick={() => { deleteBlog(params.row.id) }} color='error' fontSize='large' style={{cursor:"pointer"}}/>
+                <DeleteForeverIcon onClick={() => { deleteBlog(params.row.id, params.row.imgUrl) }} color='error' fontSize='large' style={{cursor:"pointer"}}/>
             ),
           },
           {

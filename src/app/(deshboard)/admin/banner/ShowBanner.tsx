@@ -9,11 +9,17 @@ import { useRouter } from 'next/navigation';
 import React from 'react';
 import { deleteObject, getStorage, ref } from 'firebase/storage';
 import app from '@/app/libs/firebase';
-
+import {
+  DataGrid,
+  GridToolbar,
+  GridToolbarQuickFilter,
+  GridToolbarExport,
+  GridColDef,
+} from "@mui/x-data-grid";
 
 const ManageLawyer = () => {
- const router = useRouter();
- const storage = getStorage(app)
+  const router = useRouter();
+  const storage = getStorage(app)
   const [bannerData, setBannerData] = useState<any[]>([]);
 
   useEffect(() => {
@@ -30,11 +36,11 @@ const ManageLawyer = () => {
 
   //Call Delete API
 
-  const deleteProduct = React.useCallback(async(id:string, images:any[]) => {
+  const deleteProduct = React.useCallback(async (id: string, images: any[]) => {
     toast('Deleting Banner please wait !')
     const handleImageDelete = async () => {
       try {
-        for (const item of images){
+        for (const item of images) {
           if (item.imgUrl) {
             const imageRef = ref(storage, item.imgUrl)
             await deleteObject(imageRef)
@@ -47,10 +53,11 @@ const ManageLawyer = () => {
     await handleImageDelete()
 
     // Delete product from MongoDb
-    if (confirm("Do you want to Delete ?")==true) {
-    axios.delete(`/api/banner/${id}`).then((res) => {
-      toast.success('Banner Deleted')
-      router.refresh()}).catch((err)=>{
+    if (confirm("Do you want to Delete ?") == true) {
+      axios.delete(`/api/banner/${id}`).then((res) => {
+        toast.success('Banner Deleted')
+        router.refresh()
+      }).catch((err) => {
         toast.error('Failed to delete Banner')
         console.log(err)
       })
@@ -58,60 +65,114 @@ const ManageLawyer = () => {
 
   }, [])
 
+  const formatDate = (dateString: string): string => {
+    const date = new Date(dateString);
+    return date.toLocaleString("en-GB", {
+      timeZone: "Asia/Kolkata",
+      day: "2-digit",
+      month: "short",
+      year: "numeric",
+      hour: "2-digit",
+      minute: "2-digit",
+      second: "2-digit",
+      hour12: true,
+    });
+  };
+
+  let rows: any[] = [];
+
+
+
+  if (bannerData) {
+    rows = bannerData.map((order: any) => {
+      return {
+        id: order._id,
+        imgUrl: order.imgUrl,
+        title: order.title,
+        date: formatDate(order.createdAt),
+      };
+    });
+  }
+  const columns: GridColDef[] = [
+    {
+      field: "image",
+      headerName: "Image",
+      width: 250,
+      renderCell: (params) => (
+        <div>
+          <Image
+            width={150}
+            height={150}
+            src={params.row.imgUrl}
+            alt={params.row.id}
+            thumbnail
+            className="p-2 m-2"
+            fluid
+          />
+        </div>
+      ),
+    },
+    {
+      field: "title",
+      headerName: "Title",
+      width: 350,
+    },
+    {
+      field: "date",
+      headerName: "Date",
+      width: 220,
+    },
+    {
+      field: "delete",
+      headerName: "Delete",
+      width: 140,
+      renderCell: (params: any) => (
+        <DeleteForeverIcon onClick={() => { deleteProduct(params.row.id, params.row.imgUrl) }} color='error' fontSize='large' style={{ cursor: "pointer" }} />
+      ),
+    }
+  ]
+
   return (
-    <Container>
-      <Row>
-        <Col md={12}>
-          <div>
-            <AdminHeading title='Manage Banners' center />
-          </div>
-        </Col>
-        <hr />
-        <Row className='d-flex align-items-center justify-content-center text-center fw-bold'>
-          <Col md={4}>
-            <div>
-              <p>Banner Image</p>
-            </div>
-          </Col>
-          <Col md={4}>
-            <div>
-              <p>Title</p>
-            </div>
-          </Col>
-          <Col md={4} >
-            <div>
-              <p>Action</p>
-            </div>
-          </Col>
-        </Row>
-        {
-          bannerData.map((item: any) => (
-            <Row className='d-flex align-items-center p-2 bg-light border justify-content-center text-center my-2' style={{ fontSize: "13px" }}>
+    <div style={{ width: "100%" }} className="my-4">
+      <div>
+        <AdminHeading title="Manage Popup" center />
+      </div>
+      <DataGrid
+        disableColumnFilter
+        disableColumnSelector
+        disableDensitySelector
+        disableRowSelectionOnClick
+        rowHeight={140}
+        rows={rows}
+        columns={columns}
+        hideFooter={true}
+        getRowId={(row) => row.id}
+        slots={{ toolbar: GridToolbar }}
+        sx={{
+          "& .MuiDataGrid-row:hover": {
+            backgroundColor: "inherit",
+          },
 
-              <Col md={4}>
-                <div>
-                  <Image width={200} height={50} src={item.imgUrl} alt={item.title} fluid />
-                </div>
-              </Col>
-              <Col md={4}>
-                <div>
-                 <p className='text-center'>{item.title}</p>
-                </div>
-              </Col>
-              <Col md={4}>
-                <div className='d-flex justify-content-center align-items-center'>
-                  <div className='mx-2'>
-                    <DeleteForeverIcon onClick={()=>{deleteProduct(item._id, item.imgUrl)}} color='error' fontSize='large' /></div>
-                </div>
-              </Col>
-            </Row>
-
-          ))
-        }
-      </Row >
-    </Container >
-
-
+          "& .MuiDataGrid-cell:focus": {
+            outline: "none",
+          },
+          "& .MuiDataGrid-row.Mui-selected:hover": {
+            backgroundColor: "inherit",
+          },
+          "& .MuiDataGrid-cell:focus-within": {
+            outline: "none",
+          },
+        }}
+        slotProps={{
+          toolbar: {
+            showQuickFilter: true,
+            quickFilterProps: {
+              debounceMs: 500,
+            }
+          },
+        }}
+      />
+    </div>
   );
 };
 

@@ -14,12 +14,16 @@ import toast from "react-hot-toast";
 import Link from "next/link";
 
 const Blog = () => {
-  var currentDate = new Date();
-
-  const dateTime: any = currentDate.getDate();
-  let dateMonth: any = currentDate.getMonth();
-  const dateYear: any = currentDate.getFullYear();
-  dateMonth += 1;
+  const formatDate = (dateString: string): string => {
+    const date = new Date(dateString);
+    return date.toLocaleString("en-GB", {
+      timeZone: "Asia/Kolkata",
+      day: "2-digit",
+      month: "short",
+      year: "numeric",
+      hour12: true,
+    });
+  };
 
 
   const [blogData, setBlogData] = useState<any[]>([]);
@@ -81,7 +85,7 @@ const Blog = () => {
                       <div className="d-flex justify-content-between my-2">
                         <div className="fw-bold">
                           <p style={{ fontSize: "14px" }}>
-                            Updated : {dateTime}-{dateMonth}-{dateYear}{" "}
+                           {formatDate(item.createdAt)}
                           </p>
                         </div>
                         {/* <div className="fw-bold">{item.read}</div> */}
