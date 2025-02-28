@@ -51,7 +51,6 @@ export default function RootLayout({
             },
           }}
         />
-        <Header1 />
         <Header />
         {children}
         <Suspense fallback={null}>
