@@ -58,7 +58,7 @@ const ManageEmployer = () => {
       },
     });
     if (response.ok) {
-      router.push("/employer");
+      router.push("/");
       toast.success("Job Posted");
     } else {
       toast.error("Something went wrong");

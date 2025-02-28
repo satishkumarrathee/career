@@ -23,7 +23,7 @@ const Search = () => {
           <div className='d-flex justify-items-center rounded flex-column align-items-center p-3 my-3'>
             <Paper
               component="form"
-              sx={{ p: '2px 4px', display: 'flex', alignItems: 'center', width: 400 }}
+              sx={{ p: '2px 4px', display: 'flex', alignItems: 'center', width: 300 }}
             >
               <InputBase
                 sx={{ ml: 1, flex: 1 }}
