@@ -20,7 +20,7 @@ const Search = () => {
     <Container>
       <Row>
         <Col md={12}>
-          <div className='d-flex justify-items-center rounded flex-column align-items-center p-3 my-3'>
+          <div className='d-flex justify-items-center rounded flex-column align-items-center p-3 my-2'>
             <Paper
               component="form"
               sx={{ p: '2px 4px', display: 'flex', alignItems: 'center', width: 300 }}

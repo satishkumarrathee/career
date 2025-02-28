@@ -59,7 +59,7 @@ const Consuntant: React.FC<MultiItemCarouselProps> = () => {
       });
   }, []);
     return (
-    <>
+    <div >
         <Container>
 
             <Row>
@@ -69,7 +69,7 @@ const Consuntant: React.FC<MultiItemCarouselProps> = () => {
             </Row>
 
         </Container>
-        <Container>
+        <Container style={{width:"83%"}}>
 
             <Row className="my-5">
             <Slider {...settings}>
@@ -102,7 +102,7 @@ const Consuntant: React.FC<MultiItemCarouselProps> = () => {
                   </Slider>
             </Row>
         </Container>
-    </>
+    </div>
     );
 }
 

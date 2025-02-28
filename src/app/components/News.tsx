@@ -40,15 +40,12 @@ const News = () => {
   return (
     <Container fluid className="">
       <Row className="align-items-center">
-        <Col xs={12} md={2} className="text-center bg-primary text-light py-1">
-          <strong>Latest Update</strong>
-        </Col>
-        <Col xs={12} md={10} className="bg-primary py-1">
+        <Col xs={12} className="bg-primary py-1">
           <Slider {...settings}>
             {newsData.map((item, index) => (
               <div key={index} className="text-center">
                 <Link href={item.link} target="_blank" className="text-light fw-light">
-                  <p className="fs-6 mb-0">
+                  <p className="mb-0" style={{ fontSize: "14px" }}>
                     {item.title}
                     <sup className="text-warning fw-bold mx-1" style={{ fontSize: "11px" }}>
                       New

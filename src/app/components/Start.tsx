@@ -6,7 +6,7 @@ import Heading from "./Heading";
 
 const Start = () => {
     return (
-        <Container className="mt-5">
+        <Container>
             <Row>
                 {/* <Heading name="Career Definer" /> */}
                 <Col md={4}>

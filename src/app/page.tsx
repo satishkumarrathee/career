@@ -26,9 +26,8 @@ const Home = () => {
     // return () => clearTimeout(timer,25000);
   }, []);
   return (
-    <>
+    <div>
       <TopCarousel />
-   
       <News/>
       <Search />
       {/* <NotificationComponent /> */}
@@ -39,9 +38,7 @@ const Home = () => {
       <Menu />
       <Consuntant items={[]} />
       <Choose />
-
-      {/* <Promotion/> */}
-    </>
+    </div>
   );
 };
 
