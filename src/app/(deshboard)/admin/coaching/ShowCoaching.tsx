@@ -6,7 +6,11 @@ import toast from 'react-hot-toast';
 import { Col, Container, Row } from 'react-bootstrap';
 import { useRouter } from 'next/navigation';
 import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
-
+import {
+    DataGrid,
+    GridToolbar,
+    GridColDef,
+} from "@mui/x-data-grid";
 
 
 const ShowCoaching = () => {
@@ -38,69 +42,132 @@ const ShowCoaching = () => {
         } null
     }
 
+    const formatDate = (dateString: string): string => {
+        const date = new Date(dateString);
+        return date.toLocaleString("en-GB", {
+            timeZone: "Asia/Kolkata",
+            day: "2-digit",
+            month: "short",
+            year: "numeric",
+            hour: "2-digit",
+            minute: "2-digit",
+            second: "2-digit",
+            hour12: true,
+        });
+    };
+    let rows: any[] = [];
+    if (coachingData) {
+        rows = coachingData.map((order: any) => {
+            return {
+                id: order._id,
+                name: order.name,
+                email: order.email,
+                contact: order.contact,
+                gender: order.gender,
+                dateOfBirth: order.dateOfBirth,
+                state: order.state,
+                district: order.district,
+                coaching: order.coaching,
+                date: formatDate(order.createdAt),
+            };
+        });
+    }
+    const columns: GridColDef[] = [
+        {
+            field: "name",
+            headerName: "Name",
+            width: 150,
+        },
+        {
+            field: "email",
+            headerName: "Email",
+            width: 250,
+        },
+        {
+            field: "contact",
+            headerName: "Contact",
+            width: 150,
+        },
+        {
+            field: "gender",
+            headerName: "Gender",
+            width: 150,
+        },
+        {
+            field: "coaching",
+            headerName: "Coaching",
+            width: 150,
+        },
+        {
+            field: "state",
+            headerName: "State",
+            width: 150,
+        },
+        {
+            field: "district",
+            headerName: "District",
+            width: 150,
+        },
+        {
+            field: "dateOfBirth",
+            headerName: "Date Of Birth",
+            width: 150,
+        },
+        {
+            field: "date",
+            headerName: "Date",
+            width: 200,
+        },
+        {
+            field: "delete",
+            headerName: "Delete",
+            width: 140,
+            renderCell: (params: any) => (
+                <DeleteForeverIcon onClick={() => { deleteCoaching(params.row.id) }} color='error' fontSize='large' style={{ cursor: "pointer" }} />
+            ),
+        }
+    ]
 
     return (
-        <Container>
-            <Row>
-                <Col md={12}>
-                    <div>
-                        <AdminHeading title='Coaching Form List' center />
-                    </div>
-                </Col>
-                <hr />
+        <div style={{ width: "100%" }} className="my-4">
+            <div>
+                <AdminHeading title="Manage Coaching Data" center />
+            </div>
+            <DataGrid
+                disableColumnFilter
+                disableColumnSelector
+                disableDensitySelector
+                disableRowSelectionOnClick
+                rows={rows}
+                columns={columns}
+                hideFooter={true}
+                getRowId={(row) => row.id}
+                slots={{ toolbar: GridToolbar }}
+                sx={{
+                    "& .MuiDataGrid-row:hover": {
+                        backgroundColor: "inherit",
+                    },
 
-            </Row >
-            <Row >
-                {
-                    coachingData.map((item) => (
-                        <Col md={6} className='my-2'>
-                            <div className='border rounded border-primary p-3 bg-light text-primary'>
-                                <div className='d-flex justify-content-between'>
-                                    <div className='mx-2'>
-                                        <p><span className='fw-bold'>Name :</span> {item.name}</p>
-                                    </div>
-                                    <div className='mx-2'>
-                                        <p><span className='fw-bold'>Contact : +91</span> {item.contact}</p>
-                                    </div>
-                                </div>
-                                <div className='d-flex justify-content-between'>
-                                    <div className='mx-2'>
-                                        <p><span className='fw-bold'>Email :</span> {item.email}</p>
-                                    </div>
-                                    <div className='mx-2'>
-                                        <p><span className='fw-bold'>Gender :</span> {item.gender}</p>
-                                    </div>
-                                </div>
-                                <div className='d-flex justify-content-between'>
-                                    <div className='mx-2'>
-                                        <p><span className='fw-bold'>State :</span> {item.state} </p>
-                                    </div>
-                                    <div className='mx-2'>
-                                        <p><span className='fw-bold'>District :</span> {item.district}</p>
-                                    </div>
-                                </div>
-                                <div className='d-flex justify-content-between'>
-                                <div className='mx-2'>
-                                        <p><span className='fw-bold'>Coaching :</span> {item.coaching}</p>
-                                    </div>
-                                    <div className='mx-2'>
-                                        <p><span className='fw-bold'>Date of Birth :</span> {item.dateOfBirth}</p>
-                                    </div>
-                                </div>
-                                <div className='mx-2 float-end'>
-                                    <DeleteForeverIcon onClick={() => { deleteCoaching(item._id) }} color='primary' fontSize='large' />
-                                </div>
-
-                            </div>
-
-                        </Col>
-                    ))
-                }
-            </Row >
-
-        </Container >
-
-
+                    "& .MuiDataGrid-cell:focus": {
+                        outline: "none",
+                    },
+                    "& .MuiDataGrid-row.Mui-selected:hover": {
+                        backgroundColor: "inherit",
+                    },
+                    "& .MuiDataGrid-cell:focus-within": {
+                        outline: "none",
+                    },
+                }}
+                slotProps={{
+                    toolbar: {
+                        showQuickFilter: true,
+                        quickFilterProps: {
+                            debounceMs: 500,
+                        }
+                    },
+                }}
+            />
+        </div>
     );
 };
 

@@ -3,7 +3,6 @@ import { Col, Container, Row,Image } from "react-bootstrap";
 import Form from "./Form";
 import University from "./University";
 import { useState } from "react";
-import { AnyAaaaRecord } from "dns";
 
 
 
@@ -54,7 +53,7 @@ const BottomMatter:React.FC<BottomMatterProps> = ({ courses ,category}) => {
                   
                 </Col>
                 <Col md={6}>
-                    <Form course={courses} specilization={category} setSelectedSpecilization={setSelectedSpecilization}/>
+                    <Form course={courses} specilization={category} selectedSpecilization={selectedSpecilization} setSelectedSpecilization={setSelectedSpecilization}/>
                 </Col>
             </Row>
         </Container>

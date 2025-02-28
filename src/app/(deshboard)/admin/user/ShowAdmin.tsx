@@ -2,17 +2,37 @@
 import AdminHeading from '@/app/components/AdminHeading';
 import { useEffect, useState } from "react";
 import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
-import EditIcon from '@mui/icons-material/ChangeCircle';
-import PasswordIcon from '@mui/icons-material/Password';
+import EditIcon from '@mui/icons-material/Edit';
 import axios from 'axios';
 import toast from 'react-hot-toast';
 import { Col, Container,Row } from 'react-bootstrap';
 import { useRouter } from 'next/navigation';
-
+import {
+    DataGrid,
+    GridToolbar,
+    GridToolbarQuickFilter,
+    GridToolbarExport,
+    GridColDef,
+  } from "@mui/x-data-grid";
 
 const ShowAdmin = () => {
     const router = useRouter();
     const [userData, setUserData] = useState<any[]>([]);
+
+    
+    const formatDate = (dateString: string): string => {
+        const date = new Date(dateString);
+        return date.toLocaleString("en-GB", {
+          timeZone: "Asia/Kolkata",
+          day: "2-digit",
+          month: "short",
+          year: "numeric",
+          hour: "2-digit",
+          minute: "2-digit",
+          second: "2-digit",
+          hour12: true,
+        });
+      };
 
     useEffect(() => {
         axios.get('/api/user')
@@ -39,82 +59,96 @@ const ShowAdmin = () => {
         } null
     }
 
-    return (
-        <Container>
-            <Row>
-                <Col md={12}>
-                    <div>
-                        <AdminHeading title='Manage Users' center />
-                    </div>
-                </Col>
-                <hr />
-                <Row className='d-flex align-items-center justify-content-center text-center fw-bold'>
-                    <Col md={3}>
-                        <div>
-                            <p>Name</p>
-                        </div>
-                    </Col>
-                    <Col md={3}>
-                        <div>
-                            <p>Email</p>
-                        </div>
-                    </Col>
-                    <Col md={3}>
-                        <div>
-                            <p>Role</p>
-                        </div>
-                    </Col>
-                    <Col md={3} >
-                        <div>
-                            <p>Action</p>
-                        </div>
-                    </Col>
-                </Row>
-                {
-                    userData.map((item: any,index) => (
-                        <Row className='d-flex align-items-center py-1 bg-light border justify-content-center text-center my-2' style={{ fontSize: "15px" }}>
-
-                            <Col md={3}>
-                            {index !== 0 && (
-                            <div key={index}>
-                                    <p>{item.name}</p>
-                                </div>)}
-                            </Col>
-                            <Col md={3}>
-                            {index !== 0 && (
-                                <div key={index}>
-                                    <p>{item.email}</p>
-                                </div>)}
-                            </Col>
-                            <Col md={3}>
-                            {index !== 0 && (
-                                <div key={index}>
-                                    <p>{item.role}</p>
-                                </div>)}
-                            </Col>
-                            <Col md={3}>
-                                <div className='d-flex justify-content-center align-items-center'>
-                                {index !== 0 && (  <div className='mx-2'>
-                                        <DeleteForeverIcon onClick={() => { deleteUser(item.id) }} color='error' fontSize='large' />
-                                    </div>)}
-                                    {index !== 0 && (  <div className='mx-2'>
-                                        <EditIcon onClick={()=>router.push(`/admin/user/${item.id}`)}  color='success' fontSize='large' />
-                                    </div>)}
-                                    {/* {index !== 0 && (  <div className='mx-2'>
-                                        <PasswordIcon onClick={()=>router.push(`/admin/password/${item.id}`)}  color='primary' fontSize='large' />
-                                    </div>)} */}
-                                  
-                                </div>
-                            </Col>
-                        </Row>
-
-                    ))
-                }
-            </Row >
-        </Container >
-
-
-    );
+    let rows: any[] = [];
+  
+   
+  
+    if (userData) {
+      rows = userData.map((order: any) => {
+        return {
+          id: order.id,
+          name: order.name,
+          email: order.email,
+          role: order.role,
+          date: formatDate(order.createdAt),
+        };
+      });
+    }
+      const columns: GridColDef[] =  [
+            {
+              field: "name",
+              headerName: "Name",
+              width: 200,
+            },
+            {
+              field: "email",
+              headerName: "Email",
+              width: 250,
+            },
+            {
+              field: "role",
+              headerName: "Role",
+              width: 150,
+            },
+            {
+              field: "delete",
+              headerName: "Delete",
+              width: 100,
+              renderCell: (params: any) => (
+                  <DeleteForeverIcon onClick={() => { deleteUser(params.row.id) }} color='error' fontSize='large' style={{cursor:"pointer"}}/>
+              ),
+            },
+            {
+              field: "update",
+              headerName: "Update",
+              width: 100,
+              renderCell: (params: any) => (
+                  <EditIcon onClick={()=>router.push(`/admin/user/${params.row.id}`)}  color='success' style={{cursor:"pointer"}} fontSize='large' />
+              ),
+            }
+          ]
+  
+        return (
+          <div style={{ width: "100%" }} className="my-4">
+            <div>
+              <AdminHeading title="Manage Users" center />
+            </div>
+            <DataGrid
+              disableColumnFilter
+              disableColumnSelector
+              disableDensitySelector
+              disableRowSelectionOnClick
+              rows={rows}
+              columns={columns}
+              hideFooter={true}
+              getRowId={(row) => row.id}
+              slots={{ toolbar: GridToolbar }}
+              sx={{
+                "& .MuiDataGrid-row:hover": {
+                  backgroundColor: "inherit",
+                },
+                
+                "& .MuiDataGrid-cell:focus": {
+                  outline: "none",
+                },
+                "& .MuiDataGrid-row.Mui-selected:hover": {
+                  backgroundColor: "inherit",
+                },
+                "& .MuiDataGrid-cell:focus-within": {
+                  outline: "none",
+                },
+              }}
+              slotProps={{
+                toolbar: {
+                  showQuickFilter: true,
+                  quickFilterProps: {
+                    debounceMs: 500,
+                  }
+                },
+              }}
+            />
+          </div>
+        );
 };
 
 export default ShowAdmin;

@@ -6,7 +6,11 @@ import toast from 'react-hot-toast';
 import { Col, Container, Image, Row } from 'react-bootstrap';
 import { useRouter } from 'next/navigation';
 import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
-
+import {
+    DataGrid,
+    GridToolbar,
+    GridColDef,
+  } from "@mui/x-data-grid";
 
 
 const ShowAdmission = () => {
@@ -39,82 +43,149 @@ const ShowAdmission = () => {
     }
 
 
-    return (
-        <Container>
-            <Row>
-                <Col md={12}>
-                    <div>
-                        <AdminHeading title='Admission Form List' center />
-                    </div>
-                </Col>
-                <hr />
-
-            </Row >
-            <Row >
-                {
-                    admissionData.map((item) => (
-                        <Col md={6} className='my-2'>
-                            <div className='border rounded border-primary p-3 bg-light text-primary'>
-                                <div className='d-flex justify-content-between'>
-                                    <div className='mx-2'>
-                                        <p><span className='fw-bold'>Name :</span> {item.name}</p>
-                                    </div>
-                                    <div className='mx-2'>
-                                        <p><span className='fw-bold'>Contact : +91</span> {item.contact}</p>
-                                    </div>
-                                </div>
-                                <div className='d-flex justify-content-between'>
-                                    <div className='mx-2'>
-                                        <p><span className='fw-bold'>Email :</span> {item.email}</p>
-                                    </div>
-                                    <div className='mx-2'>
-                                        <p><span className='fw-bold'>Gender :</span> {item.gender}</p>
-                                    </div>
-                                </div>
-                                <div className='d-flex justify-content-between'>
-                                    <div className='mx-2'>
-                                        <p><span className='fw-bold'>State :</span> {item.state} </p>
-                                    </div>
-                                    <div className='mx-2'>
-                                        <p><span className='fw-bold'>District :</span> {item.district}</p>
-                                    </div>
-                                </div>
-                                <div className='d-flex justify-content-between'>
-                                    <div className='mx-2'>
-                                        <p><span className='fw-bold'>Course Type :</span> {item.courseType}</p>
-                                    </div>
-                                    <div className='mx-2'>
-                                        <p><span className='fw-bold'>Date of Birth :</span> {item.dateOfBirth}</p>
-                                    </div>
-
-
-                                </div>
-                                <div className='d-flex justify-content-between'>
-                                    <div className='mx-2'>
-                                        <p><span className='fw-bold'>Course :</span> {item.course}</p>
-                                    </div>
-
-                                    <div className='mx-2'>
-                                        <p> <span className='fw-bold'>Specilization :</span> {item.specilization}</p>
-                                    </div>
-                                </div>
-
-
-                                <div className='mx-2 float-end'>
-                                    <DeleteForeverIcon onClick={() => { deleteAdmission(item._id) }} color='primary' fontSize='large' />
-                                </div>
-
-                            </div>
-
-                        </Col>
-                    ))
+    const formatDate = (dateString: string): string => {
+        const date = new Date(dateString);
+        return date.toLocaleString("en-GB", {
+          timeZone: "Asia/Kolkata",
+          day: "2-digit",
+          month: "short",
+          year: "numeric",
+          hour: "2-digit",
+          minute: "2-digit",
+          second: "2-digit",
+          hour12: true,
+        });
+      };
+      let rows: any[] = [];
+      if (admissionData) {
+        rows = admissionData.map((order: any) => {
+          return {
+            id: order._id,
+            name: order.name,
+            email: order.email,
+            contact: order.contact,
+            gender: order.gender,
+            dateOfBirth: order.dateOfBirth,
+            state: order.state,
+            district: order.district,
+            courseType: order.courseType,
+            specilization: order.specilization,
+            course: order.course,
+            date: formatDate(order.createdAt),
+          };
+        });
+      }
+      const columns: GridColDef[] = [
+        {
+          field: "name",
+          headerName: "Name",
+          width: 150,
+        },
+        {
+          field: "email",
+          headerName: "Email",
+          width: 250,
+        },
+        {
+          field: "contact",
+          headerName: "Contact",
+          width: 150,
+        },
+        {
+          field: "gender",
+          headerName: "Gender",
+          width: 150,
+        },
+        {
+          field: "specilization",
+          headerName: "Specilization",
+          width: 150,
+        },
+        {
+          field: "course",
+          headerName: "Course",
+          width: 200,
+        },
+        {
+          field: "courseType",
+          headerName: "Course Type",
+          width: 150,
+        },
+        {
+          field: "state",
+          headerName: "State",
+          width: 150,
+        },
+        {
+          field: "district",
+          headerName: "District",
+          width: 150,
+        },
+        {
+          field: "dateOfBirth",
+          headerName: "Date Of Birth",
+          width: 150,
+        },
+        {
+          field: "date",
+          headerName: "Date",
+          width: 200,
+        },
+        {
+          field: "delete",
+          headerName: "Delete",
+          width: 140,
+          renderCell: (params: any) => (
+            <DeleteForeverIcon onClick={() => { deleteAdmission(params.row.id) }} color='error' fontSize='large' style={{ cursor: "pointer" }} />
+          ),
+        }
+      ]
+    
+      return (
+        <div style={{ width: "100%" }} className="my-4">
+        
+                    {/* <div className='float-end mt-3'>
+                        <Button variant='contained' color='primary' onClick={()=>router.push('/admin/exam/postexam')}>latest exam post</Button>
+                    </div> */}
+          <div>
+            <AdminHeading title="Manage Admission Data" center />
+          </div>
+          <DataGrid
+            disableColumnFilter
+            disableColumnSelector
+            disableDensitySelector
+            disableRowSelectionOnClick
+            rows={rows}
+            columns={columns}
+            hideFooter={true}
+            getRowId={(row) => row.id}
+            slots={{ toolbar: GridToolbar }}
+            sx={{
+              "& .MuiDataGrid-row:hover": {
+                backgroundColor: "inherit",
+              },
+    
+              "& .MuiDataGrid-cell:focus": {
+                outline: "none",
+              },
+              "& .MuiDataGrid-row.Mui-selected:hover": {
+                backgroundColor: "inherit",
+              },
+              "& .MuiDataGrid-cell:focus-within": {
+                outline: "none",
+              },
+            }}
+            slotProps={{
+              toolbar: {
+                showQuickFilter: true,
+                quickFilterProps: {
+                  debounceMs: 500,
                 }
-            </Row >
-
-        </Container >
-
-
-    );
+              },
+            }}
+          />
+        </div>
+      );
 };
 
 export default ShowAdmission;

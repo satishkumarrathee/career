@@ -68,6 +68,8 @@ const UniversityForm = () => {
         district,
         descipline,
         qualification,
+        university,
+        type,
         program,
       }),
       mode: "cors",
@@ -78,8 +80,8 @@ const UniversityForm = () => {
       },
     });
     if (response.ok) {
-      router.refresh();
-      toast.success("Query Sent");
+      router.push('/');
+      toast.success("Form Submitted");
     } else {
       toast.error("Something went wrong");
     }
@@ -143,7 +145,7 @@ const UniversityForm = () => {
                 label="Email"
                 // error={!isValid && email !== ""}
                 helperText={!isValid && email !== "" && ""}
-                multiline
+                
                 variant="outlined"
                 className="m-1 my-3"
                 type="email"

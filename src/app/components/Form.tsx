@@ -20,15 +20,17 @@ import {
 
 interface FormProps {
   specilization: any;
+  selectedSpecilization: any;
   setSelectedSpecilization: any;
   course: string | undefined;
 }
 
-const Form: React.FC<FormProps> = ({ course, specilization ,setSelectedSpecilization}) => {
+const Form: React.FC<FormProps> = ({ course, specilization,selectedSpecilization ,setSelectedSpecilization}) => {
   const router = useRouter();
 
   const [gender, setGender] = useState("");
   const [courseType, setCourseType] = useState("");
+  const [data, setData] = useState();
   const [name, setName] = useState();
   const [contact, setContact] = useState();
   const [email, setEmail] = useState();
@@ -59,7 +61,7 @@ const Form: React.FC<FormProps> = ({ course, specilization ,setSelectedSpeciliza
       method: "POST",
       body: JSON.stringify({
         gender,
-        specilization,
+        specilization :selectedSpecilization,
         courseType,
         name,
         contact,

@@ -6,7 +6,11 @@ import toast from 'react-hot-toast';
 import { Col, Container, Image, Row } from 'react-bootstrap';
 import { useRouter } from 'next/navigation';
 import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
-
+import {
+    DataGrid,
+    GridToolbar,
+    GridColDef,
+} from "@mui/x-data-grid";
 
 const ShowNews = () => {
     const router = useRouter();
@@ -37,70 +41,97 @@ const ShowNews = () => {
         } null
     }
 
+    const formatDate = (dateString: string): string => {
+        const date = new Date(dateString);
+        return date.toLocaleString("en-GB", {
+            timeZone: "Asia/Kolkata",
+            day: "2-digit",
+            month: "short",
+            year: "numeric",
+            hour: "2-digit",
+            minute: "2-digit",
+            second: "2-digit",
+            hour12: true,
+        });
+    };
+    let rows: any[] = [];
+    if (newsData) {
+        rows = newsData.map((order: any) => {
+            return {
+                id: order._id,
+                title: order.title,
+                link: order.link,
+                date: formatDate(order.createdAt),
+            };
+        });
+    }
+    const columns: GridColDef[] = [
+        {
+            field: "title",
+            headerName: "Title",
+            width: 300,
+        },
+        {
+            field: "link",
+            headerName: "Link",
+            width: 400,
+        },
+        {
+            field: "date",
+            headerName: "Date",
+            width: 250,
+        },
+
+        {
+            field: "delete",
+            headerName: "Delete",
+            width: 100,
+            renderCell: (params: any) => (
+                <DeleteForeverIcon onClick={() => { deleteNews(params.row.id) }} color='error' fontSize='large' style={{ cursor: "pointer" }} />
+            ),
+        }
+    ]
+
     return (
-        <Container>
-            <Row>
-                <Col md={12}>
-                    <div>
-                        <AdminHeading title='News Scroller Form List' center />
-                    </div>
-                </Col>
-                <hr />
-                <Row className='d-flex align-items-center justify-content-center text-center fw-bold'>
-                
-                    <Col md={4}>
-                        <div>
-                            <p>News Title</p>
-                        </div>
-                    </Col>
-                    <Col md={4}>
-                        <div>
-                            <p>News Link</p>
-                        </div>
-                    </Col>
-                    <Col md={4} >
-                        <div>
-                            <p>Action</p>
-                        </div>
-                    </Col>
-                </Row>
+        <div style={{ width: "100%" }} className="my-4">
+            <div>
+                <AdminHeading title="Manage News Scroller Data" center />
+            </div>
+            <DataGrid
+                disableColumnFilter
+                disableColumnSelector
+                disableDensitySelector
+                disableRowSelectionOnClick
+                rows={rows}
+                columns={columns}
+                hideFooter={true}
+                getRowId={(row) => row.id}
+                slots={{ toolbar: GridToolbar }}
+                sx={{
+                    "& .MuiDataGrid-row:hover": {
+                        backgroundColor: "inherit",
+                    },
 
-            </Row >
-            <Row >
-                {
-                    newsData.map((item) => (
-                        <Row className='d-flex align-items-center p-2 bg-light border justify-content-center text-center my-2' style={{ fontSize: "13px" }}>
-                            <Col md={4}>
-                                <div>
-                                    <p>{item.title}</p>
-                                </div>
-                            </Col>
-                            <Col md={4}>
-                                <div>
-                                    <p >{item.link}</p>
-                                </div>
-                            </Col>
-                            <Col md={4}>
-                                <div className='d-flex justify-content-center align-items-center'>
-                                    <div className='mx-2'>
-                                        <DeleteForeverIcon onClick={() => { deleteNews(item._id) }} color='error' fontSize='large' />
-                                    </div>
-                                    {/* <div className='mx-2'>
-                                        <EditIcon onClick={()=>router.push(`/admin/blog/${item._id}`)}  color='success' fontSize='large' />
-                                    </div>
-                                    <div className='mx-2'>
-                                        <VisibilityIcon  color='primary' fontSize='large' />
-                                    </div> */}
-                                </div>
-                            </Col>
-                        </Row>
-                    ))
-                }
-            </Row >
-
-        </Container >
-
-
+                    "& .MuiDataGrid-cell:focus": {
+                        outline: "none",
+                    },
+                    "& .MuiDataGrid-row.Mui-selected:hover": {
+                        backgroundColor: "inherit",
+                    },
+                    "& .MuiDataGrid-cell:focus-within": {
+                        outline: "none",
+                    },
+                }}
+                slotProps={{
+                    toolbar: {
+                        showQuickFilter: true,
+                        quickFilterProps: {
+                            debounceMs: 500,
+                        }
+                    },
+                }}
+            />
+        </div>
     );
 };
 

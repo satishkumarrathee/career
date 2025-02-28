@@ -104,7 +104,7 @@ const NavbarData: React.FC<NavbarProps> = ({ email,name }) => {
             </Link>
             { email ? 
           <div className='navButton1'>
-         <Button variant="contained" color="primary" endIcon={<LogoutIcon/>} onClick={handleLogout}>Logout</Button><div className='text-center m-0 p-0'>Welcome : <span style={{textTransform:"capitalize"}} className='text-primary'> {name}</span></div>
+         <Button variant="contained" color="primary" endIcon={<LogoutIcon/>} onClick={handleLogout}>{name}</Button>
         </div>
         :<div className='navButton1'>
           <Button variant='contained' color="primary" onClick={()=>router.push('/employer')} endIcon={<MdSend/>}>post job</Button>

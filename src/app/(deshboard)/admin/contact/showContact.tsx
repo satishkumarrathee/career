@@ -12,7 +12,11 @@ import toast from 'react-hot-toast';
 import { Col, Container, Image, Row } from 'react-bootstrap';
 import { useRouter } from 'next/navigation';
 import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
-
+import {
+    DataGrid,
+    GridToolbar,
+    GridColDef,
+} from "@mui/x-data-grid";
 
 const ShowContact = () => {
     const router = useRouter();
@@ -43,58 +47,130 @@ const ShowContact = () => {
         } null
     }
 
+
+    const formatDate = (dateString: string): string => {
+        const date = new Date(dateString);
+        return date.toLocaleString("en-GB", {
+            timeZone: "Asia/Kolkata",
+            day: "2-digit",
+            month: "short",
+            year: "numeric",
+            hour: "2-digit",
+            minute: "2-digit",
+            second: "2-digit",
+            hour12: true,
+        });
+    };
+    let rows: any[] = [];
+    if (contactData) {
+        rows = contactData.map((order: any) => {
+            return {
+                id: order._id,
+                name: order.name,
+                email: order.email,
+                contact: order.contact,
+                qualification: order.qualification,
+                gender: order.gender,
+                state: order.state,
+                experience: order.experience,
+                subject: order.subject,
+                message: order.message,
+                district: order.district,
+                date: formatDate(order.createdAt),
+            };
+        });
+    }
+    const columns: GridColDef[] = [
+        {
+            field: "name",
+            headerName: "Name",
+            width: 150,
+        },
+        {
+            field: "email",
+            headerName: "Email",
+            width: 250,
+        },
+        {
+            field: "contact",
+            headerName: "Contact",
+            width: 150,
+        },
+        {
+            field: "subject",
+            headerName: "Subject",
+            width: 250,
+        },
+        {
+            field: "message",
+            headerName: "Message",
+            width: 250,
+        },
+        {
+            field: "state",
+            headerName: "State",
+            width: 150,
+        },
+        {
+            field: "district",
+            headerName: "District",
+            width: 150,
+        },
+        {
+            field: "date",
+            headerName: "Date",
+            width: 200,
+        },
+        {
+            field: "delete",
+            headerName: "Delete",
+            width: 140,
+            renderCell: (params: any) => (
+                <DeleteForeverIcon onClick={() => { deleteContact(params.row.id) }} color='error' fontSize='large' style={{ cursor: "pointer" }} />
+            ),
+        }
+    ]
+
     return (
-        <Container>
-            <Row>
-                <Col md={12}>
-                    <div>
-                        <AdminHeading title='Contact Person List' center />
-                    </div>
-                </Col>
-                <hr />
+        <div style={{ width: "100%" }} className="my-4">
+            <div>
+                <AdminHeading title="Manage Contact Data" center />
+            </div>
+            <DataGrid
+                disableColumnFilter
+                disableColumnSelector
+                disableDensitySelector
+                disableRowSelectionOnClick
+                rows={rows}
+                columns={columns}
+                hideFooter={true}
+                getRowId={(row) => row.id}
+                slots={{ toolbar: GridToolbar }}
+                sx={{
+                    "& .MuiDataGrid-row:hover": {
+                        backgroundColor: "inherit",
+                    },
 
-            </Row >
-            <Row >
-                {
-                    contactData.map((item) => (
-                        <Col md={6} className='my-2'>
-                            <div className='border rounded border-primary p-3 bg-light text-primary'>
-                                <div className='d-flex justify-content-between'>
-                                    <div className='mx-2'>
-                                        <p><span className='mx-2'><PersonIcon /></span>{item.name}</p>
-                                    </div>
-                                    <div className='mx-2'>
-                                        <p><span className='mx-2'><PhoneIcon /></span>+91 {item.contact}</p>
-                                    </div>
-                                </div>
-                                <div className='d-flex justify-content-between'>
-                                    <div className='mx-2'>
-                                        <p><span className='mx-2'><EmailIcon /></span>{item.email}</p>
-                                    </div>
-                                    <div className='mx-2'>
-                                        <p><span className='mx-2'><PlaceIcon /></span>{item.state}, {item.district}</p>
-                                    </div>
-                                </div>
-                                <div className='mx-2'>
-                                    <p><span className='mx-2'><SubjectIcon /></span>{item.subject}</p>
-                                </div>
-                                <div className='mx-2'>
-                                    <p><span className='mx-2'><MessageIcon /></span>{item.message}</p>
-                                </div>
-
-                                <div className='mx-2 float-end'>
-                                    <DeleteForeverIcon onClick={() => { deleteContact(item._id) }} color='primary' fontSize='large' />
-                                </div>
-                            </div>
-
-                        </Col>
-                    ))
-                }
-            </Row >
-
-        </Container >
-
-
+                    "& .MuiDataGrid-cell:focus": {
+                        outline: "none",
+                    },
+                    "& .MuiDataGrid-row.Mui-selected:hover": {
+                        backgroundColor: "inherit",
+                    },
+                    "& .MuiDataGrid-cell:focus-within": {
+                        outline: "none",
+                    },
+                }}
+                slotProps={{
+                    toolbar: {
+                        showQuickFilter: true,
+                        quickFilterProps: {
+                            debounceMs: 500,
+                        }
+                    },
+                }}
+            />
+        </div>
     );
 };
 

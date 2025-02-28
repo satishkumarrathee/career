@@ -9,6 +9,12 @@ import SchoolIcon from '@mui/icons-material/School';
 import FemaleIcon from '@mui/icons-material/Female';
 import MaleIcon from '@mui/icons-material/Male';
 import WorkIcon from '@mui/icons-material/Work';
+import VisibilityIcon from '@mui/icons-material/Visibility';
+import {
+    DataGrid,
+    GridToolbar,
+    GridColDef,
+} from "@mui/x-data-grid";
 import axios from 'axios';
 import toast from 'react-hot-toast';
 import { Col, Container, Row } from 'react-bootstrap';
@@ -51,80 +57,154 @@ const ShowCareer = () => {
         } null
     }
 
+    const formatDate = (dateString: string): string => {
+        const date = new Date(dateString);
+        return date.toLocaleString("en-GB", {
+            timeZone: "Asia/Kolkata",
+            day: "2-digit",
+            month: "short",
+            year: "numeric",
+            hour: "2-digit",
+            minute: "2-digit",
+            second: "2-digit",
+            hour12: true,
+        });
+    };
+    let rows: any[] = [];
+    if (careerData) {
+        rows = careerData.map((order: any) => {
+            return {
+                id: order._id,
+                name: order.name,
+                email: order.email,
+                contact: order.contact,
+                qualification: order.qualification,
+                gender: order.gender,
+                state: order.states,
+                experience: order.experience,
+                profile: order.profile,
+                imgUrl: order.imgUrl,
+                category: order.category,
+                district: order.districts,
+                coaching: order.coaching,
+                date: formatDate(order.createdAt),
+            };
+        });
+    }
+    const columns: GridColDef[] = [
+        {
+            field: "name",
+            headerName: "Name",
+            width: 150,
+        },
+        {
+            field: "email",
+            headerName: "Email",
+            width: 250,
+        },
+        {
+            field: "contact",
+            headerName: "Contact",
+            width: 150,
+        },
+        {
+            field: "gender",
+            headerName: "Gender",
+            width: 150,
+        },
+        {
+            field: "qualification",
+            headerName: "Qualification",
+            width: 150,
+        },
+        {
+            field: "experience",
+            headerName: "Experience",
+            width: 150,
+        },
+        {
+            field: "category",
+            headerName: "Category",
+            width: 150,
+        },
+        {
+            field: "profile",
+            headerName: "Profile",
+            width: 150,
+        },
+        {
+            field: "state",
+            headerName: "State",
+            width: 150,
+        },
+        {
+            field: "district",
+            headerName: "District",
+            width: 150,
+        },
+        {
+            field: "date",
+            headerName: "Date",
+            width: 200,
+        },
+        {
+            field: "delete",
+            headerName: "Delete",
+            width: 100,
+            renderCell: (params: any) => (
+                <DeleteForeverIcon onClick={() => { deleteCareer(params.row.id) }} color='error' fontSize='large' style={{ cursor: "pointer" }} />
+            ),
+        },
+        {
+            field: "resume",
+            headerName: "Resume",
+            width: 100,
+            renderCell: (params: any) => (
+              <Link href={`${params.row.imgUrl}` } target='_blank'><VisibilityIcon  color='success' fontSize='large' style={{ cursor: "pointer" }} /></Link>  
+            ),
+        }
+    ]
+
     return (
-        <Container>
-            <Row>
-                <Col md={12}>
-                    <div>
-                        <AdminHeading title='Career Form List' center />
-                    </div>
-                </Col>
-                <hr />
+        <div style={{ width: "100%" }} className="my-4">
+            <div>
+                <AdminHeading title="Manage Career Data" center />
+            </div>
+            <DataGrid
+                disableColumnFilter
+                disableColumnSelector
+                disableDensitySelector
+                disableRowSelectionOnClick
+                rows={rows}
+                columns={columns}
+                hideFooter={true}
+                getRowId={(row) => row.id}
+                slots={{ toolbar: GridToolbar }}
+                sx={{
+                    "& .MuiDataGrid-row:hover": {
+                        backgroundColor: "inherit",
+                    },
 
-            </Row >
-            <Row >
-                {
-                    careerData.map((item) => (
-                        <Col md={6} className='my-2'>
-                            <div className='border border-primary rounded p-3 bg-light text-primary'>
-                                <div className='d-flex justify-content-between'>
-                                    <div className='mx-2'>
-                                        <p><span className='mx-2'><PersonIcon /></span>{item.name}</p>
-                                    </div>
-                                    <div className='mx-2'>
-                                        <p><span className='mx-2'><PhoneIcon /></span>+91 {item.contact}</p>
-                                    </div>
-                                </div>
-                                <div className='d-flex justify-content-between'>
-                                    <div className='mx-2'>
-                                        <p><span className='mx-2'><EmailIcon /></span>{item.email}</p>
-                                    </div>
-                                    <div className='mx-2'>
-                                        <p><span className='mx-2'><SchoolIcon /></span>{item.qualification}</p>
-                                    </div>
-                                </div>
-                                <div className='d-flex justify-content-between'>
-                                <div className='mx-2'>
-                                    <p><span className='mx-2'>{item.gender === 'Male' ? <MaleIcon /> : item.gender === 'Female' ? <FemaleIcon /> : <TransgenderIcon />}</span>{item.gender}</p>
-                                </div>
-                                <div className='mx-2'>
-                                    <p><span className='mx-2'><WorkIcon /></span>{item.profile}</p>
-                                </div>
-                                </div>
-                                <div className='d-flex justify-content-between'>
-                                <div className='mx-2'>
-                                    <p><span className='mx-2'><PlaceIcon /></span>{item.states}</p>
-                                </div>
-                                <div className='mx-2'>
-                                    <p><span className='mx-2'><DomainIcon /></span>{item.districts}</p>
-                                </div>
-                                </div>
-                                <div className='d-flex justify-content-between'>
-                                <div className='mx-2'>
-                                    <p><span className='mx-2'><BadgeIcon /></span>{item.experience}</p>
-                                </div>
-                                <div className='mx-2'>
-                                    <p><span className='mx-2'><CategoryIcon /></span>{item.category}</p>
-                                </div>
-                                </div>
-                                <div className='d-flex justify-content-between'>
-                                    <div>
-                                    <Link href={item.imgUrl} target="_blank">   <Button variant='contained' size='small'>view resume</Button></Link> 
-                                    </div>
-                                <div className='mx-2 float-end'>
-                                    <DeleteForeverIcon onClick={() => { deleteCareer(item._id) }} color='primary' fontSize='large' />
-                                </div>
-                                </div>
-                            </div>
-
-                        </Col>
-                    ))
-                }
-            </Row >
-
-        </Container >
-
-
+                    "& .MuiDataGrid-cell:focus": {
+                        outline: "none",
+                    },
+                    "& .MuiDataGrid-row.Mui-selected:hover": {
+                        backgroundColor: "inherit",
+                    },
+                    "& .MuiDataGrid-cell:focus-within": {
+                        outline: "none",
+                    },
+                }}
+                slotProps={{
+                    toolbar: {
+                        showQuickFilter: true,
+                        quickFilterProps: {
+                            debounceMs: 500,
+                        }
+                    },
+                }}
+            />
+        </div>
     );
 };
 
