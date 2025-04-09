@@ -13,7 +13,6 @@ import {
 } from "@mui/material";
 import Visibility from "@mui/icons-material/Visibility";
 import VisibilityOff from "@mui/icons-material/VisibilityOff";
-
 const Signup = () => {
   const router = useRouter();
   const [email, setEmail] = useState("");

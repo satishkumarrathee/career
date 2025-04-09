@@ -17,7 +17,6 @@ const Home = () => {
   const [modalShow, setModalShow] = useState(false);
   const PopUp = () => {
     setModalShow(true);
-
   };
   useEffect(() => {
     const timer: NodeJS.Timeout = setTimeout(PopUp, 20000);

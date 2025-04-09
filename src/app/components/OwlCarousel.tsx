@@ -6,12 +6,9 @@ import { Col, Container, Image, Row } from 'react-bootstrap';
 import Heading from './Heading';
 import Link from 'next/link';
 import TruncateText from './Truncate';
-
-
 const IndexPage = () => {
   const [images, setImages] = useState(Images);
   const [clicked, setClicked] = useState(false);
-
   const loadMoreImages = () => {
     if (clicked) {
       return;
