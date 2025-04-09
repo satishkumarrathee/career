@@ -15,8 +15,6 @@ import Chatbot from "./components/Chatbot";
 
 const Home = () => {
   const [modalShow, setModalShow] = useState(false);
-
-
   const PopUp = () => {
     setModalShow(true);
 
@@ -30,7 +28,6 @@ const Home = () => {
       <TopCarousel />
       <News/>
       <Search />
-      {/* <NotificationComponent /> */}
       <Popup show={modalShow} onHide={() => setModalShow(false)} />
       <Start />
       <Cources />
