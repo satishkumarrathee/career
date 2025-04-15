@@ -1,7 +1,7 @@
 'use client'
 import Link from "next/link";
 import { Col, Container, Row } from "react-bootstrap";
-import AdminNavItem from ".-NavItem";
+import AdminNavItem from "./AdminNavItem";
 import { MdDashboard, MdDns } from "react-icons/md";
 import { usePathname } from "next/navigation";
 
