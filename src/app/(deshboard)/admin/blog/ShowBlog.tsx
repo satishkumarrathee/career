@@ -39,16 +39,20 @@ const ShowBlog = () => {
       });
     };
 
-    useEffect(() => {
-        axios.get('/api/blog')
-            .then((response) => {
-                setBlogData(response.data.data);
-            })
-            .catch((error: any) => {
-                const errorMessage = error.response ? error.response.data.message : error.message;
-                toast.error(errorMessage);
-            });
-    }, [blogData]);
+ useEffect(() => {
+  axios.get('/api/blog')
+    .then((response) => {
+      const sortedData = response.data.data.sort(
+        (a: any, b: any) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
+      );
+      setBlogData(sortedData);
+    })
+    .catch((error: any) => {
+      const errorMessage = error.response ? error.response.data.message : error.message;
+      toast.error(errorMessage);
+    });
+}, []);
+
 
 
 

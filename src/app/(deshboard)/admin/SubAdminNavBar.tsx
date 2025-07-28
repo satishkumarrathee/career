@@ -11,33 +11,33 @@ const SubAdminNavBar = () => {
         <Container>
             <Row className="mt-3" >
                 <Col md={2}>
-                <Link href={'-'} className="text-primary">
-                    <AdminNavItem label="summary" icon={MdDashboard} selected={pathname === '-'} />
+                <Link href={'/admin'} className="text-primary">
+                    <AdminNavItem label="summary" icon={MdDashboard} selected={pathname === '/admin'} />
                 </Link>
                 </Col>
                 <Col md={2}>
-                <Link href={'-/exam'} className="text-primary">
-                    <AdminNavItem label="Exam" icon={MdDns} selected={pathname === '-/exam'} />
+                <Link href={'/admin/exam'} className="text-primary">
+                    <AdminNavItem label="Exam" icon={MdDns} selected={pathname === '/admin/exam'} />
                 </Link>
                 </Col>
                 <Col md={2}>
-                <Link href={'-/admission'} className="text-primary">
-                    <AdminNavItem label="Admission" icon={MdDns} selected={pathname === '-/admission'} />
+                <Link href={'/admin/admission'} className="text-primary">
+                    <AdminNavItem label="Admission" icon={MdDns} selected={pathname === '/admin/admission'} />
                 </Link>
                 </Col>
                 <Col md={2}>
-                <Link href={'-/coaching'} className="text-primary">
-                    <AdminNavItem label="Coaching" icon={MdDns} selected={pathname === '-/coaching'} />
+                <Link href={'/admin/coaching'} className="text-primary">
+                    <AdminNavItem label="Coaching" icon={MdDns} selected={pathname === '/admin/coaching'} />
                 </Link>
                 </Col>
                 <Col md={2}>
-                <Link href={'-/career'} className="text-primary">
-                    <AdminNavItem label="Career" icon={MdDns} selected={pathname === '-/career'} />
+                <Link href={'/admin/career'} className="text-primary">
+                    <AdminNavItem label="Career" icon={MdDns} selected={pathname === '/admin/career'} />
                 </Link>
                 </Col>
                 <Col md={2}>
-                <Link href={'-/contact'} className="text-primary">
-                    <AdminNavItem label="Contact" icon={MdDns} selected={pathname === '-/contact'} />
+                <Link href={'/admin/contact'} className="text-primary">
+                    <AdminNavItem label="Contact" icon={MdDns} selected={pathname === '/admin/contact'} />
                 </Link>
                 </Col>
             </Row>
