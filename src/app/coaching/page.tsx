@@ -6,6 +6,32 @@ import GoogleIcon from "@mui/icons-material/Google";
 import SupportAgentIcon from "@mui/icons-material/SupportAgent";
 import Heading from "@/app/components/Heading";
 import  TruncateText  from "@/app/components/Truncate";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Coaching & Training Services | CareerDefiner — Chandigarh, Mohali & Panchkula",
+  description:
+    "Discover top coaching institutes & expert mentors with CareerDefiner. Trusted by over 50,000 students in Chandigarh, Mohali & Panchkula for career growth and success.",
+  keywords: [
+    "coaching institutes",
+    "mentors",
+    "career coaching",
+    "training",
+    "Chandigarh",
+    "Mohali",
+    "Panchkula",
+    "CareerDefiner"
+  ],
+  openGraph: {
+    title: "Coaching & Training Services | CareerDefiner — Chandigarh, Mohali & Panchkula",
+    description:
+      "Discover top coaching institutes & expert mentors with CareerDefiner. Trusted by over 50,000 students in Chandigarh, Mohali & Panchkula for career growth and success.",
+    url: "https://careerdefiner.com/coaching",
+    siteName: "CareerDefiner",
+    locale: "en_IN",
+    type: "article",
+  },
+};
 
 const Coaching = () => {
   return (

@@ -19,11 +19,19 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Career Definer",
+ title:
+    "Admissions Support | Colleges, Schools & Universities in Chandigarh, Mohali & Panchkula — CareerDefiner",
   description:
-    "Discover top-ranked colleges, universities, and best jobs in India with Career Definer. Find your ideal educational institution and dream job online today.",
-  keywords:
-    "career counselling,career,find jobs,Career Guidance,online jobs,Jobs in India,career definer,jobs near me,Job search,job alert,Best jobs in india,Work from home,Education cousellor,counselling,Admission counselling,Career Opportunities,Best career options,Education guidance,Best universities in India,Best Colleges in India",
+    "Expert admission support for schools, colleges & universities in Chandigarh, Mohali & Panchkula. Get step-by-step guidance for a smooth application process with CareerDefiner.",
+  keywords: [
+    "college admission",
+    "school admission",
+    "university admission",
+    "Chandigarh",
+    "Mohali",
+    "Panchkula",
+    "CareerDefiner"
+  ],
   robots: "index, follow",
   alternates: {
     canonical: `https://careerdefiner.com`,

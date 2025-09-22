@@ -2,7 +2,33 @@ import { Col, Container, Image, Row } from "react-bootstrap";
 import Link from "next/link";
 import Heading from "@/app/components/Heading";
 import AdmissionData from '@/app/utils/data.json'
+import type { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title:
+    "Admissions Support | Colleges, Schools & Universities in Chandigarh, Mohali & Panchkula — CareerDefiner",
+  description:
+    "Expert admission support for schools, colleges & universities in Chandigarh, Mohali & Panchkula. Get step-by-step guidance for a smooth application process with CareerDefiner.",
+  keywords: [
+    "college admission",
+    "school admission",
+    "university admission",
+    "Chandigarh",
+    "Mohali",
+    "Panchkula",
+    "CareerDefiner"
+  ],
+  openGraph: {
+    title:
+      "Admissions Support | Colleges, Schools & Universities in Chandigarh, Mohali & Panchkula — CareerDefiner",
+    description:
+      "Expert admission support for schools, colleges & universities in Chandigarh, Mohali & Panchkula. Get step-by-step guidance for a smooth application process with CareerDefiner.",
+    url: "https://careerdefiner.com/admission",
+    siteName: "CareerDefiner",
+    locale: "en_IN",
+    type: "article",
+  },
+};
 const Admission = () => {
   return (
     <>
