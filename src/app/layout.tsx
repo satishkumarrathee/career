@@ -19,14 +19,13 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
- title:
-    "Admissions Support | Colleges, Schools & Universities in Chandigarh, Mohali & Panchkula — CareerDefiner",
+  title: "CareerDefiner | Career Counselling & College Admissions in Chandigarh, Mohali & Panchkula",
   description:
-    "Expert admission support for schools, colleges & universities in Chandigarh, Mohali & Panchkula. Get step-by-step guidance for a smooth application process with CareerDefiner.",
+    "Get expert career counselling, course guidance & admission support in Chandigarh, Mohali & Panchkula. Explore top colleges and build a successful career path with CareerDefiner.",
   keywords: [
-    "college admission",
-    "school admission",
-    "university admission",
+    "career counselling",
+    "college admissions",
+    "course guidance",
     "Chandigarh",
     "Mohali",
     "Panchkula",
