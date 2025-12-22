@@ -115,11 +115,11 @@ const menuItems = [
 const Courses: React.FC = () => {
     return (
         <Container className="my-5">
-            <Row>
+            <Row className="">
                 <Heading title="BROWSE " name="OUR COURSES" />
                 {menuItems.map(({ name,id, icon: IconComponent }) => (
                  <Col key={name} xl={3} md={4} className="my-3">
-                       <Link href={`/admission/college/${id}`}>   <div id="shed" className="text-center border border-primary shadow h-100 border p-3 bg-body text-primary">
+                       <Link href={`/admission/college/${id}`}>   <div id="shed" className="text-center border-primary shadow h-100  p-3 bg-body text-primary rounded-4">
                             <div>
                                 <IconComponent style={{ fontSize: '50px' }} />
                             </div>

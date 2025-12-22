@@ -1,10 +1,49 @@
 [
+      {
+        "id": "school-courses",
+        "url": "school-courses",
+        "name": "SCHOOL'S",
+        "type": "coaching"
+    }
+    ,
+     {
+        "id": "college-courses",
+        "url": "college-courses",
+        "name": "COLLEGE'S ",
+        "type": "coaching"
+    },
+    {
+        "id": "courses",
+        "url": "courses",
+        "name": "COURSES",
+        "type": "coaching"
+    },
+    {
+        "id": "university-courses",
+        "url": "university-courses",
+        "name": "UNIVERSITY'S",
+        "type": "coaching"
+    },
+    {
+        "id": "coaching-institutes",
+        "url": "coaching-institutes",
+        "name": "COACHING INSTITUTES",  
+        "type": "coaching"
+    },
+    {
+        "id": "placement-abroad",
+        "url": "placement-abroad",
+        "name": "PLACEMENT & ABROAD",
+        "type": "coaching"
+    },
+
     {
         "id": "ssc-cgl",
         "url": "ssc-cgl",
         "name": "SSC CGL",
         "type": "coaching"
     },
+    
     {
         "id": "ibps-clerk",
         "url": "ibps-clerk",

@@ -10,261 +10,225 @@ import PeopleIcon from "@mui/icons-material/People";
 import AssessmentIcon from "@mui/icons-material/Assessment";
 import FlagIcon from "@mui/icons-material/Flag";
 import EmojiObjectsIcon from "@mui/icons-material/EmojiObjects";
+import { FaRocket, FaUsers, FaLightbulb, FaGraduationCap, FaBriefcase, FaGlobe, FaChartLine, FaHandshake } from "react-icons/fa";
+
 const About = () => {
   return (
     <>
-      <div id="about">
+      {/* Hero Section */}
+      <div id="about" className="bg-gradient-to-r from-blue-600 to-purple-700 py-16">
         <Container>
-          <Row>
-            <Col md={2}>
-              <div className="my-3 text-light">
-                <div>
-                  <p style={{ fontSize: "40px" }}>ABOUT</p>
-                </div>
-                <hr />
-                <div>
-                  <p className="fs-6 fw-light text-light fw-bold">
-                    HOME / ABOUT
-                  </p>
-                </div>
+          <Row className="justify-content-center text-center">
+            <Col lg={8}>
+              <div className="text-white">
+                
+                <div className="w-24 h-1 bg-yellow-400 mx-auto mb-4"></div>
+                <p className="fs-5 text-blue-100">
+                  HOME / ABOUT
+                </p>
               </div>
             </Col>
           </Row>
         </Container>
       </div>
 
-      <div>
+      {/* Main Content */}
+      <div className="py-16 bg-gray-50">
         <Container>
-          <Row className="my-5">
-            <Col md={12}>
-              <Heading title="ABOUT " name="CAREER DEFINER" />
-              <div>
-                <p style={{ textAlign: "justify" }}>
-                  Career Definer is a cutting-edge search engine designed for
-                  the new generation, offering a comprehensive range of services
-                  from course selection to confirmation of admission, all under
-                  one roof. Our mission is to redefine how individuals navigate
-                  their career paths by providing advanced tools and support
-                  tailored to the dynamic career market. Additionally "KewSquare
-                  Business Solutions is the parent company of Career Definer,
-                  which specializes in diverse operational activities.
-                </p>
-                <p style={{ textAlign: "justify" }}>
-                  We have been active in the education market since 2001,
-                  specializing in student mobilization and providing leads to
-                  universities. Initially, our operations were offline. However,
-                  recognizing the evolving needs of the current market, we have
-                  developed this advanced search engine. This platform allows
-                  students to directly connect with universities without
-                  incurring any counselling fees.
-                </p>
-                <p style={{ textAlign: "justify" }}>
-                  Explore our diverse range of resources, engage with our
-                  supportive community, and take the first step towards
-                  realizing your dreams. Together, let's pave the way for a
-                  brighter future filled with endless possibilities. Career
-                  Definer also collaborates with universities and schools,
-                  organizing seminars and student interaction events to enhance
-                  student outreach.
-                </p>
-                <p style={{ textAlign: "justify" }}>
-                  At Career Definer, we're your go-to destination for career
-                  advancement, job opportunities, exam preparation, and
-                  admissions guidance. We believe everyone deserves the chance
-                  to build a fulfilling career, and we're here to simplify that
-                  journey for you.
-                </p>
-              </div>
-            </Col>
-          </Row>
-          <Row className="mb-5">
-            <Col md={4} className="my-2">
-              <div className="border p-3 text-secondary h-100">
-                <div>
-                  <RemoveRedEyeIcon style={{ fontSize: "70px" }} />
-                </div>
-                <div>
-                  <p className="fs-4 my-3">Our Vision</p>
-                </div>
-                <div>
-                  <p className="fw-light">
-                  Is to redefine the way individuals navigate their career paths, providing them with the tools and support they need to succeed in today is dynamic job market.
+          <Row className="justify-content-center">
+            <Col lg={10}>
+              <div className="text-center mb-12">
+                <Heading title="ABOUT " name="CAREER DEFINER" />
+                <div className="grid grid-cols-1 gap-6 text-lg text-gray-700 leading-relaxed">
+                  <p className="text-justify">
+                    <span className="font-semibold text-blue-600">Career Definer</span> is a cutting-edge search engine designed for
+                    the new generation, offering a comprehensive range of services
+                    from course selection to confirmation of admission, all under
+                    one roof. Our mission is to redefine how individuals navigate
+                    their career paths by providing advanced tools and support
+                    tailored to the dynamic career market.
                   </p>
-                </div>
-              </div>
-            </Col>
-            <Col md={4} className="my-2">
-              <div className="border p-3 text-secondary h-100">
-                <div>
-                  <FlagIcon style={{ fontSize: "70px" }} />
-                </div>
-                <div>
-                  <p className="fs-4 my-3">Mission</p>
-                </div>
-                <div>
-                  <p className="fw-light">
-                  To empowering students and job
- seekers to shape their future and
- acheive their career aspirations.
+                  <p className="text-justify">
+                    We have been active in the education market since 2001,
+                    specializing in student mobilization and providing leads to
+                    universities. Initially, our operations were offline. However,
+                    recognizing the evolving needs of the current market, we have
+                    developed this advanced search engine. This platform allows
+                    students to directly connect with universities without
+                    incurring any counselling fees.
                   </p>
-                </div>
-              </div>
-            </Col>
-            <Col md={4} className="my-2">
-              <div className="border p-3 text-secondary h-100">
-                <div>
-                  <EmojiObjectsIcon style={{ fontSize: "70px" }} />
-                </div>
-                <div>
-                  <p className="fs-4 my-3">Objective</p>
-                </div>
-                <div>
-                  <p className="fw-light">
-                  To Empower young Individuals to choose their Career Path Wisely.
+                  <p className="text-justify">
+                    Explore our diverse range of resources, engage with our
+                    supportive community, and take the first step towards
+                    realizing your dreams. Together, let's pave the way for a
+                    brighter future filled with endless possibilities. Career
+                    Definer also collaborates with universities and schools,
+                    organizing seminars and student interaction events to enhance
+                    student outreach.
                   </p>
-                  <p className="fw-light">
-                  To succeed in todays dynamic Education and Job Market.
-                  </p>
-                  
-            
                 </div>
               </div>
             </Col>
           </Row>
-          <Row>
-            <Col md={12}>
+
+          {/* Vision Mission Objective Cards */}
+          <Row className="mb-16">
+            <Col lg={4} className="mb-6">
+              <div className="bg-white rounded-2xl p-8 shadow-2xl hover:shadow-3xl transition-all duration-500 transform hover:-translate-y-2 border border-blue-100 h-full group">
+                <div className="flex items-center justify-center w-20 h-20 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-2xl text-white mb-6 group-hover:scale-110 transition-transform duration-300">
+                  <RemoveRedEyeIcon className="text-4xl" />
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Vision</h3>
+                <p className="text-gray-600 text-lg leading-relaxed">
+                  To redefine the way individuals navigate their career paths, providing them with the tools and support they need to succeed in today's dynamic job market.
+                </p>
+              </div>
+            </Col>
+            <Col lg={4} className="mb-6">
+              <div className="bg-white rounded-2xl p-8 shadow-2xl hover:shadow-3xl transition-all duration-500 transform hover:-translate-y-2 border border-green-100 h-full group">
+                <div className="flex items-center justify-center w-20 h-20 bg-gradient-to-r from-green-500 to-emerald-500 rounded-2xl text-white mb-6 group-hover:scale-110 transition-transform duration-300">
+                  <FlagIcon className="text-4xl" />
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Mission</h3>
+                <p className="text-gray-600 text-lg leading-relaxed">
+                  Empowering students and job seekers to shape their future and achieve their career aspirations through innovative solutions and expert guidance.
+                </p>
+              </div>
+            </Col>
+            <Col lg={4} className="mb-6">
+              <div className="bg-white rounded-2xl p-8 shadow-2xl hover:shadow-3xl transition-all duration-500 transform hover:-translate-y-2 border border-purple-100 h-full group">
+                <div className="flex items-center justify-center w-20 h-20 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl text-white mb-6 group-hover:scale-110 transition-transform duration-300">
+                  <EmojiObjectsIcon className="text-4xl" />
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Objective</h3>
+                <div className="text-gray-600 text-lg leading-relaxed space-y-2">
+                  <p>• Empower young individuals to choose their career path wisely</p>
+                  <p>• Succeed in today's dynamic education and job market</p>
+                  <p>• Provide accessible career guidance to all</p>
+                </div>
+              </div>
+            </Col>
+          </Row>
+
+          {/* What We Offer Section */}
+          <Row className="mb-16">
+            <Col lg={12} className="text-center mb-12">
               <Heading title="WHAT " name="WE OFFER" />
             </Col>
-            <Col md={4} className="my-2">
-              <div className="border p-3 text-secondary h-100">
-                <div>
-                  <CastForEducationIcon style={{ fontSize: "70px" }} />
+            <Col lg={4} className="mb-6">
+              <div className="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-blue-200 h-full group">
+                <div className="flex items-center justify-center w-20 h-20 bg-white rounded-2xl text-blue-600 mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg">
+                  <CastForEducationIcon className="text-4xl" />
                 </div>
-                <div>
-                  <p className="fs-4 my-3">Education</p>
-                </div>
-                <div>
-                  <p className="fw-light" style={{ textAlign: "justify" }}>
-                    Discover a diverse array of courses tailored to enrich your
-                    expertise and understanding across different domains.
-                    Whether you seek to progress in your current vocation
-                  </p>
-                </div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Education</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Discover a diverse array of courses tailored to enrich your expertise and understanding across different domains. Whether you seek to progress in your current vocation or explore new opportunities.
+                </p>
               </div>
             </Col>
-            <Col md={4} className="my-2">
-              <div className="border p-3 text-secondary h-100">
-                <div>
-                  <ModelTrainingIcon style={{ fontSize: "70px" }} />
+            <Col lg={4} className="mb-6">
+              <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-green-200 h-full group">
+                <div className="flex items-center justify-center w-20 h-20 bg-white rounded-2xl text-green-600 mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg">
+                  <ModelTrainingIcon className="text-4xl" />
                 </div>
-                <div>
-                  <p className="fs-4 my-3">Career Guidance</p>
-                </div>
-                <div>
-                  <p className="fw-light" style={{ textAlign: "justify" }}>
-                    Navigate your career path with confidence through our expert
-                    advice and resources. From resume writing tips to interview
-                    strategies, we equip you with the tools and knowledge needed
-                    to stand out in today's competitive job market.
-                  </p>
-                </div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Career Guidance</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Navigate your career path with confidence through our expert advice and resources. From resume writing to interview strategies, we equip you to stand out in today's competitive job market.
+                </p>
               </div>
             </Col>
-            <Col md={4} className="my-2">
-              <div className="border p-3 text-secondary h-100">
-                <div>
-                  <WorkOutlineIcon style={{ fontSize: "70px" }} />
+            <Col lg={4} className="mb-6">
+              <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-purple-200 h-full group">
+                <div className="flex items-center justify-center w-20 h-20 bg-white rounded-2xl text-purple-600 mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg">
+                  <WorkOutlineIcon className="text-4xl" />
                 </div>
-                <div>
-                  <p className="fs-4 my-3">Job Opportunities</p>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Job Opportunities</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Discover exciting job openings across industries and locations. Our platform connects you with employers seeking talented individuals. Find the perfect fit for your career aspirations.
+                </p>
+              </div>
+            </Col>
+          </Row>
+
+          {/* Why Choose Us Section */}
+          <Row>
+            <Col lg={12} className="text-center mb-12">
+              <Heading title="WHY CHOOSE " name="CAREER DEFINER" />
+            </Col>
+            <Col lg={3} md={6} className="mb-6">
+              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-500 transform hover:-translate-y-1 border border-gray-100 h-full group text-center">
+                <div className="flex items-center justify-center w-16 h-16 bg-gradient-to-r from-orange-500 to-red-500 rounded-2xl text-white mb-4 group-hover:scale-110 transition-transform duration-300 mx-auto">
+                  <ModeFanOffIcon className="text-3xl" />
                 </div>
-                <div>
-                  <p className="fw-light" style={{ textAlign: "justify" }}>
-                    Discover exciting job openings across industries and
-                    locations. Our platform connects you with employers actively
-                    seeking talented individuals like yourself. Whether you're
-                    seeking entry-level positions or executive roles, we're here
-                    to help you find the perfect fit.
-                  </p>
+                <h4 className="text-xl font-bold text-gray-900 mb-3">Flexibility</h4>
+                <p className="text-gray-600 text-sm leading-relaxed">
+                  Experience the freedom to tailor your personalized and flexible learning experience with our dynamic online platform.
+                </p>
+              </div>
+            </Col>
+            <Col lg={3} md={6} className="mb-6">
+              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-500 transform hover:-translate-y-1 border border-gray-100 h-full group text-center">
+                <div className="flex items-center justify-center w-16 h-16 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-2xl text-white mb-4 group-hover:scale-110 transition-transform duration-300 mx-auto">
+                  <FlutterDashIcon className="text-3xl" />
                 </div>
+                <h4 className="text-xl font-bold text-gray-900 mb-3">Expertise</h4>
+                <p className="text-gray-600 text-sm leading-relaxed">
+                  Benefit from the insights and guidance of industry experts passionate about helping you succeed in your career endeavors.
+                </p>
+              </div>
+            </Col>
+            <Col lg={3} md={6} className="mb-6">
+              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-500 transform hover:-translate-y-1 border border-gray-100 h-full group text-center">
+                <div className="flex items-center justify-center w-16 h-16 bg-gradient-to-r from-green-500 to-emerald-500 rounded-2xl text-white mb-4 group-hover:scale-110 transition-transform duration-300 mx-auto">
+                  <PeopleIcon className="text-3xl" />
+                </div>
+                <h4 className="text-xl font-bold text-gray-900 mb-3">Community</h4>
+                <p className="text-gray-600 text-sm leading-relaxed">
+                  Join a supportive community of learners and professionals who share your aspirations and offer valuable networking opportunities.
+                </p>
+              </div>
+            </Col>
+            <Col lg={3} md={6} className="mb-6">
+              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-500 transform hover:-translate-y-1 border border-gray-100 h-full group text-center">
+                <div className="flex items-center justify-center w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl text-white mb-4 group-hover:scale-110 transition-transform duration-300 mx-auto">
+                  <AssessmentIcon className="text-3xl" />
+                </div>
+                <h4 className="text-xl font-bold text-gray-900 mb-3">Accessibility</h4>
+                <p className="text-gray-600 text-sm leading-relaxed">
+                  We believe education and career advancement should be accessible to all through affordable and inclusive resources.
+                </p>
               </div>
             </Col>
           </Row>
         </Container>
       </div>
-      <div>
+
+      {/* Stats Section */}
+      <div className="bg-gradient-to-r from-blue-600 to-purple-700 py-16">
         <Container>
-          <Row>
-            <Col md={12} className="mt-5">
-              <Heading title="WHY CHOOSE " name="CAREER DEFINER" />
-            </Col>
-          </Row>
-          <Row className="mb-5">
-            <Col md={3} className="my-2">
-              <div className="border p-3 text-secondary h-100">
-                <div>
-                  <ModeFanOffIcon style={{ fontSize: "70px" }} />
-                </div>
-                <div>
-                  <p className="fs-4 my-3">Flexibility</p>
-                </div>
-                <div>
-                  <p className="fw-light" style={{ textAlign: "justify" }}>
-                   
-Experience the freedom to tailor your personalized and flexible learning experience with our dynamic online platform.
-                  </p>
-                </div>
+          <Row className="text-center">
+            <Col lg={3} md={6} className="mb-6">
+              <div className="text-white">
+                <div className="text-4xl font-bold mb-2">20+</div>
+                <div className="text-blue-100 text-lg">Years Experience</div>
               </div>
             </Col>
-            <Col md={3} className="my-2">
-              <div className="border p-3 text-secondary h-100">
-                <div>
-                  <FlutterDashIcon style={{ fontSize: "70px" }} />
-                </div>
-                <div>
-                  <p className="fs-4 my-3">Expertise</p>
-                </div>
-                <div>
-                  <p className="fw-light" style={{ textAlign: "justify" }}>
-                    Benefit from the insights and guidance of industry experts
-                    who are passionate about helping you succeed in your career
-                    endeavors.
-                  </p>
-                </div>
+            <Col lg={3} md={6} className="mb-6">
+              <div className="text-white">
+                <div className="text-4xl font-bold mb-2">90K+</div>
+                <div className="text-blue-100 text-lg">Students Helped</div>
               </div>
             </Col>
-            <Col md={3} className="my-2">
-              <div className="border p-3 text-secondary h-100">
-                <div>
-                  <PeopleIcon style={{ fontSize: "70px" }} />
-                </div>
-                <div>
-                  <p className="fs-4 my-3">Community</p>
-                </div>
-                <div>
-                  <p className="fw-light" style={{ textAlign: "justify" }}>
-                    Join a supportive community of learners and professionals
-                    who share your aspirations and can offer valuable insights
-                    and networking opportunities.
-                  </p>
-                </div>
+            <Col lg={3} md={6} className="mb-6">
+              <div className="text-white">
+                <div className="text-4xl font-bold mb-2">25K+</div>
+                <div className="text-blue-100 text-lg">Admissions</div>
               </div>
             </Col>
-            <Col md={3} className="my-2">
-              <div className="border p-3 text-secondary h-100">
-                <div>
-                  <AssessmentIcon style={{ fontSize: "70px" }} />
-                </div>
-                <div>
-                  <p className="fs-4 my-3">Accessibility</p>
-                </div>
-                <div>
-                  <p className="fw-light" style={{ textAlign: "justify" }}>
-                    We believe that education and career advancement should be
-                    accessible to all. That's why we strive to make our
-                    resources affordable and inclusive.
-                  </p>
-                </div>
+            <Col lg={3} md={6} className="mb-6">
+              <div className="text-white">
+                <div className="text-4xl font-bold mb-2">130+</div>
+                <div className="text-blue-100 text-lg">Expert Counsellors</div>
               </div>
             </Col>
           </Row>

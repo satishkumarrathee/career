@@ -64,7 +64,7 @@ const ExamForm: React.FC<ExamFormProps> = ({ exam }) => {
                         <form className='bg-light rounded shadow m-1 p-4' onSubmit={handleSubmit}>
                             <div className="text-center">
                                 <p className="fs-2 text-primary">Compare & Select from 300+ </p>
-                                <p className="fs-4 text-secondary">Discovering the Best {exam} Preparation Institutes in India</p>
+                                <p className="fs-4 text-secondary">Discovering the Best {exam}arun Preparation Institutes in India</p>
                             </div>
 
                             <div className="d-flex justify-content-between my-3">

@@ -5,6 +5,7 @@ import AdminLogin from "@/app/components/AdminLogin";
 import { getCurrentUser } from "../../../../actions/getCurrentUser";
 import { Image } from "react-bootstrap";
 import 'react-quill/dist/quill.snow.css';
+import "../../style/style.css";
 
 export const metadata = {
     title: 'Career Definer Admin',

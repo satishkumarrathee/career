@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 * {
     margin: 0;
     padding: 0;
@@ -336,3 +338,134 @@ ul {
     transition: all 0.35s ease 0s;
 }
 .box:hover .title{ bottom: 50%; }
+
+
+/* blog section adjustments  ----------*/
+.card:hover{
+  transform: none;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  transition: transform 250ms ease;
+}
+
+/* Start Page  */
+.hover-shadow {
+  transition: all 0.3s ease;
+}
+.hover-shadow:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.8rem 1rem rgba(0, 0, 0, 0.3);
+}
+
+/* nta css  */
+
+.card-header-custom {
+  background-color: #0d6efd;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  position: absolute;
+  top: -14px;
+  left: 20px;
+  padding: 6px 16px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.custom-card {
+  height: 100%;
+  transition: all 0.3s ease;
+}
+
+.shadow-custom {
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* 🔹 Scrollable content with auto animation */
+.scroll-container {
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+
+.scroll-inner {
+  display: flex;
+  flex-direction: column;
+  animation: scrollUp 20s linear infinite;
+}
+
+.scroll-container:hover .scroll-inner {
+  animation-play-state: paused;
+}
+
+.custom-card:hover .scroll-inner {
+  animation-play-state: paused;
+}
+
+/* 🔸 Smooth auto scroll effect */
+@keyframes scrollUp {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+/* Responsive tweak */
+@media (max-width: 768px) {
+  .scroll-container {
+    height: 130px;
+  }
+  .card-header-custom {
+    font-size: 0.9rem;
+  }
+}
+
+
+/* Ranking universities   */
+
+.university-card {
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.university-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  border-color: #0d6efd; /* Bootstrap primary color */
+}
+
+.university-card img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.university-card:hover img {
+  transform: scale(1.05);
+}
+
+.nta-button{
+    background-color: #4e79ec;
+    color: white;
+    &:hover{
+        background-color: white;
+        color: #4e79ec;
+    }
+}
+
+
+/* career counsellor */
+.card, .rounded-4 {
+  transition: all 0.3s ease;
+}
+.card:hover, .rounded-4:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1);
+}
+.slick-dots li button:before {
+  color: #4e79ec !important;
+  font-size: 10px;
+}

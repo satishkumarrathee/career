@@ -3,6 +3,7 @@ import CoachingForm from "./CoachingForm";
 import CoachingData from '@/app/utils/coaching.json'
 import StarIcon from '@mui/icons-material/Star';
 
+console.log(CoachingData,"CoachingData");
 
 interface CoachingPageProps {
     name:string | undefined
@@ -12,6 +13,9 @@ const CoachingPage:React.FC<CoachingPageProps> = ({name}) => {
     return ( <div>
         <Container>
             <Row className="my-4">
+                <Col md={6} className="d-md-none d-block my-4">
+                    <CoachingForm coaching={name} />
+                </Col>
                 <Col md={6}>
                     <Row>
                     {
@@ -37,9 +41,10 @@ const CoachingPage:React.FC<CoachingPageProps> = ({name}) => {
 
 
                 </Col>
-                <Col md={6}>
+                <Col md={6} className="d-md-block d-none">
                     <CoachingForm coaching={name} />
                 </Col>
+                
             </Row>
         </Container>
     </div> );

@@ -1,7 +1,7 @@
 "use client";
-import { Col, Container, Row, Image } from "react-bootstrap";
-import { useEffect, useState } from "react";
-import axios from 'axios';
+import { Col, Container, Row, Image, Form, InputGroup } from "react-bootstrap";
+import { useEffect, useMemo, useState } from "react";
+import axios from "axios";
 import {
   FacebookShareButton,
   FacebookIcon,
@@ -13,7 +13,7 @@ import {
 import toast from "react-hot-toast";
 import Link from "next/link";
 
-const Blog = () => {
+const Blog: React.FC = () => {
   const formatDate = (dateString: string): string => {
     const date = new Date(dateString);
     return date.toLocaleString("en-GB", {
@@ -25,107 +25,150 @@ const Blog = () => {
     });
   };
 
-
-  const [blogData, setBlogData] = useState<any[]>([]);
+  const [allBlogs, setAllBlogs] = useState<any[]>([]);
+  const [searchTerm, setSearchTerm] = useState<string>("");
 
   useEffect(() => {
-    axios.get('/api/blog')
+    axios
+      .get("/api/blog")
       .then((response) => {
         const sortedData = response.data.data.sort(
-          (a: any, b: any) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
+          (a: any, b: any) =>
+            new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
         );
-        setBlogData(sortedData);
+        setAllBlogs(sortedData);
       })
       .catch((error: any) => {
-        const errorMessage = error.response ? error.response.data.message : error.message;
+        const errorMessage = error.response?.data?.message ?? error.message;
         toast.error(errorMessage);
       });
-  }, [blogData]);
+  }, []);
+
+  const filteredBlogs = useMemo(() => {
+    if (!searchTerm.trim()) return allBlogs;
+    const q = searchTerm.trim().toLowerCase();
+    return allBlogs.filter((item) => {
+      const name = (item.name ?? "").toLowerCase();
+      const title = (item.title ?? "").toLowerCase();
+      const url = (item.customUrl ?? "").toLowerCase();
+      return name.includes(q) || title.includes(q) || url.includes(q);
+    });
+  }, [allBlogs, searchTerm]);
 
   return (
     <>
-      <div id="blog">
+      {/* ======= BLOG HEADER SECTION ======= */}
+      <section id="blog" className="bg-dark text-light py-4">
         <Container>
-          <Row>
-            <Col md={2}>
-              <div className="my-3 text-light">
-                <div>
-                  <p style={{ fontSize: "40px" }}>BLOG</p>
-                </div>
-                <hr />
-                <div>
-                  <p className="fs-6 fw-light text-light fw-bold">
-                    HOME / BLOG
-                  </p>
-                </div>
+          <Row className="align-items-center gy-3">
+            <Col xs={12} md={6}>
+              <div>
+                <h1 className="display-5 fw-bold mb-0">BLOG</h1>
+                <hr className="border-light my-2" />
+                <p className="fs-6 fw-bold mb-0">HOME / BLOG</p>
               </div>
+            </Col>
+
+            {/* Search box right side */}
+            <Col xs={12} md={6} className="text-md-end">
+              <InputGroup className="mt-3 mt-md-0 mx-md-0 mx-auto" style={{ maxWidth: "420px" }}>
+                <Form.Control
+                  placeholder="Search blogs by title or name..."
+                  value={searchTerm}
+                  onChange={(e) => setSearchTerm(e.target.value)}
+                  aria-label="Search blogs"
+                  className="shadow-sm"
+                />
+              </InputGroup>
             </Col>
           </Row>
         </Container>
-      </div>
-      <div>
-        <Container>
-          <Row>
-            {blogData.map((item) => (
-              <Col md={3} key={item.id} className="mb-3">
-                <Link href={`/blog/${item.customUrl}`}>
-                  <div className="border rounded h-100 p-3 my-2">
-                    <div className="d-flex justify-content-center align-items-center">
-                      <Image
-                        src={item.imgUrl}
-                        alt={item.name}
-                        fluid
-                      />
-                    </div>
+      </section>
 
-                    <div>
-                      <p className="fw-bold p-1 m-1 bg-primary my-2 text-light">
-                        {item.name}
-                      </p>
-                    </div>
-                    <div className="m-1  text-primary rounded d-inline-block">
-                      {item.title}
-                    </div>
-                    <div className="d-flex justify-content-between my-2">
-                      <div className="fw-bold">
-                        <p style={{ fontSize: "14px" }}>
+      {/* ======= BLOG LIST SECTION ======= */}
+      <section className="py-4">
+        <Container>
+          <Row className="g-4">
+            {filteredBlogs.length === 0 ? (
+              <Col xs={12} className="text-center py-5">
+                <p className="text-muted fs-5">
+                  {allBlogs.length === 0
+                    ? "Loading blogs..."
+                    : `No blogs found for "${searchTerm}"`}
+                </p>
+              </Col>
+            ) : (
+              filteredBlogs.map((item) => (
+                <Col
+                  xs={12}
+                  sm={6}
+                  md={4}
+                  lg={3}
+                  key={item.id ?? item._id ?? item.customUrl}
+                >
+                  <Link
+                    href={`/blog/${item.customUrl}`}
+                    className="text-decoration-none text-dark"
+                  >
+                    <div className="card h-100 shadow-sm border-0">
+                      <div className="ratio ratio-16x9">
+                        <Image
+                          src={item.imgUrl}
+                          alt={item.name}
+                          className="card-img-cover"
+                          fluid
+                        />
+                      </div>
+
+                      <div className="card-body">
+                        <h6 className="fw-bold text-primary mb-2">
+                          {item.name}
+                        </h6>
+                        <p className="text-secondary small mb-2">
                           {formatDate(item.createdAt)}
                         </p>
-                      </div>
-                      {/* <div className="fw-bold">{item.read}</div> */}
-                    </div>
-                    <TwitterShareButton
-                      url={`careerdefiner.com/blog/${item.customUrl}`}
-                      title={item.title}>
-                      <TwitterIcon size={28} color="primary" round />
-                    </TwitterShareButton>
-                    <FacebookShareButton
-                      url={`careerdefiner.com/blog/${item.customUrl}`}
-                      quote={item.title}
-                    >
-                      <FacebookIcon size={28} className="mx-2" color="primary" round />
-                    </FacebookShareButton>
-                    <LinkedinShareButton
-                      url={`careerdefiner.com/blog/${item.customUrl}`}
+                        <p className="fw-semibold text-dark mb-3">
+                          {item.title}
+                        </p>
 
-                      title={item.title}
-                    >
-                      <LinkedinIcon size={28} color="primary" round />
-                    </LinkedinShareButton>
-                  </div>
-                </Link>
-              </Col>
-            ))}
+                        {/* Social Share Buttons */}
+                        <div className="d-flex align-items-center">
+                          <TwitterShareButton
+                            url={`https://careerdefiner.com/blog/${item.customUrl}`}
+                            title={item.title}
+                          >
+                            <TwitterIcon size={28} round />
+                          </TwitterShareButton>
+
+                          <FacebookShareButton
+                            url={`https://careerdefiner.com/blog/${item.customUrl}`}
+                            quote={item.title}
+                          >
+                            <FacebookIcon
+                              size={28}
+                              round
+                              className="mx-2"
+                            />
+                          </FacebookShareButton>
+
+                          <LinkedinShareButton
+                            url={`https://careerdefiner.com/blog/${item.customUrl}`}
+                            title={item.title}
+                          >
+                            <LinkedinIcon size={28} round />
+                          </LinkedinShareButton>
+                        </div>
+                      </div>
+                    </div>
+                  </Link>
+                </Col>
+              ))
+            )}
           </Row>
         </Container>
-      </div>
+      </section>
     </>
   );
 };
 
 export default Blog;
-
-
-
-
-

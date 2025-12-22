@@ -27,12 +27,12 @@ const SchoolPage:React.FC<SchoolPageProps> = ({id,classData}) => {
                     ))
                 }
 
-                {/* <Col md={12}>
+                <Col md={12}>
                     <div className="my-3">
                     <p className="text-center p-2 fs-5 bg-light shadow"><span><StarIcon/></span> Dedicated Assistance from our Certified Experts</p>
                     </div>
                     <p className="text-center p-2 fs-5 bg-light shadow"><span><StarIcon/></span> Real Time Data of Universities to help you to decide</p>
-                </Col> */}
+                </Col>
                     </Row>
 
 

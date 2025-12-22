@@ -1,0 +1,39 @@
+[
+     {
+        "id": "school-courses",
+        "url": "school-courses",
+        "name": "SCHOOL'S",
+        "type": "school"
+    }
+    ,
+     {
+        "id": "college-courses",
+        "url": "college-courses",
+        "name": "COLLEGE'S ",
+        "type": "college"
+    },
+    {
+        "id": "courses",
+        "url": "courses",
+        "name": "COURSES",
+        "type": "course"
+    },
+    {
+        "id": "university-courses",
+        "url": "university-courses",
+        "name": "UNIVERSITY'S",
+        "type": "university"
+    },
+    {
+        "id": "coaching-institutes",
+        "url": "coaching-institutes",
+        "name": "COACHING INSTITUTES",  
+        "type": "institute"
+    },
+    {
+        "id": "placement-abroad",
+        "url": "placement-abroad",
+        "name": "PLACEMENT & ABROAD",
+        "type": "abroad"
+    }
+]

@@ -12,6 +12,7 @@ import News from "./components/News";
 import MultiItemCarousel from "./components/OwlCarousel";
 import NotificationComponent from "./components/Notification";
 import Chatbot from "./components/Chatbot";
+import NtaCards from "./components/NtaCards";
 
 const Home = () => {
   const [modalShow, setModalShow] = useState(false);
@@ -26,7 +27,9 @@ const Home = () => {
     <div>
       <TopCarousel />
       <News/>
-      <Search />
+      {/* <Search /> */}
+      <NtaCards />
+      <div className="my-3" ></div>
       <Popup show={modalShow} onHide={() => setModalShow(false)} />
       <Start />
       <Cources />

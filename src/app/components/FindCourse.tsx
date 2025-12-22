@@ -1,6 +1,7 @@
 import URL from "@/app/utils/search.json";
 import Link from "next/link";
 
+
 interface FindCourseProps {
   search: string;
 }
@@ -11,6 +12,8 @@ const FindCourse: React.FC<FindCourseProps> = ({ search }) => {
     const searchTerm = search.toLowerCase();
     return itemName.includes(searchTerm);
   });
+
+  console.log( filteredCourses, "filteredCourses");
 
   return (
     <div style={{ height: "100px", overflow: "hidden", marginTop: "10px" }}>

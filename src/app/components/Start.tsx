@@ -2,56 +2,49 @@ import { Col, Container, Row } from "react-bootstrap";
 import SchoolIcon from '@mui/icons-material/School';
 import PersonIcon from '@mui/icons-material/Person';
 import LibraryBooksIcon from '@mui/icons-material/LibraryBooks';
-import Heading from "./Heading";
 
 const Start = () => {
     return (
-        <Container>
-            <Row>
-                {/* <Heading name="Career Definer" /> */}
-                <Col md={4}>
-                    <div className="border text-center p-3 text-light bg-primary my-2">
-                        <div>
+        <Container className="">
+            <Row className="justify-content-center">
+
+                <Col md={4} className="mb-4">
+                    <div className="text-center p-4 text-light rounded-4 shadow-lg transition-all hover-shadow border-0"  
+                    style={{
+                            background: "linear-gradient(135deg, #00b4d8 0%, #007bff 100%)",
+                        }}>
+                        <div className="mb-3">
                             <SchoolIcon style={{ fontSize: '70px' }} />
                         </div>
-                        <div>
-                            <p className="fs-5 my-3">90000+</p>
-
-                        </div>
-                        <div className="fw-light">
-                            <p>Applications Filled</p>
-                        </div>
-
+                        <p className="fs-4 fw-bold mb-1">90,000+</p>
+                        <p className="fw-light mb-0">Applications Filled</p>
                     </div>
                 </Col>
-                <Col md={4}>
-                    <div className="border text-center p-3 text-light bg-primary my-2">
-                        <div>
+
+                <Col md={4} className="mb-4">
+                    <div className="text-center p-4 text-light rounded-4 shadow-lg transition-all hover-shadow border-0" 
+                     style={{
+                            background: "linear-gradient(135deg, #00b4d8 0%, #007bff 100%)",
+                        }}>
+                        <div className="mb-3">
                             <LibraryBooksIcon style={{ fontSize: '70px' }} />
                         </div>
-                        <div>
-                            <p className="fs-5 my-3">25000+</p>
-
-                        </div>
-                        <div className="fw-light">
-                            <p>Admission Done</p>
-                        </div>
-
+                        <p className="fs-4 fw-bold mb-1">30,000+</p>
+                        <p className="fw-light mb-0">Admissions Done</p>
                     </div>
                 </Col>
-                <Col md={4}>
-                    <div className="border text-center p-3 text-light bg-primary my-2">
-                        <div>
+
+                <Col md={4} className="mb-4">
+                    <div className="text-center p-4 text-light rounded-4 shadow-lg transition-all hover-shadow border-0"
+                     style={{
+                            background: "linear-gradient(135deg, #00b4d8 0%, #007bff 100%)",
+                        }}
+                    >
+                        <div className="mb-3">
                             <PersonIcon style={{ fontSize: '70px' }} />
                         </div>
-                        <div>
-                            <p className="fs-5 my-3">130+</p>
-
-                        </div>
-                        <div className="fw-light">
-                           <p>Career Counsellor </p>
-                        </div>
-
+                        <p className="fs-4 fw-bold mb-1">150+</p>
+                        <p className="fw-light mb-0">Career Counsellors</p>
                     </div>
                 </Col>
             </Row>

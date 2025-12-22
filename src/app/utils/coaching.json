@@ -1,141 +1,166 @@
 [
+  {
+    "id": "school-courses",
+        "name": "SCHOOL'S"
+  },
+{
+    "id": "college-courses",
+        "name": "COLLEGE'S"
+  },
+  {
+    "id": "courses",
+        "name": "COURSES"
+  },
+  {
+    "id": "university-courses",
+        "name": "UNIVERSITY'S"
+  },
+  {
+    "id": "coaching-institutes",
+        "name": "COACHING INSTITUTES"
+  },
+  {
+    "id": "placement-abroad",
+        "name": "PLACEMENT & ABROAD"
+},
 
 
 
-    {
-        "id": "ssc-cgl",
-        "name": "SSC CGL"
-       },
-       {
-        "id": "ibps-clerk",
-        "name": "IBPS Clerk"
-       },
-       {
-        "id": "upsc-civil-services-examination",
-        "name": "UPSC Civil Services Examination"
-       },
-       {
-        "id": "IBPS-specialist-officers",
-        "name": "IBPS Specialist Officers"
-       },
-       {
-        "id": "railways",
-        "name": "Railways"
-       },
-       {
-        "id": "rbi-grade-b",
-        "name": "RBI Grade B"
-       },
-       {
-        "id": "sbi-clerk",
-        "name": "SBI Clerk"
-       },
-       {
-        "id": "nda-na",
-        "name": "NDA NA"
-       },
-       {
-        "id": "ssc-chsl",
-        "name": "SSC CHSL"
-       },
-       {
-        "id": "rrb-ntpc",
-        "name": "RRB NTPC"
-       },
-       {
-        "id": "psu-recruitment",
-        "name": "PSU Recruitment"
-       },
-       {
-        "id": "rrb-alp",
-        "name": "RRB ALP"
-       },
-       {
-        "id": "ssc-stenographer",
-        "name": "SSC Stenographer"
-       },
-       {
-        "id": "banking-exams",
-        "name": "Banking exams"
-       },
-       {
-        "id": "combined-defence-services-examination",
-        "name": "Combined Defence Services Examination"
-       },
-       {
-        "id": "defence-exams",
-        "name": "Defence exams"
-       },
-       {
-        "id": "engineering-services-exam",
-        "name": "Engineering Services exam"
-       },
-       {
-        "id": "indian-economic-service-examination",
-        "name": "Indian Economic Service examination"
-       },
-       {
-        "id": "teaching-exams",
-        "name": "Teaching exams"
-       },
-       {
-        "id": "upsc-capf",
-        "name": "UPSC CAPF"
-       },
-       {
-        "id": "civil-services-examination",
-        "name": "Civil Services Examination"
-       },
-       {
-        "id": "rrb-je-sse-examination",
-        "name": "RRB JE SSE examination"
-       },
-       {
-        "id": "sbi-po",
-        "name": "SBI PO"
-       },
-    {
-        "id": "GATE",
-        "name": "GATE"
-    },
-    {
-        "id": "JEE-main",
-        "name": "JEE main"
-    },
-    {
-        "id": "CAT",
-        "name": "CAT"
-    },
-    {
-        "id": "CLAT",
-        "name": "CLAT"
-    },
-    {
-        "id": "NEET",
-        "name": "NEET"
-    },
-    {
-        "id": "BITSAT",
-        "name": "BITSAT"
-    },
-    {
-        "id": "SRMJEEE",
-        "name": "SRMJEEE"
-    },
-    {
-        "id": "NIFT-entrance",
-        "name": "NIFT Entrance"
-    },
-    {
-        "id": "VITEEE",
-        "name": "VITEEE"
-    },
-    {
-        "id": "CUET",
-        "name": "CUET"
-    },
-    {
-        "id": "MET",
-        "name": "MET"
-    }
+
+  {
+    "id": "ssc-cgl",
+    "name": "SSC CGL"
+  },
+  {
+    "id": "ibps-clerk",
+    "name": "IBPS Clerk"
+  },
+  {
+    "id": "upsc-civil-services-examination",
+    "name": "UPSC Civil Services Examination"
+  },
+  {
+    "id": "IBPS-specialist-officers",
+    "name": "IBPS Specialist Officers"
+  },
+  {
+    "id": "railways",
+    "name": "Railways"
+  },
+  {
+    "id": "rbi-grade-b",
+    "name": "RBI Grade B"
+  },
+  {
+    "id": "sbi-clerk",
+    "name": "SBI Clerk"
+  },
+  {
+    "id": "nda-na",
+    "name": "NDA NA"
+  },
+  {
+    "id": "ssc-chsl",
+    "name": "SSC CHSL"
+  },
+  {
+    "id": "rrb-ntpc",
+    "name": "RRB NTPC"
+  },
+  {
+    "id": "psu-recruitment",
+    "name": "PSU Recruitment"
+  },
+  {
+    "id": "rrb-alp",
+    "name": "RRB ALP"
+  },
+  {
+    "id": "ssc-stenographer",
+    "name": "SSC Stenographer"
+  },
+  {
+    "id": "banking-exams",
+    "name": "Banking exams"
+  },
+  {
+    "id": "combined-defence-services-examination",
+    "name": "Combined Defence Services Examination"
+  },
+  {
+    "id": "defence-exams",
+    "name": "Defence exams"
+  },
+  {
+    "id": "engineering-services-exam",
+    "name": "Engineering Services exam"
+  },
+  {
+    "id": "indian-economic-service-examination",
+    "name": "Indian Economic Service examination"
+  },
+  {
+    "id": "teaching-exams",
+    "name": "Teaching exams"
+  },
+  {
+    "id": "upsc-capf",
+    "name": "UPSC CAPF"
+  },
+  {
+    "id": "civil-services-examination",
+    "name": "Civil Services Examination"
+  },
+  {
+    "id": "rrb-je-sse-examination",
+    "name": "RRB JE SSE examination"
+  },
+  {
+    "id": "sbi-po",
+    "name": "SBI PO"
+  },
+  {
+    "id": "GATE",
+    "name": "GATE"
+  },
+  {
+    "id": "JEE-main",
+    "name": "JEE main"
+  },
+  {
+    "id": "CAT",
+    "name": "CAT"
+  },
+  {
+    "id": "CLAT",
+    "name": "CLAT"
+  },
+  {
+    "id": "NEET",
+    "name": "NEET"
+  },
+  {
+    "id": "BITSAT",
+    "name": "BITSAT"
+  },
+  {
+    "id": "SRMJEEE",
+    "name": "SRMJEEE"
+  },
+  {
+    "id": "NIFT-entrance",
+    "name": "NIFT Entrance"
+  },
+  {
+    "id": "VITEEE",
+    "name": "VITEEE"
+  },
+  {
+    "id": "CUET",
+    "name": "CUET"
+  },
+  {
+    "id": "MET",
+    "name": "MET"
+  }
 ]

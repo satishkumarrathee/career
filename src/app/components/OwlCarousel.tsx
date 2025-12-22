@@ -235,13 +235,39 @@ const IndexPage = () => {
         <div>
         <Heading title="TOP " name="RANKING UNIVERSITY" />
         </div>
-      {images.map((item, index) => (
+      {/* {images.map((item, index) => (
         <Col xl={2} md={3}>
        <Link href={'/form'}>  <div className='border p-2 my-2 d-flex align-items-center justify-content-center flex-column'>  <Image key={index} src={`/logo/${item.name}.jpg`} alt={item.name} width={140} height={70} />
        <p className='text-center' style={{fontSize:'12px'}}><TruncateText itemName={item.name}/> </p></div></Link> 
         </Col>
       ))}
        <Col md={12}>
+       <div className='d-flex align-content-center justify-content-center my-3'>
+      <Button variant='outlined' color='primary' disabled={clicked} onClick={loadMoreImages}>see all</Button>
+      </div>
+      </Col> */}
+
+      {images.map((item, index) => (
+  <Col key={index} xl={2} md={3} sm={6} xs={12} className="mb-4">
+    <Link href={'/form'} className="text-decoration-none">
+      <div 
+        className="university-card border bg-white p-3 d-flex align-items-center justify-content-center flex-column text-center"
+      >
+        <Image
+          src={`/logo/${item.name}.jpg`}
+          alt={item.name}
+          width={140}
+          height={70}
+          className="mb-2"
+        />
+        <p className="text-primary mb-0" style={{ fontSize: '12px' }}>
+          <TruncateText itemName={item.name} />
+        </p>
+      </div>
+    </Link>
+  </Col>
+))}
+ <Col md={12}>
        <div className='d-flex align-content-center justify-content-center my-3'>
       <Button variant='outlined' color='primary' disabled={clicked} onClick={loadMoreImages}>see all</Button>
       </div>
