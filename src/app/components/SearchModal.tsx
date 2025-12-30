@@ -24,6 +24,7 @@ const SearchModal: FC<SearchModalProps> = ({ show, onClose, onSelect, initialQue
 
   const handleSelect = (item: any) => {
     // if (onSelect) onSelect(item);
+    console.log("clicked")
     onClose();
 
     setTimeout(() => {
@@ -48,6 +49,7 @@ const SearchModal: FC<SearchModalProps> = ({ show, onClose, onSelect, initialQue
       <Modal.Body>
         {/* Search component ko onResults aur initialQuery bhejo */}
         <Search
+      onSelect={handleSelect}
         //   onResults={(r: any[]) => handleResults(r)}
         //   initialQuery={initialQuery}
         //   onLoading={(isLoading: boolean) => setLoading(isLoading)} // agar Search support kare to

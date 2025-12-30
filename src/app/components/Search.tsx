@@ -8,13 +8,19 @@ import SearchIcon from '@mui/icons-material/Search';
 import FindCourse from './FindCourse';
 import { Container, Col, Row } from 'react-bootstrap';
 
-const Search = () => {
+interface SearchProps {
+  onSelect?: (item: any) => void;
+}
+
+const Search:React.FC<SearchProps> = ({ onSelect }) => {
   const [activeSearch, setActiveSearch] = useState('');
 
   const handleSearch = (e:any) => {
     const searchTerm = e.target.value;
     setActiveSearch(searchTerm);
+    
   };
+
 
   return (
     <Container>
@@ -36,7 +42,7 @@ const Search = () => {
                 <SearchIcon />
               </IconButton>
             </Paper>
-            <FindCourse search={activeSearch} />
+            <FindCourse search={activeSearch} onSelect={onSelect}/>
           </div>
         </Col>
       </Row>
